@@ -5,8 +5,8 @@
         <description>DigidWorks provides web application development services. We specialize in developing enterprise and business management applications.</description>
         <link>https://digidworks.com/</link>
         <atom:link href="https://digidworks.com/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 02 Apr 2019 14:19:27 +0300</pubDate>
-        <lastBuildDate>Tue, 02 Apr 2019 14:19:27 +0300</lastBuildDate>
+        <pubDate>Tue, 02 Apr 2019 14:46:23 +0300</pubDate>
+        <lastBuildDate>Tue, 02 Apr 2019 14:46:23 +0300</lastBuildDate>
         <generator>Jekyll v3.8.5</generator>
         
         <item>
@@ -39,7 +39,7 @@
     refresh button. &lt;strong&gt;RSS Strings&lt;/strong&gt; are a part of the URL of the job list page on whichever platform. In Upwork you get it by going to your job feed or desired search,
     clicking the RSS button, choosing RSS and the copying the part from the URL starting after the &lt;code&gt;?&lt;/code&gt; and ending before the &lt;code&gt;&amp;securityToken&lt;/code&gt;.
     In Guru you get the RSS string by going to job search, adding any desired filters and then copy everything in the address bar after &lt;code&gt;jobs/&lt;/code&gt; without the trailing slash in the end.
-    If you have any problems - please feel free to &lt;a href=&quot;https://digidworks.com/contacts&quot; target=&quot;_blank&quot; title=&quot;Contacts Page&quot;&gt;contact us&lt;/a&gt;.&lt;/p&gt;
+    If you have any problems - please feel free to &lt;a href=&quot;/contacts&quot; target=&quot;_blank&quot; title=&quot;Contacts Page&quot;&gt;contact us&lt;/a&gt;.&lt;/p&gt;
 
     &lt;h3&gt;Next steps&lt;/h3&gt;
 
@@ -127,7 +127,7 @@
 
     &lt;p class=&quot;cta&quot;&gt;&lt;strong&gt;If you see yourself in the situations described above and what do to something about it, that will help you to reduce costs, save time, make your processes less error prone,
             &lt;a class=&quot;highlight-dark&quot;
-   href=&quot;https://digidworks.com/contacts&quot;
+   href=&quot;/contacts&quot;
    title=&quot;Drop us a line on our contacts page&quot;&gt; go ahead and write us a few lines about it, we can help&lt;/a&gt;!&lt;/strong&gt;&lt;/p&gt;
 </description>
             <pubDate>Wed, 20 Sep 2017 00:00:00 +0300</pubDate>
@@ -231,7 +231,7 @@
 
     &lt;p class=&quot;cta&quot;&gt;&lt;strong&gt;If you find yourself on the lookout for more automation, that will help you accomplish your tasks faster and more efficient,
             &lt;a class=&quot;highlight-dark&quot;
-   href=&quot;https://digidworks.com/contacts&quot;
+   href=&quot;/contacts&quot;
    title=&quot;Drop us a line on our contacts page&quot;&gt; go ahead and write us a few lines about it, we can help&lt;/a&gt;!&lt;/strong&gt;&lt;/p&gt;
 </description>
             <pubDate>Thu, 13 Jul 2017 00:00:00 +0300</pubDate>
@@ -313,7 +313,7 @@
 
     &lt;p class=&quot;cta&quot;&gt;&lt;strong&gt;If you find yourself in the need for functional and efficient management and monitoring system for your IoT devices,
             &lt;a class=&quot;highlight-dark&quot;
-   href=&quot;https://digidworks.com/contacts&quot;
+   href=&quot;/contacts&quot;
    title=&quot;Drop us a line on our contacts page&quot;&gt; go ahead and write us a few lines about it, we can help&lt;/a&gt;!&lt;/strong&gt;&lt;/p&gt;
 </description>
             <pubDate>Mon, 30 Nov 2015 00:00:00 +0200</pubDate>

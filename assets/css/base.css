@@ -153,8 +153,6 @@ h4 {
     font-family: 'Raleway', serif;
     font-size: 1.09rem;
     color: #000;
-    margin-top: 63px;
-
     display: flex;
     flex-direction: column;
     min-height: calc(100vh - 63px);
@@ -164,6 +162,7 @@ h4 {
     background-color: #000;
     z-index: -2;
     position: relative;
+    padding-top: 63px;
 }
 
 #neon-slogan main {
