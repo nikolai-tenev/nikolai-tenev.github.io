@@ -1,13 +1,339 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://digidworks.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://digidworks.com/" rel="alternate" type="text/html" /><updated>2019-03-18T17:30:58+02:00</updated><id>https://digidworks.com/feed.xml</id><title type="html">Web applications development | Enterprise software development | Management software development</title><subtitle>DigidWorks provides web application development services. We specialize in developing enterprise and business management applications.</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="https://digidworks.com/blog/jekyll/update/welcome-to-jekyll" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2019-03-02T19:35:16+02:00</published><updated>2019-03-02T19:35:16+02:00</updated><id>https://digidworks.com/blog/jekyll/update/welcome-to-jekyll</id><content type="html" xml:base="https://digidworks.com/blog/jekyll/update/welcome-to-jekyll">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>DigidWorks | Enterprise and Management Web Apps</title>
+        <description>DigidWorks provides web application development services. We specialize in developing enterprise and business management applications.</description>
+        <link>https://digidworks.com/</link>
+        <atom:link href="https://digidworks.com/feed.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Tue, 02 Apr 2019 14:19:27 +0300</pubDate>
+        <lastBuildDate>Tue, 02 Apr 2019 14:19:27 +0300</lastBuildDate>
+        <generator>Jekyll v3.8.5</generator>
+        
+        <item>
+            <title>The beginning of the Smart Notifier</title>
+            <description>    &lt;p&gt;Just like many other small agencies, freelancers, freelancer groups, etc. we get part of our projects from freelancing platforms. Freelancing platforms are cool - they provide some level of
+        protection for you, they are a shared marketplace for suitable gigs and you don't really need to put any money into digital marketing if you decide to only use them.&lt;/p&gt;
 
-&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+    &lt;h2&gt;Motivation for developing&lt;/h2&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+    &lt;p&gt;There is one problem though - you need to be constantly on every platform at the same time hitting that refresh button to get the latest list of job posts. If you don't you're simply gonna be
+        the 38th person to send a proposal, which the client probably won't even read. So it's of utmost importance to be pretty fast when you scan through jobs and send your terms to the client.&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+    &lt;h2&gt;What the app does&lt;/h2&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://digidworks.com/assets/img/digid-works-logo.png" /></entry></feed>
+    &lt;p&gt;After a couple of weeks of doing this the stupid way (e.g. hitting that refresh button) we decided it's time to create a small tool to do this for us. And so the Smart Notifier was born.
+        Right now that's a rather small project, probably with a ton of bugs and lacking in UI, but that's not a problem if you want to use it. It's based on Bootstrap 4, React.js and MobX for
+        the client side and a tiny bit of PHP wrapped in Laravel for the server.&lt;/p&gt;
+
+    &lt;p&gt;The purpose of the app is to be an auto refreshing list of job posts. Currently it only supports job posts from Upwork and Guru, but maybe we'll add more later if we see the need to or
+    if a new, better platform arises.&lt;/p&gt;
+
+    &lt;p&gt;The link to the GitHub repo is here -
+        &lt;a href=&quot;https://github.com/nikolai-tenev/smart-notifier-frontend&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer noopener&quot; title=&quot;Front end github repo&quot;&gt;front end&lt;/a&gt;,
+        &lt;a href=&quot;https://github.com/nikolai-tenev/smart-notifier-backend&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer noopener&quot; title=&quot;Back end github repo&quot;&gt;back end&lt;/a&gt;.&lt;/p&gt;
+
+    &lt;h3&gt;How to use it&lt;/h3&gt;
+
+    &lt;p&gt;After installation and deployment on your PC or server, navigate to the URL of the notifier, click the filter button (the one in the middle) add the &lt;strong&gt;RSS Strings&lt;/strong&gt; for your
+        queries and hit the
+    refresh button. &lt;strong&gt;RSS Strings&lt;/strong&gt; are a part of the URL of the job list page on whichever platform. In Upwork you get it by going to your job feed or desired search,
+    clicking the RSS button, choosing RSS and the copying the part from the URL starting after the &lt;code&gt;?&lt;/code&gt; and ending before the &lt;code&gt;&amp;securityToken&lt;/code&gt;.
+    In Guru you get the RSS string by going to job search, adding any desired filters and then copy everything in the address bar after &lt;code&gt;jobs/&lt;/code&gt; without the trailing slash in the end.
+    If you have any problems - please feel free to &lt;a href=&quot;https://digidworks.com/contacts&quot; target=&quot;_blank&quot; title=&quot;Contacts Page&quot;&gt;contact us&lt;/a&gt;.&lt;/p&gt;
+
+    &lt;h3&gt;Next steps&lt;/h3&gt;
+
+    &lt;p&gt;Right now it's doing the job for us, so maybe we'll use it as is. If there's interest maybe we'll enhance it a bit. There's a problem though - using the RSS feeds has proven to be a bit of
+    a problem, because both Guru and Upwork are trying to limit automated access to their platforms. Using API isn't really an option because Upwork's terms are ridiculous and Guru doesn't event have
+    an API. So we're kinda limited, but still - it works, so happy freelancing!&lt;/p&gt;
+</description>
+            <pubDate>Tue, 18 Sep 2018 00:00:00 +0300</pubDate>
+            <link>https://digidworks.com/blog/open-source-projects/the-beginning-of-the-smart-notifier</link>
+            <guid isPermaLink="true">https://digidworks.com/blog/open-source-projects/the-beginning-of-the-smart-notifier</guid>
+            
+            <category>Bootstrap</category>
+            
+            <category>React.js</category>
+            
+            <category>Laravel</category>
+            
+            <category>Javascript</category>
+            
+            <category>HTML</category>
+            
+            <category>CSS</category>
+            
+            <category>PHP</category>
+            
+            
+            <category>open-source-projects</category>
+            
+        </item>
+        
+        <item>
+            <title>Does your business need custom software?</title>
+            <description>    &lt;p&gt;&lt;em&gt;Problem with most people is - they don't see their problems&lt;/em&gt;. You are running small, medium or even a big company.
+        Everything seems fine, you get decent income, your employees are happy and you have clients. It seems that there's no room for optimization, no way to make things better,
+        but is this the reality or just a fool's paradise?&lt;/p&gt;
+
+    &lt;p&gt;Well, as it turns out lots of companies are living in the past. They refuse to embrace new technology solutions, that will make them agile and will help them save money.
+        Here are 8 signs that will tell you if you can optimise your business processes by using custom-made software.&lt;/p&gt;
+
+    &lt;h4&gt;You don't automate anything&lt;/h4&gt;
+
+    &lt;p&gt;Probably one of the first needs ever solved by computers is optimising repetitive tasks. Software automation is fairly advanced nowadays and can save lots of man-hours, which saves money.
+        If you find yourself doing the same thing or similar things (like invoices, payroll, inventory, etc.) over and over again, then custom software is probably one possible solution.
+        Not only will you save time and therefore money, but more importantly you'll be able to avoid some small technical mistakes, that are easy to make otherwise.&lt;/p&gt;
+
+    &lt;h4&gt;Many apps for a single task&lt;/h4&gt;
+
+    &lt;p&gt;So you have an e-commerce web app, through which you receive orders. But you also have an app for handling sales, another for shipping, one that bills, one that invoices, a time tracker for
+        your employees of course, etc. etc. etc... oh and don't forget those Excel/Google Spreadsheets used as reporting tools. Sounds like a normal setup for most of the companies, right? Well,
+        probably yes, but there's room for optimisation. All this can be done within the e-commerce web app you're already using and big part of the data input and the reports generating can be
+        fully automated and a lot less error prone. Sounds good, right? All thanks to custom web development!&lt;/p&gt;
+
+    &lt;h4&gt;Many steps for a single action&lt;/h4&gt;
+
+    &lt;p&gt;It's frustrating and inefficient to take multiple steps to complete a single action. General purpose ERPs, CRMs, and other management software try to be jack of all trades. Sadly they end up
+        being master of none. With custom made business management software you're guaranteed to have your interface and functionalities tailored for your specific case.&lt;/p&gt;
+
+    &lt;h4&gt;More than one location&lt;/h4&gt;
+
+    &lt;p&gt;If you operate in more than one office then communication is usually a problem. You will have to use flash drives or transfer files via e-mail and then compare, edit, etc. This is a cumbersome
+        and error-prone process. But with a custom website or application you can avoid this and save yourself the trouble of synchronizing the data between offices.&lt;/p&gt;
+
+    &lt;h4&gt;Doing reports by hand&lt;/h4&gt;
+
+    &lt;p&gt;Back in the day everybody used Excel (or something similar) to create their reports. There were people filling tons of data into spreadsheets by hand, that generated reports. The more tech
+        savvy used a database with complex queries to get the data and some visualization tool to generate the charts. Of course a single typo or any other simple error could mess up those reports
+        quickly. Nowadays all the business intelligence, reports, analytics, etc. should be automated. This is easily achieved with tailor-made web app.&lt;/p&gt;
+
+    &lt;h4&gt;Lots of paper&lt;/h4&gt;
+
+    &lt;p&gt;&lt;em&gt;People should quit tobacco and businesses should quit paper!&lt;/em&gt; Going paperless means being environmentally friendly, cost effective and of course up-to-date. If you find yourself using
+        tons of paper, constantly printing and scanning stuff, using O(ptical) C(haracter) R(ecognition) software to convert some of your documents to digital form, then it's probably time to switch.
+        Custom software, tailored especially for you, will help you to drastically reduce the amounts of paper you use.&lt;/p&gt;
+
+    &lt;h4&gt;Hard to use apps&lt;/h4&gt;
+
+    &lt;p&gt;Not all apps are intuitive and easy to use. If doing something with your current software seems too hard and unnecessarily complicated - it probably is. However there's an alternative - you
+        can get yourself some custom-made app with interfaces created according to your own wishes, granting you ease of use.&lt;/p&gt;
+
+    &lt;h4&gt;Paying too much for apps&lt;/h4&gt;
+
+    &lt;p&gt;Many people still think that custom-made software is way too expensive for them. This is actually a thing of the past. Nowadays most of the off the shelf software has exceptionally high
+        licensing costs, monthly or yearly fees as well as installation and integration costs. If you do the calculation you'll find out that most of the times hiring an agency to create a
+        specialized piece of software for you is actually way cheaper, than buying some commercial solution.&lt;/p&gt;
+
+    &lt;p class=&quot;cta&quot;&gt;&lt;strong&gt;If you see yourself in the situations described above and what do to something about it, that will help you to reduce costs, save time, make your processes less error prone,
+            &lt;a class=&quot;highlight-dark&quot;
+   href=&quot;https://digidworks.com/contacts&quot;
+   title=&quot;Drop us a line on our contacts page&quot;&gt; go ahead and write us a few lines about it, we can help&lt;/a&gt;!&lt;/strong&gt;&lt;/p&gt;
+</description>
+            <pubDate>Wed, 20 Sep 2017 00:00:00 +0300</pubDate>
+            <link>https://digidworks.com/blog/management/does-your-business-need-custom-software</link>
+            <guid isPermaLink="true">https://digidworks.com/blog/management/does-your-business-need-custom-software</guid>
+            
+            <category>Middle sized companies</category>
+            
+            <category>Small companies</category>
+            
+            <category>Management</category>
+            
+            
+            <category>management</category>
+            
+        </item>
+        
+        <item>
+            <title>Adventures in the world of GitLab CI</title>
+            <description>    &lt;p&gt;I start this article with an important disclaimer - I haven't used GitLab's continuous integration so far, so this post can be seen kind of as an intro.&lt;/p&gt;
+
+    &lt;h2&gt;How does the whole thing work?&lt;/h2&gt;
+
+    &lt;p&gt;In general, each repository is already connected with the GitLab CI system. The only thing that needs to be done in order to run the CI itself is to commit a &lt;code&gt;.gitlab-ci.yml&lt;/code&gt; file.
+        This will cause a new CI job to be started on each subsequent commit.&lt;/p&gt;
+
+    &lt;p&gt;The CI job is described in the &lt;code&gt;.gitlab-ci.yml&lt;/code&gt; file. Generally speaking it contains your chosen docker image and all the commands you want it to execute.&lt;/p&gt;
+
+    &lt;p&gt;One cool option, that GitLab gives you, is that you can enter names and values of variables in your account for later use in the &lt;code&gt;.gitlab-ci.yml&lt;/code&gt; file. This way your sensitive data
+        will be protected from the public. At the time of writing, the variables are entered through Project -&gt; Settings -&gt; Pipelines -&gt; Secret Variables. The documentation of GitLab CI is
+        &lt;a href=&quot;https://docs.gitlab.com/ce/ci/&quot; rel=&quot;nofollow noreferrer noopener&quot; target=&quot;_blank&quot; title=&quot;GitLab CI docs&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+    &lt;h2&gt;What exactly did I do?&lt;/h2&gt;
+
+    &lt;p&gt;In this first encounter with the CI implementation of GitLab I had a fairly simple task. On every single commit for a PHP and Laravel based project, the project had to be built, tested and
+        deployed. According to different guides, documentation, etc. eventually I managed to do it with the following content in my &lt;code&gt;.gitlab-ci.yml&lt;/code&gt; file.&lt;/p&gt;
+
+    &lt;pre&gt;
+        &lt;code&gt;
+        image: edbizarro/gitlab-ci-pipeline-php:alpine
+
+        before_script:
+                - sudo apk --update add openssh-client
+                - cd laravel
+                - composer install
+                - composer dump-autoload
+                - php artisan clear-compiled
+                - php artisan cache:clear
+                - php artisan route:clear
+                - php artisan view:clear
+                - php artisan config:clear
+                - cd ..
+                - mkdir -p ~/.ssh
+                - eval $(ssh-agent -s)
+                - '[[ -f /.dockerenv ]] &amp;&amp; echo -e &quot;Host *\n\tStrictHostKeyChecking no\n\n\tServerAliveInterval 30\n\n\tServerAliveCountMax 6\n\n\tPort 1022\n\n&quot; &gt; ~/.ssh/config'
+
+        deploy:
+            script:
+                - ssh-add &lt;(echo &quot;$MY_SSH_PRIVATE_KEY&quot;)
+                - rsync -a -q -z /builds/GITLAB_ACC/REPO_NAME/some_laravel_dir/ USER_NAME@HOST_NAME:some_laravel_dir
+                - rsync -a -q -z /builds/GITLAB_ACC/REPO_NAME/your_www_dir/ USER_NAME@HOST_NAME:your_www_dir
+        &lt;/code&gt;
+    &lt;/pre&gt;
+
+    &lt;h3&gt;Now a little explanation of what's what&lt;/h3&gt;
+
+    &lt;p&gt;With &lt;code&gt;image&lt;/code&gt;, you choose which docker image to use in the CI job. There are a lot of docker images available. You can find them either in Google or at https://hub.docker.com,
+        or in some guide or documentation, where someone has recommended a cool image. It's very important to choose your image very carefully, because the different ones have different
+        pre-installed software, scripts and configurations. There are a lot of images with very poor documentation that have insufficient information about what's inside the image.
+        My recommendation is to use something popular, well documented and of course appropriate for the project. In the case of &lt;code&gt;edbizarro/gitlab-ci-pipeline-php:alpine&lt;/code&gt;,
+        the cool thing is that I have everything I need pre-installed, including the php extensions. This means that I will not have to wait to install software and compile php extensions every
+        time, which was actually the case with other images.&lt;/p&gt;
+
+    &lt;p&gt;The &lt;code&gt;before_script&lt;/code&gt; section is a list of preparatory steps that are executed before the task itself. A brief description of the steps in my case is:&lt;/p&gt;
+
+    &lt;ul&gt;
+        &lt;li&gt;update sources list and install openssh-client&lt;/li&gt;
+        &lt;li&gt;cd into the Laravel folder&lt;/li&gt;
+        &lt;li&gt;I run a bunch of composer and laravel artisan commands to set up the project&lt;/li&gt;
+        &lt;li&gt;cd back into home folder&lt;/li&gt;
+        &lt;li&gt;I set up SSH settings - this is to remove the strict verification of the host key, to put an &lt;code&gt;alive interval&lt;/code&gt; and to set the preferred connection port&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;p&gt;The &lt;code&gt;deploy&lt;/code&gt; part describes the CI task itself. The steps are:&lt;/p&gt;
+
+    &lt;ul&gt;
+        &lt;li&gt;I add my private ssh key&lt;/li&gt;
+        &lt;li&gt;I start the file upload&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;h2&gt;Difficulties that I encountered and how I overcame them&lt;/h2&gt;
+
+    &lt;p&gt;I originally decided to upload via a ftp client, because for some weird reason I thought it would be better. Big mistake. Slow, difficult and problematic. I tried with lftp and ncftp.
+        There was one pretty strange problem - not all directories and files were uploaded, only part of them, even though I used the recursive flag. I guess the problem was some kind of timeout
+        or something, but I really had no desire to debug it, so I just went with SSH. This was way better. It's pretty fast, more secure and best of all - it works!&lt;/p&gt;
+
+    &lt;h2&gt;Conclusion&lt;/h2&gt;
+
+    &lt;p&gt;GitLab surprised me, I was expecting a much worse free tier CI implementation. Aside from the problems I faced, which were entirely caused by my own ignorance, everything went well.
+        Currently, with each commit the new version is directly deployed. This saves me a ton of time, because I don't have to do it myself. &lt;/p&gt;
+
+    &lt;p class=&quot;cta&quot;&gt;&lt;strong&gt;If you find yourself on the lookout for more automation, that will help you accomplish your tasks faster and more efficient,
+            &lt;a class=&quot;highlight-dark&quot;
+   href=&quot;https://digidworks.com/contacts&quot;
+   title=&quot;Drop us a line on our contacts page&quot;&gt; go ahead and write us a few lines about it, we can help&lt;/a&gt;!&lt;/strong&gt;&lt;/p&gt;
+</description>
+            <pubDate>Thu, 13 Jul 2017 00:00:00 +0300</pubDate>
+            <link>https://digidworks.com/blog/devops/adventures-in-the-world-of-gitlab-ci</link>
+            <guid isPermaLink="true">https://digidworks.com/blog/devops/adventures-in-the-world-of-gitlab-ci</guid>
+            
+            <category>Laravel</category>
+            
+            <category>Docker</category>
+            
+            <category>CI/CD</category>
+            
+            <category>GitLab</category>
+            
+            <category>PHP</category>
+            
+            
+            <category>devops</category>
+            
+        </item>
+        
+        <item>
+            <title>Business applications of IoT</title>
+            <description>    &lt;p&gt;More and more devices are becoming &quot;smart&quot; and connected to the network. And by &quot;network&quot; I don't mean the electric grid, but the global information network. For example - who had heard about
+        a &quot;smart&quot; watch a couple of years ago? Even they are no longer seen as something new. It is now up to other devices to get &quot;smarter&quot; and form the so-called Internet of Things.&lt;/p&gt;
+
+    &lt;p&gt;The Internet of Things is the network of interconnected devices (things) that can exchange data with each other, are connected to the internet and in short - they can be managed even from your
+        phone. At first it sounds superfluous for the stove to have access to the web, but it's pretty cool to get home from work and be greeted by the aroma of a freshly baked roastbeef.&lt;/p&gt;
+
+    &lt;p&gt;Of course, culinary is not the only application of these evolved devices - every small and medium business can benefit from them and here I am going to list some interesting applications.&lt;/p&gt;
+
+    &lt;h2&gt;Smart bulbs&lt;/h2&gt;
+
+    &lt;p&gt;Yes, those bulbs. And yes, with the Internet, why not? At present, many companies are producing the so-called smart bulbs. LED technology is used, which is nice because it reduces the
+        electricity bill. So, what is the real benefit of a smart bulb?&lt;/p&gt;
+
+    &lt;h3&gt;Remote control&lt;/h3&gt;
+
+    &lt;p&gt;These bulbs can be controlled by a very large set of devices including phone, computer, a special remote and more. A lot of useful functionality especially for people who forget to turn off
+        the lights when leaving a certain subject. There are patterns that allow automatic switching even when you are only a certain distance from them. You can also set a timer to determine when
+        to turn it on and off.&lt;/p&gt;
+
+    &lt;h3&gt;Wide range of colors.&lt;/h3&gt;
+
+    &lt;p&gt;Most bulbs allow you to choose the color of your lighting.&lt;/p&gt;
+
+    &lt;p&gt;Business Application: I've already mentioned the option to turn them off remotely if you have forgotten them, but that's not the only plus. Shop owners would benefit from being able to quickly
+        and easily adjust the lights. Also the wide range of colors gives you an easy way to create an atmosphere. If you have a large room, you can set them to automatically turn on only in the area
+        you are currently in.&lt;/p&gt;
+
+    &lt;h2&gt;Smart alarms&lt;/h2&gt;
+
+    &lt;p&gt;Alarm systems are not new. Also, they are usually connected in some way with some communication system to tell the guards about a potential problems. The bad thing is that they are amazingly
+        stiff. Anyone, who has used such system, has activated it by mistake at least once, has wondered how to turn it on or off, has entered the wrong code until the guards show up, etc. Smart
+        alarm systems solve these problems. Different systems are equipped with various sensors - vibration, infrared, temperature, motion, proximity, and more. After configuring the alarm, you start
+        to receive notifications every time one of the sensors detects something you have defined as &quot;not normal&quot;. There are systems equipped with camera and/or speakers, that can help you see what's
+        happening in real time, and startle the offender (or colleague :) ). Other systems offer small components
+        (&lt;a href=&quot;http://www.allbe1.com/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer noopener&quot;&gt;for example&lt;/a&gt;), again fitted with a large array of sensors, that you can use to track what you want
+        (e.g. bicycle, laptop, dog, etc.) or let you know if the UV levels are too high.&lt;/p&gt;
+
+    &lt;p&gt;Business Application: Generally, these alarms can be used for a lot of things - first of all their traditional function, but done in a much more convenient and elegant way, but also - to keep
+        and track your personal belongings, to check who accesses your personal space such as rooms, drawers, etc., and even find your car in an underground parking.&lt;/p&gt;
+
+    &lt;h3&gt;Smart Button&lt;/h3&gt;
+
+    &lt;p&gt;This is no longer a new thing, and yet it's pretty cool. It is a programmable button that connects to another smart device and sends commands when being pressed. There is an option to change
+        the commands according to the type of press.&lt;/p&gt;
+
+    &lt;p&gt;Business application: This thing should be present in every restaurant - short press calls the waiter, long press asks for the bill. The possibilities, of course, are not limited to
+        this - with this button you can allow someone to have partial access to other clever things without being fully connected.&lt;/p&gt;
+
+    &lt;h2&gt;Complete solutions&lt;/h2&gt;
+
+    &lt;p&gt;As a kind of a conclusion I want to mention probably the coolest aspect of the IoT devices - interconnection. What this means is you can connect everything with everything, creating pretty
+        complicated systems, that can do a lot with the right software.
+    If you really want to (or need to) you can make whole &quot;smart homes&quot;, &quot;smart offices&quot;, &quot;smart conference rooms&quot; or even hotels, buildings, etc. Only thing you need in addition to well designed
+        IoT hardware is the software to monitor and manage it.
+    &lt;/p&gt;
+
+    &lt;p class=&quot;cta&quot;&gt;&lt;strong&gt;If you find yourself in the need for functional and efficient management and monitoring system for your IoT devices,
+            &lt;a class=&quot;highlight-dark&quot;
+   href=&quot;https://digidworks.com/contacts&quot;
+   title=&quot;Drop us a line on our contacts page&quot;&gt; go ahead and write us a few lines about it, we can help&lt;/a&gt;!&lt;/strong&gt;&lt;/p&gt;
+</description>
+            <pubDate>Mon, 30 Nov 2015 00:00:00 +0200</pubDate>
+            <link>https://digidworks.com/blog/management/business-applications-of-iot</link>
+            <guid isPermaLink="true">https://digidworks.com/blog/management/business-applications-of-iot</guid>
+            
+            <category>Gadgets</category>
+            
+            <category>Internet of things</category>
+            
+            <category>Middle sized companies</category>
+            
+            <category>Small companies</category>
+            
+            <category>Management</category>
+            
+            
+            <category>management</category>
+            
+        </item>
+        
+    </channel>
+</rss>
