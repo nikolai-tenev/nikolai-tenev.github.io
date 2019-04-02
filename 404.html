@@ -1,24 +1,23 @@
 ---
 layout: default
 ---
-
-<style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
-</style>
-
-<div class="container">
-  <h1>404</h1>
-
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
-</div>
+<section id="error" class="row">
+    <div class="col-12">
+        <div class="row">
+            <div class="offset-1 col-10 offset-lg-3 col-lg-6 text-right">
+                <h1 class="mb-3">404</h1>
+                <div class="slogan-underline-delim mb-3 mr-0"></div>
+                <h2 class="mb-5">Page not found :(</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="offset-1 col-10 offset-lg-3 col-lg-6 text-right">
+                <p>The requested page could not be found.</p>
+                <p>You can try the <a class="color-orange" href="{{ site.data.navigation.items.home.url | absolute_url }}"
+                                      title="{{ site.name }} | {{ site.title }}">home page</a> and find your way from there or check the
+                    <a class="color-orange" href="{{ site.data.navigation.other.sitemap | absolute_url }}" title="{{ site.name }}' sitemap - check out everything in one place">sitemap</a>,
+                    to see every link on this website.</p>
+            </div>
+        </div>
+    </div>
+</section>

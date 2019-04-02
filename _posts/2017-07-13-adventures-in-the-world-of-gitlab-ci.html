@@ -1,0 +1,94 @@
+---
+title: Adventures in the world of GitLab CI
+categories: [devops]
+tags: [Laravel, Docker, CI/CD, GitLab, PHP]
+thumbnails:
+    full: /assets/img/posts/thumbs/gitlab-docker.jpeg
+resume: |
+    Continuous Integration or CI is an important part of web development. This is kind of a guide on how to get started with GitLab's CI implementation.
+position: 2
+---
+    <p>I start this article with an important disclaimer - I haven't used GitLab's continuous integration so far, so this post can be seen kind of as an intro.</p>
+
+    <h2>How does the whole thing work?</h2>
+
+    <p>In general, each repository is already connected with the GitLab CI system. The only thing that needs to be done in order to run the CI itself is to commit a <code>.gitlab-ci.yml</code> file.
+        This will cause a new CI job to be started on each subsequent commit.</p>
+
+    <p>The CI job is described in the <code>.gitlab-ci.yml</code> file. Generally speaking it contains your chosen docker image and all the commands you want it to execute.</p>
+
+    <p>One cool option, that GitLab gives you, is that you can enter names and values of variables in your account for later use in the <code>.gitlab-ci.yml</code> file. This way your sensitive data
+        will be protected from the public. At the time of writing, the variables are entered through Project -> Settings -> Pipelines -> Secret Variables. The documentation of GitLab CI is
+        <a href="https://docs.gitlab.com/ce/ci/" rel="nofollow noreferrer noopener" target="_blank" title="GitLab CI docs">here</a>.</p>
+
+    <h2>What exactly did I do?</h2>
+
+    <p>In this first encounter with the CI implementation of GitLab I had a fairly simple task. On every single commit for a PHP and Laravel based project, the project had to be built, tested and
+        deployed. According to different guides, documentation, etc. eventually I managed to do it with the following content in my <code>.gitlab-ci.yml</code> file.</p>
+
+    <pre>
+        <code>
+        image: edbizarro/gitlab-ci-pipeline-php:alpine
+
+        before_script:
+                - sudo apk --update add openssh-client
+                - cd laravel
+                - composer install
+                - composer dump-autoload
+                - php artisan clear-compiled
+                - php artisan cache:clear
+                - php artisan route:clear
+                - php artisan view:clear
+                - php artisan config:clear
+                - cd ..
+                - mkdir -p ~/.ssh
+                - eval $(ssh-agent -s)
+                - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n\tServerAliveInterval 30\n\n\tServerAliveCountMax 6\n\n\tPort 1022\n\n" > ~/.ssh/config'
+
+        deploy:
+            script:
+                - ssh-add <(echo "$MY_SSH_PRIVATE_KEY")
+                - rsync -a -q -z /builds/GITLAB_ACC/REPO_NAME/some_laravel_dir/ USER_NAME@HOST_NAME:some_laravel_dir
+                - rsync -a -q -z /builds/GITLAB_ACC/REPO_NAME/your_www_dir/ USER_NAME@HOST_NAME:your_www_dir
+        </code>
+    </pre>
+
+    <h3>Now a little explanation of what's what</h3>
+
+    <p>With <code>image</code>, you choose which docker image to use in the CI job. There are a lot of docker images available. You can find them either in Google or at https://hub.docker.com,
+        or in some guide or documentation, where someone has recommended a cool image. It's very important to choose your image very carefully, because the different ones have different
+        pre-installed software, scripts and configurations. There are a lot of images with very poor documentation that have insufficient information about what's inside the image.
+        My recommendation is to use something popular, well documented and of course appropriate for the project. In the case of <code>edbizarro/gitlab-ci-pipeline-php:alpine</code>,
+        the cool thing is that I have everything I need pre-installed, including the php extensions. This means that I will not have to wait to install software and compile php extensions every
+        time, which was actually the case with other images.</p>
+
+    <p>The <code>before_script</code> section is a list of preparatory steps that are executed before the task itself. A brief description of the steps in my case is:</p>
+
+    <ul>
+        <li>update sources list and install openssh-client</li>
+        <li>cd into the Laravel folder</li>
+        <li>I run a bunch of composer and laravel artisan commands to set up the project</li>
+        <li>cd back into home folder</li>
+        <li>I set up SSH settings - this is to remove the strict verification of the host key, to put an <code>alive interval</code> and to set the preferred connection port</li>
+    </ul>
+
+    <p>The <code>deploy</code> part describes the CI task itself. The steps are:</p>
+
+    <ul>
+        <li>I add my private ssh key</li>
+        <li>I start the file upload</li>
+    </ul>
+
+    <h2>Difficulties that I encountered and how I overcame them</h2>
+
+    <p>I originally decided to upload via a ftp client, because for some weird reason I thought it would be better. Big mistake. Slow, difficult and problematic. I tried with lftp and ncftp.
+        There was one pretty strange problem - not all directories and files were uploaded, only part of them, even though I used the recursive flag. I guess the problem was some kind of timeout
+        or something, but I really had no desire to debug it, so I just went with SSH. This was way better. It's pretty fast, more secure and best of all - it works!</p>
+
+    <h2>Conclusion</h2>
+
+    <p>GitLab surprised me, I was expecting a much worse free tier CI implementation. Aside from the problems I faced, which were entirely caused by my own ignorance, everything went well.
+        Currently, with each commit the new version is directly deployed. This saves me a ton of time, because I don't have to do it myself. </p>
+
+    <p class="cta"><strong>If you find yourself on the lookout for more automation, that will help you accomplish your tasks faster and more efficient,
+            {% include drop-us-few-lines-link.html -%}!</strong></p>

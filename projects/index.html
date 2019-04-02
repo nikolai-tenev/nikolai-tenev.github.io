@@ -1,0 +1,40 @@
+---
+layout: default
+title: Our projects - Enterprise and Management Web Apps
+description: DigidWorks' portfolio. Explore enterprise management, monitoring and automation systems, complex business ERPs and CRMs and others. Ideas for cost reduction and time saving for your own application.
+pagination:
+    enabled: true
+    collection: projects
+    per_page: 9
+    permalink: '/page:num/'
+    sort_field: 'position'
+    sort_reverse: true
+    trail:
+        before: 2
+        after: 2
+---
+<section id="projects" class="row">
+    <div class="col-12 p-0">
+        <div class="row no-gutters">
+            <div class="col-11">
+                <h3 class="mb-3 text-right">Projects</h3>
+                <div class="slogan-underline-delim delim-right mb-5"></div>
+            </div>
+        </div>
+        <div id="projects-list" class="row no-gutters">
+            {% for project in paginator.posts %}
+                <div class="col-xl-4 p-0">
+                    <div class="project-box d-flex" style="background-image: url('{{ project.thumbnails.full }}');">
+                        <a class="d-flex flex-column justify-content-center text-center {% cycle 'justify-content-xl-start', '', 'justify-content-xl-end' %}"
+                           href="{{ project.url }}">
+                            <h4>{{ project.title }}</h4>
+                            <p>{{ project.languages | join: ", " }}, {{ project.technologies | join: ", " }}</p>
+                        </a>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+{% include pagination.html firstPageUrl=site.data.navigation.items.projects.url title="Project Pages" %}
+{% include get-free-quote-section.html %}

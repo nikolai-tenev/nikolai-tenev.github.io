@@ -1,0 +1,26 @@
+{%- capture head_title -%}
+    {%- if page.title -%}
+        {{- page.title -}}
+    {%- else -%}
+        {{- site.name -}}
+    {%- endif -%}
+    {%- if page.title -%}
+        {%- if page.title.size < site.display_site_title_char_limit %} | {% endif -%}
+        {%- if page.title.size < site.display_site_title_char_limit -%}
+            {{- site.title -}}
+        {%- endif -%}
+    {%- else %}
+        | {{ site.title -}}
+    {%- endif -%}
+{%- endcapture -%}
+{%- capture meta_description -%}
+    {%- if page.resume -%}
+        {{- page.resume -}}
+    {%- elsif page.description -%}
+        {{- page.description -}}
+    {%- else -%}
+        {{- site.description -}}
+    {%- endif -%}
+{%- endcapture -%}
+{%- assign head_title = head_title | strip_html | strip_newlines | strip | replace: '  ', ' ' -%}
+{%- assign meta_description = meta_description | strip_html | strip_newlines | strip | replace: '  ', ' ' -%}

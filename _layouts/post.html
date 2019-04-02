@@ -1,0 +1,37 @@
+---
+layout: default
+breadcrumb:
+    - url: "blog/"
+      title: Blog
+---
+{% assign breadcrumbs = layout.breadcrumb %}
+{% include ld-json/post-layout.html %}
+{% include ld-json/breadcrumbs-include.html %}
+<section id="single-post-page" class="row">
+    <div class="col-12">
+        <div class="row single-post-header" style="background-image: url('{{page.thumbnails.full}}');">
+            <div class="col-12 d-flex flex-column justify-content-end text-center">
+                <h1 class="mt-auto mb-0 mx-auto">{{page.title}}</h1>
+                <div class="mb-auto mx-auto post-subheader text-center">
+                    <p class="d-md-inline-block d-block"><span class="icon-tag"></span>{{ page.tags | join: ", " }}</p>
+                    <p class="d-md-inline-block d-block"><span class="icon-calendar"></span>
+                        <time datetime="{{page.date | time_tag}}">{{page.date | date: "%e %B %Y"}}</time>
+                    </p>
+                    <p class="d-md-inline-block d-block"><span class="icon-folder"></span>
+                        {%- for cat in page.categories -%}
+                            {{- site.data.categories[cat] -}}
+                            {%- unless forloop.last %}, {% endunless -%}
+                        {%- endfor -%}
+                    </p>
+                </div>
+                {% include breadcrumbs.html %}
+            </div>
+        </div>
+        <div class="row">
+            <div class="offset-1 col-10 offset-xl-2 col-xl-8">
+                {{ page.content }}
+            </div>
+        </div>
+    </div>
+</section>
+{% include subscribe-section.html %}

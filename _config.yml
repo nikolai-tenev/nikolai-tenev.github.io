@@ -14,10 +14,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 name: DigidWorks
-title: Web applications development | Enterprise software development | Management software development
+title: Enterprise and Management Web Apps
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   DigidWorks provides web application development services. We specialize in developing enterprise and business management applications.
+display_site_title_char_limit: 20
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://digidworks.com" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -50,6 +51,14 @@ collections:
     output: true
 
 defaults:
+  - scope:
+      path: "post"
+    values:
+      layout: "redirect"
+  - scope:
+      path: "project"
+    values:
+      layout: "redirect"
   - scope:
       path: ""
       type: "projects"

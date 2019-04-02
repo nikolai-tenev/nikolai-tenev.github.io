@@ -1,0 +1,32 @@
+{%- assign head_title = "" -%}
+{%- assign meta_description = "" -%}
+{%- include global-variables.html %}
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "NewsArticle",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "{{ page.url | absolute_url }}"
+        },
+        "headline": "{{ head_title }}",
+        "image": [
+            "{% if page.thumbnails and page.thumbnails.full %}{{ page.thumbnails.full | absolute_url }}{% else %}{{ site.logo | absolute_url }}{% endif %}"
+        ],
+        "datePublished": "{{ page.date | time_tag }}",
+        "dateModified": "{{ page.date | time_tag }}",
+        "author": {
+            "@type": "Person",
+            "name": "Nikolai Tenev"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "{{ site.name }}",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "{{ site.logo | absolute_url }}"
+            }
+        },
+        "description": "{{ meta_description }}"
+    }
+</script>

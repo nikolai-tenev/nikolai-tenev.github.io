@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    {% comment %}
+        TODO check generated sources to see if everything's OK, esp. ld-json
+    {% endcomment %}
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="900">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+    {%- assign head_title = "" -%}
+    {%- assign meta_description = "" -%}
+    {%- include global-variables.html %}
+    <title>{{ head_title }}</title>
+
+    <meta name="description" content="{{ meta_description }}">
+    <meta http-equiv="cleartype" content="on">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/css/base.css">
+    {%- if layout and layout.css %}
+        {%- for css in layout.css %}
+            {%- if css.url %}
+                <link rel="stylesheet" href="{{ css.url }}" integrity="{{ css.integrity }}" crossorigin="anonymous">
+            {%- else %}
+                <link rel="stylesheet" href="{{ css }}">
+            {%- endif %}
+        {%- endfor %}
+    {%- endif %}
+    {%- if page and page.css %}
+        {%- for css in page.css %}
+            <link rel="stylesheet" href="{{ css }}">
+        {%- endfor %}
+    {%- endif %}
+    <meta name="theme-color" content="#ffffff">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-38364723-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+        gtag('config', 'UA-38364723-2', {'anonymize_ip': true, 'allow_display_features': false});
+    </script>
+
+    <meta property="og:url" content="{{ page.url | absolute_url }}">
+    <meta property="og:site_name" content="{{ site.name }} | {{ site.title }}">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="{{ head_title | strip_html | strip_newlines | strip | replace: '  ', ' ' }}">
+    <meta property="og:description" content="{{ meta_description | strip_html | strip_newlines | strip | replace: '  ', ' ' }}">
+    <meta property="og:image"
+          content="{% if page.thumbnails and page.thumbnails.full %}{{ page.thumbnails.full | absolute_url }}{% else %}{{ site.logo | absolute_url }}{% endif %}">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="{{ site.twitter_url }}">
+    <meta name="twitter:title" content="{{ head_title | strip_html | strip_newlines | strip | replace: '  ', ' ' }}">
+    <meta name="twitter:url" content="{{ page.url | absolute_url }}">
+    <meta name="twitter:description" content="{{ meta_description | strip_html | strip_newlines | strip | replace: '  ', ' ' }}">
+
+    <link rel="canonical" href="{{ page.url | replace: 'index.html', '' | absolute_url }}">
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} | {{ site.title }}" href="{{ "/feed.xml" | absolute_url }}">
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="{{ "/sitemap.xml" | absolute_url }}">
+</head>
+<body>
+{% include ld-json/default-layout.html %}
+<div id="container" class="container-fluid">
+    <nav id="navbar" class="navbar light navbar-expand-lg">
+        <a id="navbar-brand-link" class="navbar-brand" href="{{ site.data.navigation.items.home.url }}"
+           title="{{ site.name }} | {{ site.title }}">
+            <img class="img-fluid" src="/assets/img/digid-works-logo.png" alt="{{ site.name }} | {{ site.title }}"
+                 title="{{ site.name }} | {{ site.title }}">
+        </a>
+
+        <button class="border-0 navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar-collapsed-content" aria-controls="main-navbar-collapsed-content" aria-expanded="false"
+                aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="main-navbar-collapsed-content">
+            <ul class="navbar-nav mx-auto">
+                {% assign pageUrlSize = page.url | size -%}
+                {%- for item in site.data.navigation.items -%}
+                    {%- assign itemUrlSize = item[1].url | size -%}
+                    {%- assign result = page.url | slice: 0, itemUrlSize -%}
+                    <li>
+                        <a class="nav-link {% if result == item[1].url and itemUrlSize > 1 or item[1].url == "/" and page.url == item[1].url %}active{% endif %}" href="{{ item[1].url | absolute_url }}"
+                           title="{{ item[1].title }}">{{ item[1].name }}</a>
+                    </li>
+                {% endfor -%}
+            </ul>
+            {% comment -%}
+            {% for item in site.data.social_profiles.items %}
+                <a class="navbar-social-link" href="{{ item[1].url }}" target="_blank" title="{{ item[1].title }}">
+                    <img class="w-20 mr-1" src="{{ item[1].img }}" alt="{{ item[1].title }}" title="{{ item[1].title }}">
+                </a>
+            {% endfor %}
+            {%- endcomment -%}
+        </div>
+    </nav>
+    {{ content }}
+    <footer id="copyright" class="row py-3">
+        <div class="col-md-3 d-flex align-items-center">
+            <a class="no-underline mr-3" href="{{ site.data.navigation.items.home.url | absolute_url }}"
+               title="{{ site.name }} | {{ site.title }}">
+                <img class="img-fluid" src="/assets/img/digid-works-logo-small.png" alt="{{ site.name }} | {{ site.title }}"
+                     title="{{ site.name }} | {{ site.title }}">
+            </a>
+            <a class="py-3 color-orange" href="{{ site.data.navigation.other.sitemap | absolute_url }}"
+               title="{{ site.name }}' sitemap - check out everything in one place">
+                Sitemap
+            </a>
+        </div>
+        <div class="col-md-4 d-flex align-items-center">
+            <nav class="navbar navbar-expand">
+                <ul class="navbar-nav">
+                    {% for item in site.data.navigation.items %}
+                        <li>
+                            <a class="nav-link" href="{{ item[1].url | absolute_url  }}"
+                               title="{{ item[1].title }}">{{ item[1].name }}</a>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </nav>
+        </div>
+        <div class="col-md-5 py-3 d-flex align-items-center justify-content-md-end">
+            <p class="my-0 pr-2">{{ site.name }} | {{ site.title }}. All rights reserved - {{ site.time | date: '%Y' }}©</p>
+        </div>
+    </footer>
+</div>
+<script src="/assets/js/navbar.js"></script>
+<script>
+    window.addEventListener("load", function () {
+        var prevScrollTop = 0;
+        var navbar = document.getElementById("navbar");
+        var navbarCollapsibleTrigger = document.getElementById("navbar").querySelector(".navbar-toggler");
+        var navbarCollapsibleContent = document.getElementById("main-navbar-collapsed-content");
+
+        window.addEventListener("resize", function () {
+            if (hasClass(navbarCollapsibleContent, "show")) {
+                navbarCollapsibleTrigger.Collapse.hide();
+            }
+        });
+
+        function addNavbarBackground(backgroundClass) {
+            if (navbar.classList) {
+                navbar.classList.add(backgroundClass);
+            } else {
+                navbar.className += " " + backgroundClass;
+            }
+        }
+
+        function removeNavbarBackground(backgroundClass) {
+            if (navbar.classList) {
+                navbar.classList.remove(backgroundClass);
+            } else {
+                navbar.className = navbar.className.replace(new RegExp("(^|\\b)" + backgroundClass.split(" ").join("|") + "(\\b|$)", "gi"), " ");
+            }
+        }
+
+        function hasClass(el, className) {
+            if (el.classList) {
+                return el.classList.contains(className);
+            }
+            return new RegExp("(^| )" + className + "( |$)", "gi").test(el.className);
+        }
+
+        function scrollTop() {
+            return window.pageYOffset | document.body.scrollTop;
+        }
+
+        function checkHeaderScrolled() {
+            var currentScrollTop = scrollTop();
+            var navbarHasBackground = hasClass(navbar, "scrolled");
+            var mobileMenuVisible = hasClass(navbarCollapsibleContent, "show");
+            var scrollTopChanged = prevScrollTop !== currentScrollTop;
+            var scrollTopBeyondThreshold = currentScrollTop > 5;
+
+            if (scrollTopChanged) {
+                if (scrollTopBeyondThreshold && !navbarHasBackground) {
+                    addNavbarBackground("scrolled");
+                } else if (!scrollTopBeyondThreshold && !mobileMenuVisible && navbarHasBackground) {
+                    removeNavbarBackground("scrolled");
+                }
+            }
+
+            prevScrollTop = currentScrollTop;
+        }
+
+        checkHeaderScrolled();
+        document.addEventListener("scroll", function () {
+            checkHeaderScrolled();
+        });
+    });
+</script>
+<script src="https://instant.page/1.2.2" type="module" integrity="sha384-2xV8M5griQmzyiY3CDqh1dn4z3llDVqZDqzjzcY+jCBCk/a5fXJmuZ/40JJAPeoU"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+items:
+  upwork:
+    url: 'https://www.upwork.com/freelancers/~010aee406fa0efde45'
+    title: 'Find us on Upwork'
+    img: '/assets/img/upwork-logo-icon.svg'
+  stackoverflow:
+    url: 'https://stackoverflow.com/users/2059193/nikolai-tenev?tab=profile'
+    title: 'Check out our StackOverflow profile'
+    img: '/assets/img/stackoverflow-logo-icon.svg'
+  pluralsight:
+    url: 'https://app.pluralsight.com/profile/nikolai-tenev'
+    title: 'Check out our expert web development skills on PluralSight'
+    img: '/assets/img/pluralsight-logo-icon.svg'
+  facebook:
+    url: 'https://www.facebook.com/digid.works/'
+    title: 'Like us on Facebook'
+    img: '/assets/img/facebook-logo-icon.svg'
+  linkedin:
+    url: 'https://www.linkedin.com/in/nikolai-tenev-9b32b1a2/'
+    title: 'Follow us on LinkedIn'
+    img: '/assets/img/linkedin-logo-icon.svg'
+  twitter:
+    url: 'https://twitter.com/th3_mad_hatter'
+    title: 'Our Twitter profile '
+    img: '/assets/img/twitter-logo-icon.svg'

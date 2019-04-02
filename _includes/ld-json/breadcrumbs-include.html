@@ -1,0 +1,34 @@
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+        {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+                "@id": "{{ site.url }}",
+                "name": "{{ site.name }}"
+            }
+        },
+{% for crumb in breadcrumbs %}
+        {
+            "@type": "ListItem",
+            "position": {{ forloop.index | plus: 1}},
+            "item": {
+                "@id": "{{ crumb.url | absolute_url }}",
+                "name": "{{ crumb.title }}"
+            }
+        },
+{% endfor %}
+        {
+            "@type": "ListItem",
+            "position": {{ breadcrumbs.size | plus: 2}},
+            "item": {
+                "@id": "{{ page.url | absolute_url }}",
+                "name": "{{ page.title }}"
+            }
+        }
+    ]
+  }
+</script>

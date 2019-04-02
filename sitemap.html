@@ -1,0 +1,58 @@
+---
+layout: default
+title: Sitemap
+---
+<section id="sitemap" class="row">
+    <div class="col-12">
+        <div class="row">
+            <div class="offset-1 col-10 offset-lg-3 col-lg-6 text-right">
+                <h1 class="mb-3">Sitemap</h1>
+                <div class="slogan-underline-delim mb-5 mr-0"></div>
+                <p></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="offset-1 col-10 offset-lg-3 col-lg-6">
+                <ul>
+                    <li>
+                        Pages:
+                        <ul>
+                            {%- for page in site.pages -%}
+                                {%- if page.url contains '.xml' or page.url contains 'assets' or page.url contains 'sitemap.xml' or page.sitemap.exclude or page.url == '/404' -%}{%- else -%}
+                                    <li>
+                                        <a href="{{ page.url | replace: 'index.html', '' | absolute_url }}"
+                                           title="{% if page.title %}{{ page.title }}{% else %}Home{% endif %}">
+                                            {%- if page.title %}{{ page.title }}{% else %}Home{% endif -%}
+                                        </a>
+                                    </li>
+                                {%- endif -%}
+                            {%- endfor -%}
+                        </ul>
+                    </li>
+                    <li>
+                        Posts:
+                        <ul>
+                            {%- assign ordered_posts = site.posts | sort:"position" | reverse -%}
+                            {%- for page in ordered_posts -%}
+                                <li>
+                                    <a href="{{ page.url | replace: 'index.html', '' | absolute_url }}" title="{{ page.title }}">{{ page.title }}</a>
+                                </li>
+                            {%- endfor -%}
+                        </ul>
+                    </li>
+                    <li>
+                        Projects:
+                        <ul>
+                            {%- assign ordered_projects = site.projects | sort:"position" | reverse  -%}
+                            {%- for page in ordered_projects -%}
+                                <li>
+                                    <a href="{{ page.url | replace: 'index.html', '' | absolute_url }}" title="{{ page.title }}">{{ page.title }}</a>
+                                </li>
+                            {%- endfor -%}
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>

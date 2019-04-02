@@ -1,0 +1,17 @@
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item">
+            <a href="{{ site.url }}" title="{{ site.name }} | {{ site.title }}">
+                <strong>{{ site.name  }}</strong>
+            </a>
+        </li>
+        {% for crumb in breadcrumbs %}
+        <li class="breadcrumb-item">
+            <a href="{{ crumb.url | absolute_url }}" title="{{ crumb.title }}">
+                <strong>{{ crumb.title }}</strong>
+            </a>
+        </li>
+        {% endfor %}
+        <li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>
+    </ol>
+</nav>

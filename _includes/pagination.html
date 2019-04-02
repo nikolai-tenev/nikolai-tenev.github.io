@@ -1,0 +1,37 @@
+<section id="pagination" class="row">
+    {% if paginator.page_trail -%}
+        <div class="col-12 pt-3">
+            <nav aria-label="{{ include.title }}" class="row justify-content-center">
+                <div class="col-9">
+                    <ul class="pagination">
+                        <li class="page-item {% unless paginator.previous_page %}disabled{% endunless %}">
+                            <a class="page-link" href="{{ paginator.previous_page_path }}" aria-label="Previous" title="Previous">
+                                <span aria-hidden="true">&laquo;</span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                        </li>
+                        {% for trail in paginator.page_trail -%}
+                            {%- if trail.num == 1 -%}
+                                {%- assign pageUrl = page.url | replace: "index.html", "" -%}
+                                <li class="page-item {% if pageUrl == include.firstPageUrl %}disabled{% endif %}">
+                                    <a class="page-link" href="{{ include.firstPageUrl }}" title="Page {{ trail.num }}">{{ trail.num }}</a>
+                                </li>
+                            {%- endif -%}
+                            {%- if trail.num > 1 and trail.num <= paginator.total_pages %}
+                                <li class="page-item {% if page.url == trail.path %}disabled{% endif %}">
+                                    <a class="page-link" href="{{ trail.path | replace: "index.html", "" }}" title="{{ trail.title }}">{{ trail.num }}</a>
+                                </li>
+                            {%- endif -%}
+                        {%- endfor %}
+                        <li class="page-item {% unless paginator.next_page %}disabled{% endunless %}">
+                            <a class="page-link" href="{{ paginator.next_page_path }}" aria-label="Next" title="Next">
+                                <span aria-hidden="true">&raquo;</span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    {% endif -%}
+</section>

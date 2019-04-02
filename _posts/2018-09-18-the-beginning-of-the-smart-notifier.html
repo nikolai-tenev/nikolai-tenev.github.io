@@ -1,0 +1,45 @@
+---
+title: The beginning of the Smart Notifier
+categories: [open-source-projects]
+tags: [Bootstrap, React.js, Laravel, Javascript, HTML, CSS, PHP]
+thumbnails:
+    full: /assets/img/posts/thumbs/smart-notifier.jpeg
+resume: |
+    Scanning for jobs on the freelancing platforms can be time consuming. That's why we created a simple tool to help you with that.
+position: 4
+---
+    <p>Just like many other small agencies, freelancers, freelancer groups, etc. we get part of our projects from freelancing platforms. Freelancing platforms are cool - they provide some level of
+        protection for you, they are a shared marketplace for suitable gigs and you don't really need to put any money into digital marketing if you decide to only use them.</p>
+
+    <h2>Motivation for developing</h2>
+
+    <p>There is one problem though - you need to be constantly on every platform at the same time hitting that refresh button to get the latest list of job posts. If you don't you're simply gonna be
+        the 38th person to send a proposal, which the client probably won't even read. So it's of utmost importance to be pretty fast when you scan through jobs and send your terms to the client.</p>
+
+    <h2>What the app does</h2>
+
+    <p>After a couple of weeks of doing this the stupid way (e.g. hitting that refresh button) we decided it's time to create a small tool to do this for us. And so the Smart Notifier was born.
+        Right now that's a rather small project, probably with a ton of bugs and lacking in UI, but that's not a problem if you want to use it. It's based on Bootstrap 4, React.js and MobX for
+        the client side and a tiny bit of PHP wrapped in Laravel for the server.</p>
+
+    <p>The purpose of the app is to be an auto refreshing list of job posts. Currently it only supports job posts from Upwork and Guru, but maybe we'll add more later if we see the need to or
+    if a new, better platform arises.</p>
+
+    <p>The link to the GitHub repo is here -
+        <a href="https://github.com/nikolai-tenev/smart-notifier-frontend" target="_blank" rel="nofollow noreferrer noopener" title="Front end github repo">front end</a>,
+        <a href="https://github.com/nikolai-tenev/smart-notifier-backend" target="_blank" rel="nofollow noreferrer noopener" title="Back end github repo">back end</a>.</p>
+
+    <h3>How to use it</h3>
+
+    <p>After installation and deployment on your PC or server, navigate to the URL of the notifier, click the filter button (the one in the middle) add the <strong>RSS Strings</strong> for your
+        queries and hit the
+    refresh button. <strong>RSS Strings</strong> are a part of the URL of the job list page on whichever platform. In Upwork you get it by going to your job feed or desired search,
+    clicking the RSS button, choosing RSS and the copying the part from the URL starting after the <code>?</code> and ending before the <code>&securityToken</code>.
+    In Guru you get the RSS string by going to job search, adding any desired filters and then copy everything in the address bar after <code>jobs/</code> without the trailing slash in the end.
+    If you have any problems - please feel free to <a href="{{ site.data.navigation.items.contacts.url | absolute_url }}" target="_blank" title="Contacts Page">contact us</a>.</p>
+
+    <h3>Next steps</h3>
+
+    <p>Right now it's doing the job for us, so maybe we'll use it as is. If there's interest maybe we'll enhance it a bit. There's a problem though - using the RSS feeds has proven to be a bit of
+    a problem, because both Guru and Upwork are trying to limit automated access to their platforms. Using API isn't really an option because Upwork's terms are ridiculous and Guru doesn't event have
+    an API. So we're kinda limited, but still - it works, so happy freelancing!</p>

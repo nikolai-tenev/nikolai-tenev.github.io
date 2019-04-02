@@ -1,0 +1,29 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    {% for page in site.pages -%}
+    {%- if page.url contains '.xml' or page.url contains 'assets' or page.url contains 'sitemap.xml' or page.sitemap.exclude or page.url == '/404' -%}{%- else -%}
+    <url>
+        <loc>{{ page.url | replace: 'index.html', '' | absolute_url }}</loc>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    {% endif -%}
+    {%- endfor -%}
+    {% for page in site.posts -%}
+    <url>
+        <loc>{{ page.url | replace: 'index.html', '' | absolute_url }}</loc>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    {% endfor -%}
+    {%- for page in site.projects -%}
+    <url>
+        <loc>{{ page.url | replace: 'index.html', '' | absolute_url }}</loc>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    {%- endfor %}
+</urlset>

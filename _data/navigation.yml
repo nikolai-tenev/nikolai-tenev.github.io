@@ -1,0 +1,19 @@
+items:
+  home:
+    name: Home
+    url: "/"
+    title: "DigidWorks | Enterprise and Management Web Apps"
+  projects:
+    name: Projects
+    url: "/projects/"
+    title: "Enterprise applications we have done"
+  blog:
+    name: Blog
+    url: "/blog/"
+    title: "Our latest experience based IT articles, trends and tips"
+  contacts:
+    name: Contacts
+    url: "/contacts"
+    title: "Contact us if you need a web app"
+other:
+  sitemap: "/sitemap"
