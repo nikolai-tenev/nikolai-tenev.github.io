@@ -7,7 +7,7 @@
         </li>
         {% for crumb in breadcrumbs %}
         <li class="breadcrumb-item">
-            <a href="{{ crumb.url | absolute_url }}" title="{{ crumb.title }}">
+            <a href="{{ crumb.url | relative_url }}" title="{{ crumb.title }}">
                 <strong>{{ crumb.title }}</strong>
             </a>
         </li>

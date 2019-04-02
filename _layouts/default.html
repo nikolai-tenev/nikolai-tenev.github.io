@@ -91,7 +91,7 @@
                     {%- assign itemUrlSize = item[1].url | size -%}
                     {%- assign result = page.url | slice: 0, itemUrlSize -%}
                     <li>
-                        <a class="nav-link {% if result == item[1].url and itemUrlSize > 1 or item[1].url == "/" and page.url == item[1].url %}active{% endif %}" href="{{ item[1].url | absolute_url }}"
+                        <a class="nav-link {% if result == item[1].url and itemUrlSize > 1 or item[1].url == "/" and page.url == item[1].url %}active{% endif %}" href="{{ item[1].url | relative_url }}"
                            title="{{ item[1].title }}">{{ item[1].name }}</a>
                     </li>
                 {% endfor -%}
@@ -108,12 +108,12 @@
     {{ content }}
     <footer id="copyright" class="row py-3">
         <div class="col-md-3 d-flex align-items-center">
-            <a class="no-underline mr-3" href="{{ site.data.navigation.items.home.url | absolute_url }}"
+            <a class="no-underline mr-3" href="{{ site.data.navigation.items.home.url | relative_url }}"
                title="{{ site.name }} | {{ site.title }}">
                 <img class="img-fluid" src="/assets/img/digid-works-logo-small.png" alt="{{ site.name }} | {{ site.title }}"
                      title="{{ site.name }} | {{ site.title }}">
             </a>
-            <a class="py-3 color-orange" href="{{ site.data.navigation.other.sitemap | absolute_url }}"
+            <a class="py-3 color-orange" href="{{ site.data.navigation.other.sitemap | relative_url }}"
                title="{{ site.name }}' sitemap - check out everything in one place">
                 Sitemap
             </a>
@@ -123,7 +123,7 @@
                 <ul class="navbar-nav">
                     {% for item in site.data.navigation.items %}
                         <li>
-                            <a class="nav-link" href="{{ item[1].url | absolute_url  }}"
+                            <a class="nav-link" href="{{ item[1].url | relative_url  }}"
                                title="{{ item[1].title }}">{{ item[1].name }}</a>
                         </li>
                     {% endfor %}

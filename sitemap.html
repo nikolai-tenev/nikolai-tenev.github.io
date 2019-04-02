@@ -20,7 +20,7 @@ title: Sitemap
                             {%- for page in site.pages -%}
                                 {%- if page.url contains '.xml' or page.url contains 'assets' or page.url contains 'sitemap.xml' or page.sitemap.exclude or page.url == '/404' -%}{%- else -%}
                                     <li>
-                                        <a href="{{ page.url | replace: 'index.html', '' | absolute_url }}"
+                                        <a href="{{ page.url | replace: 'index.html', '' | relative_url }}"
                                            title="{% if page.title %}{{ page.title }}{% else %}Home{% endif %}">
                                             {%- if page.title %}{{ page.title }}{% else %}Home{% endif -%}
                                         </a>
@@ -35,7 +35,7 @@ title: Sitemap
                             {%- assign ordered_posts = site.posts | sort:"position" | reverse -%}
                             {%- for page in ordered_posts -%}
                                 <li>
-                                    <a href="{{ page.url | replace: 'index.html', '' | absolute_url }}" title="{{ page.title }}">{{ page.title }}</a>
+                                    <a href="{{ page.url | replace: 'index.html', '' | relative_url }}" title="{{ page.title }}">{{ page.title }}</a>
                                 </li>
                             {%- endfor -%}
                         </ul>
@@ -46,7 +46,7 @@ title: Sitemap
                             {%- assign ordered_projects = site.projects | sort:"position" | reverse  -%}
                             {%- for page in ordered_projects -%}
                                 <li>
-                                    <a href="{{ page.url | replace: 'index.html', '' | absolute_url }}" title="{{ page.title }}">{{ page.title }}</a>
+                                    <a href="{{ page.url | replace: 'index.html', '' | relative_url }}" title="{{ page.title }}">{{ page.title }}</a>
                                 </li>
                             {%- endfor -%}
                         </ul>
