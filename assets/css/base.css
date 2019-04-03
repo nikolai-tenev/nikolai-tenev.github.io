@@ -160,11 +160,14 @@ h4 {
     min-height: 100vh;
 }
 
+.navbar-push {
+    padding-top: 63px;
+}
+
 #home {
     background-color: #000;
     z-index: -2;
     position: relative;
-    padding-top: 63px;
 }
 
 #neon-slogan main {
@@ -305,8 +308,7 @@ h4 {
 #projects {
     background-color: #161616;
     color: #fff;
-    padding: 60px 0 0 0;
-    /*padding-bottom: 80px;*/
+    padding: 100px 0 0 0;
 }
 
 #projects a:hover {
