@@ -12,7 +12,7 @@ title: Sitemap
             </div>
         </div>
         <div class="row">
-            <div class="offset-1 col-10 offset-lg-3 col-lg-6">
+            <div class="col-12 offset-md-1 col-md-10 offset-lg-3 col-lg-6">
                 <ul>
                     <li>
                         Pages:
@@ -30,7 +30,7 @@ title: Sitemap
                         </ul>
                     </li>
                     <li>
-                        Posts:
+                        <a href="{{ site.data.navigation.items.blog.url | replace: 'index.html', '' | relative_url }}" title="{{ site.data.navigation.items.blog.title }}">{{ site.data.navigation.items.blog.name }}</a>:
                         <ul>
                             {%- assign ordered_posts = site.posts | sort:"position" | reverse -%}
                             {%- for page in ordered_posts -%}
@@ -41,7 +41,7 @@ title: Sitemap
                         </ul>
                     </li>
                     <li>
-                        Projects:
+                        <a href="{{ site.data.navigation.items.projects.url | replace: 'index.html', '' | relative_url }}" title="{{ site.data.navigation.items.projects.title }}">{{ site.data.navigation.items.projects.name }}</a>:
                         <ul>
                             {%- assign ordered_projects = site.projects | sort:"position" | reverse  -%}
                             {%- for page in ordered_projects -%}
