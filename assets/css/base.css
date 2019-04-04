@@ -16,7 +16,7 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
 }
 
-.breadcrumb, .btn, input, textarea, input.form-control, textarea.form-control{
+.breadcrumb, .btn, input, textarea, input.form-control, textarea.form-control {
     border-radius: 0;
 }
 
@@ -224,8 +224,15 @@ h4 {
 }
 
 #who-are-we {
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+@media (min-width: 576px) {
+    #who-are-we {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
 }
 
 #who-are-we h3, #what-we-can-do h3, #projects h3, #blog h1, #contacts h3, #contacts h1, #testimonials h3, #get-free-quote h3, #sitemap h1, #subscribe h3, #error h1 {
@@ -265,9 +272,16 @@ h4 {
 
 #what-we-can-do > .col-12, #testimonials > .col-12 > .row:last-child > .col-12 {
     color: #fff;
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     background-color: rgba(108, 24, 78, 0.4);
+}
+
+@media (min-width: 576px) {
+    #what-we-can-do > .col-12, #testimonials > .col-12 > .row:last-child > .col-12 {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
 }
 
 #what-we-can-do img {
@@ -321,7 +335,13 @@ h4 {
 }
 
 #blog {
-    margin-top: 100px;
+    margin-top: 3rem;
+}
+
+@media (min-width: 992px) {
+    #blog {
+        margin-top: 100px;
+    }
 }
 
 #blog h2 {
@@ -333,13 +353,27 @@ h4 {
     font-size: 18px;
 }
 
-#subscribe .small, #subscribe .small p{
+#subscribe .small, #subscribe .small p {
     font-size: 12px;
 }
 
 #get-free-quote > .col-12, #subscribe > .col-12, #sitemap > .col-12 {
-    padding-top: 150px;
-    padding-bottom: 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+@media (min-width: 576px) {
+    #get-free-quote > .col-12, #subscribe > .col-12, #sitemap > .col-12 {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+}
+
+@media (min-width: 992px) {
+    #get-free-quote > .col-12, #subscribe > .col-12, #sitemap > .col-12 {
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
 }
 
 #get-free-quote a.btn, #subscribe a.btn {
@@ -348,7 +382,7 @@ h4 {
 }
 
 #sitemap a {
-    color:#6c184e;
+    color: #6c184e;
     font-weight: bold;
 }
 
@@ -433,8 +467,15 @@ h4 {
 }
 
 #single-project-page .single-post-header + .row, #single-post-page .single-post-header + .row {
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+@media (min-width: 576px) {
+    #single-project-page .single-post-header + .row, #single-post-page .single-post-header + .row {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
 }
 
 #project-screenshots {
@@ -526,7 +567,19 @@ nav .pagination.purple .page-item.active .page-link, nav .pagination.purple .pag
 .project-box {
     background-size: cover;
     background-position: center center;
-    min-height: 600px;
+    min-height: 350px;
+}
+
+@media (min-width: 576px) {
+    .project-box {
+        min-height: 450px;
+    }
+}
+
+@media (min-width: 992px) {
+    .project-box {
+        min-height: 600px;
+    }
 }
 
 .project-box > .d-flex {
@@ -635,6 +688,16 @@ nav .pagination.purple .page-item.active .page-link, nav .pagination.purple .pag
 
 .single-post-header .breadcrumb-item, .single-post-header .breadcrumb-item.active, .single-post-header .breadcrumb-item + .breadcrumb-item::before {
     color: #fff;
+}
+
+@media (max-width: 768px) {
+    .breadcrumb-item + .breadcrumb-item {
+        padding-left: .3rem;
+    }
+
+    .breadcrumb-item+.breadcrumb-item::before {
+        padding-right: .2rem;
+    }
 }
 
 .btn {
@@ -807,3 +870,4 @@ nav .pagination.purple .page-item.active .page-link, nav .pagination.purple .pag
 #web-app-benefits {
     font-size: 18px;
 }
+

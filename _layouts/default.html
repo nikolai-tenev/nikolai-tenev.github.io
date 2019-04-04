@@ -108,8 +108,8 @@
         </div>
     </nav>
     {{ content }}
-    <footer id="copyright" class="row py-3">
-        <div class="col-md-3 py-2 py-md-0 d-flex align-items-center">
+    <footer id="copyright" class="row py-3 text-justify text-md-left mt-auto">
+        <div class="col-md-3 py-2 py-md-0 d-flex align-items-center justify-content-around justify-content-md-start">
             <a class="no-underline mr-3" href="{{ site.data.navigation.items.home.url | relative_url }}"
                title="{{ site.name }} | {{ site.title }}">
                 <img class="img-fluid" src="{{ site.logo_small_svg }}" alt="{{ site.name }} | {{ site.title }}"
@@ -120,7 +120,7 @@
                 Sitemap
             </a>
         </div>
-        <div class="col-md-4 py-2 py-md-0 d-flex align-items-center">
+        <div class="col-md-4 py-2 py-md-0 d-flex align-items-center justify-content-around justify-content-md-start">
             <nav class="navbar navbar-expand">
                 <ul class="navbar-nav">
                     {% for item in site.data.navigation.items %}
@@ -132,8 +132,8 @@
                 </ul>
             </nav>
         </div>
-        <div class="col-md-5 py-2 py-md-0 d-flex align-items-center justify-content-md-end">
-            <p class="my-0 pr-2">{{ site.name }} | {{ site.title }}. All rights reserved - {{ site.time | date: '%Y' }}©</p>
+        <div class="col-md-5 py-2 py-md-0 d-flex align-items-center justify-content-around justify-content-md-end">
+            <p class="my-0 pr-2 text-center text-md-left">{{ site.name }} | {{ site.title }}. All rights reserved - {{ site.time | date: '%Y' }}©</p>
         </div>
     </footer>
 </div>

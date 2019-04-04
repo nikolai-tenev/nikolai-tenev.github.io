@@ -25,7 +25,7 @@ breadcrumb:
                 {{ page.content }}
             </div>
         </div>
-        <div id="project-screenshots" class="row">
+        <div id="project-screenshots" class="row mb-3">
             {%- for screenshot in page.screenshots %}
             <div class="col-md-12 col-lg-6 {% cycle "text-right", "text-left" %}">
                 <img class="img-fluid m-1" src="{{screenshot}}" alt="{{page.title}} - Screenshot {{ forloop.index }}."

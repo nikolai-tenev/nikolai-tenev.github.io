@@ -2,16 +2,12 @@
     <ol class="breadcrumb">
         <li class="breadcrumb-item">
             <a href="{{ site.url }}" title="{{ site.name }} | {{ site.title }}">
-                <strong>{{ site.name  }}</strong>
+                <strong>{{ site.name | strip }}</strong>
             </a>
         </li>
-        {% for crumb in breadcrumbs %}
-        <li class="breadcrumb-item">
-            <a href="{{ crumb.url | relative_url }}" title="{{ crumb.title }}">
-                <strong>{{ crumb.title }}</strong>
-            </a>
-        </li>
-        {% endfor %}
-        <li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>
+        {%- for crumb in breadcrumbs -%}
+        <li class="breadcrumb-item"><a href="{{ crumb.url | relative_url }}" title="{{ crumb.title }}"><strong>{{- crumb.title | strip -}}</strong></a></li>
+        {%- endfor -%}
+        <li class="breadcrumb-item active" aria-current="page">{{ page.title | strip }}</li>
     </ol>
 </nav>
