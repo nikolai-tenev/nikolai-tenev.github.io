@@ -30,7 +30,7 @@ title: Sitemap
                         </ul>
                     </li>
                     <li>
-                        <a href="{{ site.data.navigation.items.blog.url | replace: 'index.html', '' | relative_url }}" title="{{ site.data.navigation.items.blog.title }}">{{ site.data.navigation.items.blog.name }}</a>:
+                        <a href="{{ site.data.navigation.items.posts.url | replace: 'index.html', '' | relative_url }}" title="{{ site.data.navigation.items.posts.title }}">{{ site.data.navigation.items.posts.name }}</a>:
                         <ul>
                             {%- assign ordered_posts = site.posts | sort:"position" | reverse -%}
                             {%- for page in ordered_posts -%}

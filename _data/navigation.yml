@@ -7,7 +7,7 @@ items:
     name: Projects
     url: "/projects/"
     title: "Enterprise applications we have done"
-  blog:
+  posts:
     name: Blog
     url: "/blog/"
     title: "Our latest experience based IT articles, trends and tips"
