@@ -5,8 +5,8 @@
         <description>DigidWorks provides web application development services. We specialize in developing enterprise and business management applications.</description>
         <link>https://digidworks.com/</link>
         <atom:link href="https://digidworks.com/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 05 Apr 2019 14:53:10 +0300</pubDate>
-        <lastBuildDate>Fri, 05 Apr 2019 14:53:10 +0300</lastBuildDate>
+        <pubDate>Fri, 05 Apr 2019 15:18:28 +0300</pubDate>
+        <lastBuildDate>Fri, 05 Apr 2019 15:18:28 +0300</lastBuildDate>
         <generator>Jekyll v3.8.5</generator>
         
         <item>
@@ -29,8 +29,8 @@
     if a new, better platform arises.&lt;/p&gt;
 
     &lt;p&gt;The link to the GitHub repo is here -
-        &lt;a href=&quot;https://github.com/nikolai-tenev/smart-notifier-frontend&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer noopener&quot; title=&quot;Front end github repo&quot;&gt;front end&lt;/a&gt;,
-        &lt;a href=&quot;https://github.com/nikolai-tenev/smart-notifier-backend&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer noopener&quot; title=&quot;Back end github repo&quot;&gt;back end&lt;/a&gt;.&lt;/p&gt;
+        &lt;a href=&quot;https://github.com/nikolai-tenev/smart-notifier-frontend&quot; target=&quot;_blank&quot; title=&quot;Front end github repo&quot;&gt;front end&lt;/a&gt;,
+        &lt;a href=&quot;https://github.com/nikolai-tenev/smart-notifier-backend&quot; target=&quot;_blank&quot; title=&quot;Back end github repo&quot;&gt;back end&lt;/a&gt;.&lt;/p&gt;
 
     &lt;h3&gt;How to use it&lt;/h3&gt;
 
@@ -158,7 +158,7 @@
 
     &lt;p&gt;One cool option, that GitLab gives you, is that you can enter names and values of variables in your account for later use in the &lt;code&gt;.gitlab-ci.yml&lt;/code&gt; file. This way your sensitive data
         will be protected from the public. At the time of writing, the variables are entered through Project -&gt; Settings -&gt; Pipelines -&gt; Secret Variables. The documentation of GitLab CI is
-        &lt;a href=&quot;https://docs.gitlab.com/ce/ci/&quot; rel=&quot;nofollow noreferrer noopener&quot; target=&quot;_blank&quot; title=&quot;GitLab CI docs&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+        &lt;a href=&quot;https://docs.gitlab.com/ce/ci/&quot; target=&quot;_blank&quot; title=&quot;GitLab CI docs&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
     &lt;h2&gt;What exactly did I do?&lt;/h2&gt;
 
