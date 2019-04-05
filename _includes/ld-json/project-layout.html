@@ -14,7 +14,7 @@
             "{% if page.thumbnails and page.thumbnails.full %}{{ page.thumbnails.full | absolute_url }}{% else %}{{ site.logo | absolute_url }}{% endif %}"
         ],
         "datePublished": "{{ page.date | time_tag }}",
-        "dateModified": "{{ page.date | time_tag }}",
+        "dateModified": "{{ page.last_modified_at | time_tag }}",
         "author": {
             "@type": "Person",
             "name": "Nikolai Tenev"

@@ -2,7 +2,7 @@
     {
         "@context": "https://schema.org",
         "@type": "Organization",
-        "url": "{{ site.data.navigation.items.home.url }}",
+        "url": "{{ site.data.navigation.items.home.url | absolute_url }}",
         "logo": "{{ site.logo | absolute_url }}"
     }
 </script>
@@ -11,7 +11,7 @@
         "@context": "https://schema.org",
         "@type": "Organization",
         "name": "{{ site.name }}",
-        "url": "{{ site.data.navigation.items.home.url }}",
+        "url": "{{ site.data.navigation.items.home.url | absolute_url }}",
         "sameAs": [
             {%- for item in site.data.social_profiles.items %}
                 "{{item[1].url}}"{% unless forloop.last %},{% endunless %}
