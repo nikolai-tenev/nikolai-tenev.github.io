@@ -29,7 +29,7 @@ logo_svg: "/assets/img/digid-works-logo.svg"
 logo_small_svg: "/assets/img/digid-works-logo-small.svg"
 twitter_url: "https://twitter.com/th3_mad_hatter"
 timezone: Europe/Sofia
-permalink: /:categories/:title
+permalink: /:title
 
 # Build settings
 markdown: kramdown
@@ -68,12 +68,13 @@ defaults:
       type: "projects"
     values:
       layout: "project"
+      permalink: /:title
   - scope:
       path: ""
       type: "posts"
     values:
       layout: "post"
-      permalink: /blog/:categories/:title
+      permalink: /:title
   - scope:
       path: ""
     values:
