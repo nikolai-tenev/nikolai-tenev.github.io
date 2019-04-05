@@ -1,0 +1,11 @@
+<url>
+    <loc>{{ page.url | replace: 'index.html', '' | absolute_url | xml_escape }}</loc>
+    {% if page.last_modified_at -%}
+        <lastmod>{{ page.last_modified_at | date_to_xmlschema }}</lastmod>
+    {%- endif %}
+    {% if include.changefreq %}
+        <changefreq>{{ include.changefreq }}</changefreq>
+    {%- else -%}
+        <changefreq>monthly</changefreq>
+    {%- endif %}
+</url>
