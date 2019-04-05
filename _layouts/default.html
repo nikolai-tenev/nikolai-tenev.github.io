@@ -87,17 +87,7 @@
         </button>
 
         <div class="collapse navbar-collapse" id="main-navbar-collapsed-content">
-            <ul class="navbar-nav mx-auto">
-                {% assign pageUrlSize = page.url | size -%}
-                {%- for item in site.data.navigation.items -%}
-                    {%- assign itemUrlSize = item[1].url | size -%}
-                    {%- assign result = page.url | slice: 0, itemUrlSize -%}
-                    <li>
-                        <a class="nav-link {% if result == item[1].url and itemUrlSize > 1 %}active{% elsif item[1].url == "/" and page.url == item[1].url %}active{% elsif page.collection == item[0] %}active{% endif %}" href="{{ item[1].url | relative_url }}"
-                           title="{{ item[1].title }}">{{ item[1].name }}</a>
-                    </li>
-                {% endfor -%}
-            </ul>
+            {% include navbar.html ulClasses="mx-auto" %}
             {% comment -%}
             {% for item in site.data.social_profiles.items %}
                 <a class="navbar-social-link" href="{{ item[1].url }}" target="_blank" title="{{ item[1].title }}">
@@ -122,14 +112,7 @@
         </div>
         <div class="col-md-4 py-2 py-md-0 d-flex align-items-center justify-content-around justify-content-md-start">
             <nav class="navbar navbar-expand">
-                <ul class="navbar-nav">
-                    {% for item in site.data.navigation.items %}
-                        <li>
-                            <a class="nav-link" href="{{ item[1].url | relative_url  }}"
-                               title="{{ item[1].title }}">{{ item[1].name }}</a>
-                        </li>
-                    {% endfor %}
-                </ul>
+                {% include navbar.html %}
             </nav>
         </div>
         <div class="col-md-5 py-2 py-md-0 d-flex align-items-center justify-content-around justify-content-md-end">
