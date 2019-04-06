@@ -22,5 +22,12 @@
         {{- site.description -}}
     {%- endif -%}
 {%- endcapture -%}
+{%- capture page_image -%}
+    {%- if page.thumbnails and page.thumbnails.full -%}
+        {{- page.thumbnails.full | absolute_url -}}
+    {%- else -%}
+        {{- site.logo | absolute_url -}}
+    {%- endif -%}
+{%- endcapture -%}
 {%- assign head_title = head_title | strip_html | strip_newlines | strip | replace: '  ', ' ' -%}
 {%- assign meta_description = meta_description | strip_html | strip_newlines | strip | replace: '  ', ' ' -%}

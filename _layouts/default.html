@@ -12,6 +12,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
     {%- assign head_title = "" -%}
     {%- assign meta_description = "" -%}
+    {%- assign page_image = "" -%}
     {%- include global-variables.html %}
     <title>{{ head_title }}</title>
 
@@ -56,8 +57,7 @@
     <meta property="og:type" content="article">
     <meta property="og:title" content="{{ head_title | strip_html | strip_newlines | strip | replace: '  ', ' ' }}">
     <meta property="og:description" content="{{ meta_description | strip_html | strip_newlines | strip | replace: '  ', ' ' }}">
-    <meta property="og:image"
-          content="{% if page.thumbnails and page.thumbnails.full %}{{ page.thumbnails.full | absolute_url }}{% else %}{{ site.logo | absolute_url }}{% endif %}">
+    <meta property="og:image" content="{{ page_image }}">
 
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="{{ site.twitter_url }}">

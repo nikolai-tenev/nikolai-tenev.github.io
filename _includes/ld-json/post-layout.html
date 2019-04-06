@@ -1,5 +1,6 @@
 {%- assign head_title = "" -%}
 {%- assign meta_description = "" -%}
+{%- assign page_image = "" -%}
 {%- include global-variables.html %}
 <script type="application/ld+json">
     {
@@ -11,7 +12,7 @@
         },
         "headline": "{{ head_title }}",
         "image": [
-            "{% if page.thumbnails and page.thumbnails.full %}{{ page.thumbnails.full | absolute_url }}{% else %}{{ site.logo | absolute_url }}{% endif %}"
+            "{{ page_image }}"
         ],
         "datePublished": "{{ page.date | time_tag }}",
         "dateModified": "{{ page.last_modified_at | time_tag }}",
