@@ -1,5 +1,3 @@
-@import 'https://fonts.googleapis.com/css?family=Iceland|Raleway';
-
 @font-face {
     font-family: 'tex_gyre_adventorregular';
     font-display: swap;
@@ -42,6 +40,10 @@ h4 {
 
 .bg-black {
     background-color: #161616;
+}
+
+.bg-main-gray-0 {
+    background-color: #faf9f8;
 }
 
 .mt-50 {
@@ -224,14 +226,14 @@ h4 {
 }
 
 #who-are-we {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 @media (min-width: 576px) {
     #who-are-we {
-        margin-top: 100px;
-        margin-bottom: 100px;
+        padding-top: 100px;
+        padding-bottom: 100px;
     }
 }
 
@@ -292,8 +294,7 @@ h4 {
     margin-bottom: 30px;
 }
 
-#what-we-can-do article p {
-    display: inline;
+#what-we-can-do article p span {
     background-color: #6c184e;
 }
 
@@ -703,7 +704,7 @@ nav .pagination.purple .page-item.active .page-link, nav .pagination.purple .pag
         padding-left: .3rem;
     }
 
-    .breadcrumb-item+.breadcrumb-item::before {
+    .breadcrumb-item + .breadcrumb-item::before {
         padding-right: .2rem;
     }
 }
@@ -879,7 +880,9 @@ nav .pagination.purple .page-item.active .page-link, nav .pagination.purple .pag
     font-size: 18px;
 }
 
-#share-buttons {display: inline-flex;}
+#share-buttons {
+    display: inline-flex;
+}
 
 #share-buttons > div a, #share-buttons > div a:hover {
     text-decoration: none;
@@ -893,7 +896,7 @@ nav .pagination.purple .page-item.active .page-link, nav .pagination.purple .pag
     margin-left: 0.25em;
     margin-right: 0.25em;
     margin-bottom: 0.25em;
-    font-family: Helvetica Neue,Helvetica,Arial,sans-serif
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif
 }
 
 #share-buttons > div:hover {
