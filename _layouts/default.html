@@ -67,10 +67,12 @@
     <meta property="og:image" content="{{ page_image }}">
 
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="{{ site.twitter_url }}">
+    <meta name="twitter:site" content="{{ site.twitter_handle }}">
+    <meta name="twitter:creator" content="{{ site.twitter_handle }}">
     <meta name="twitter:title" content="{{ head_title | strip_html | strip_newlines | strip | replace: '  ', ' ' }}">
     <meta name="twitter:url" content="{{ page.url | absolute_url }}">
     <meta name="twitter:description" content="{{ meta_description | strip_html | strip_newlines | strip | replace: '  ', ' ' }}">
+    <meta name="twitter:image" content="{{ page_image }}">
 
     <link rel="canonical" href="{{ page.url | replace: 'index.html', '' | absolute_url }}">
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} | {{ site.title }}" href="{{ "/feed.xml" | absolute_url }}">
