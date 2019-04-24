@@ -185,12 +185,36 @@
   }
 </script>
 
+<style>
+    #single-post-page article img.img-fluid {
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    #single-post-page article h3 {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    #single-post-page article h4 {
+        margin-top: 3rem;
+    }
+
+    #single-post-page article h3::before,
+    #single-post-page article h4::before {
+        content: "";
+        display: block;
+        height: 63px;
+        margin: -63px 0 0;
+    }
+</style>
 <section id="single-post-page" class="row navbar-push">
-    <div class="col-12 bg-main-gray-0">
+    <article class="col-12">
         <div class="row single-post-header" style="background-image: url('/assets/img/posts/thumbs/business-iot.jpeg');">
             <div class="col-12 d-flex flex-column justify-content-end text-center">
                 <h1 class="mt-auto mb-0 mx-auto">Business applications of IoT</h1>
                 <div class="mb-auto mx-auto post-subheader text-center">
+                    <p class="d-md-inline-block d-block">Author: Nikolai Tenev</p>
                     <p class="d-md-inline-block d-block"><span class="icon-tag"></span>Gadgets, Internet of things, Middle sized companies, Small companies, Management</p>
                     <p class="d-md-inline-block d-block"><span class="icon-calendar"></span>
                         <time datetime="2015-11-30 00:00:00 +0200">30 November 2015</time>
@@ -209,8 +233,8 @@
 
             </div>
         </div>
-        <div class="row">
-            <div class="col-12 col-md-8 offset-md-2">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-8 col-xl-7 col-xxxl-5 col-xxxxl-4">
                     <p>More and more devices are becoming "smart" and connected to the network. And by "network" I don't mean the electric grid, but the global information network. For example - who had heard about
         a "smart" watch a couple of years ago? Even they are no longer seen as something new. It is now up to other devices to get "smarter" and form the so-called Internet of Things.</p>
 
@@ -342,9 +366,9 @@
 
             </div>
         </div>
-    </div>
+    </article>
 </section>
-<section id="subscribe" class="row bg-main-gray-0">
+<section id="subscribe" class="row ">
     <div class="col-12">
         <div class="row">
             <div class="offset-1 col-10 offset-lg-3 col-lg-6 text-right">

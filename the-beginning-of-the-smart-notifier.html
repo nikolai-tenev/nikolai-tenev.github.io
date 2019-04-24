@@ -185,12 +185,36 @@
   }
 </script>
 
+<style>
+    #single-post-page article img.img-fluid {
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    #single-post-page article h3 {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    #single-post-page article h4 {
+        margin-top: 3rem;
+    }
+
+    #single-post-page article h3::before,
+    #single-post-page article h4::before {
+        content: "";
+        display: block;
+        height: 63px;
+        margin: -63px 0 0;
+    }
+</style>
 <section id="single-post-page" class="row navbar-push">
-    <div class="col-12 bg-main-gray-0">
+    <article class="col-12">
         <div class="row single-post-header" style="background-image: url('/assets/img/posts/thumbs/smart-notifier.jpeg');">
             <div class="col-12 d-flex flex-column justify-content-end text-center">
                 <h1 class="mt-auto mb-0 mx-auto">The beginning of the Smart Notifier</h1>
                 <div class="mb-auto mx-auto post-subheader text-center">
+                    <p class="d-md-inline-block d-block">Author: Nikolai Tenev</p>
                     <p class="d-md-inline-block d-block"><span class="icon-tag"></span>Bootstrap, React.js, Laravel, Javascript, HTML, CSS, PHP</p>
                     <p class="d-md-inline-block d-block"><span class="icon-calendar"></span>
                         <time datetime="2018-09-18 00:00:00 +0300">18 September 2018</time>
@@ -209,8 +233,8 @@
 
             </div>
         </div>
-        <div class="row">
-            <div class="col-12 col-md-8 offset-md-2">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-8 col-xl-7 col-xxxl-5 col-xxxxl-4">
                     <p>Just like many other small agencies, freelancers, freelancer groups, etc. we get part of our projects from freelancing platforms. Freelancing platforms are cool - they provide some level of
         protection for you, they are a shared marketplace for suitable gigs and you don't really need to put any money into digital marketing if you decide to only use them.</p>
 
@@ -317,9 +341,9 @@
 
             </div>
         </div>
-    </div>
+    </article>
 </section>
-<section id="subscribe" class="row bg-main-gray-0">
+<section id="subscribe" class="row ">
     <div class="col-12">
         <div class="row">
             <div class="offset-1 col-10 offset-lg-3 col-lg-6 text-right">

@@ -5,9 +5,1059 @@
         <description>DigidWorks provides web application development services. We specialize in developing enterprise and business management applications.</description>
         <link>https://digidworks.com/</link>
         <atom:link href="https://digidworks.com/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 17 Apr 2019 11:36:05 +0300</pubDate>
-        <lastBuildDate>Wed, 17 Apr 2019 11:36:05 +0300</lastBuildDate>
+        <pubDate>Wed, 24 Apr 2019 18:08:20 +0300</pubDate>
+        <lastBuildDate>Wed, 24 Apr 2019 18:08:20 +0300</lastBuildDate>
         <generator>Jekyll v3.8.5</generator>
+        
+        <item>
+            <title>How to reduce expenses in business in 2019? [Ultimate guide]</title>
+            <description>&lt;p&gt;This is my advanced guide to reduce your business costs without sacrificing quality.&lt;/p&gt;
+&lt;p&gt;Prior to writing this I've done quite a lot of research and I've also included some real-life examples from my
+    experience.&lt;/p&gt;
+&lt;p&gt;I've intentionally avoided some cost reduction techniques, because in the end they'll bring more harm than good. I'll
+    add them to the &lt;a href=&quot;#bad-cost-cutting&quot;&gt;Bad cost cutting&lt;/a&gt; section.&lt;/p&gt;
+
+&lt;p&gt;Before we begin I have to make 1 thing clear:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;It will be best to implement these strategies before you actually need to.&lt;/strong&gt; You should look at this article more as a
+    business optimisation guide, that focuses on reducing unnecessary costs, rather
+    than a salvage my company kind of guide.&lt;/p&gt;
+&lt;p&gt;The main idea is to achieve effective, sustainable, long-term cost reduction for your company, without sacrificing
+    any of the quality or value you provide.&lt;/p&gt;
+&lt;p&gt;What I'm trying to say is:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;If your revenue is low and your reserves are non-existent, then it's probably a bit late.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;The reasons for this are:&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;It's better to never reach a moment when your business actually needs to reduce expenditure in order to stay
+        afloat. This makes you vulnerable to making bad decisions.
+    &lt;/li&gt;
+    &lt;li&gt;The best ways to reduce costs usually require an upfront investment. Which is hard to do, when you don't have
+        enough money.
+    &lt;/li&gt;
+    &lt;li&gt;It takes time to see the positive effects.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Here's the best part about this approach:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;If you do this right, you're probably going to increase the overall effectiveness of your business, which should be
+        one of the main goals for every businessman.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;nav class=&quot;mb-5&quot;&gt;
+    &lt;h4 class=&quot;mb-3&quot;&gt;Table of contents&lt;/h4&gt;
+    &lt;ul class=&quot;nav flex-column&quot;&gt;
+        &lt;li&gt;
+            &lt;a href=&quot;#general-tips&quot; title=&quot;The foundations of cost saving&quot;&gt;
+                The foundations of cost saving
+            &lt;/a&gt;
+            &lt;ul&gt;
+                &lt;li&gt;
+                    &lt;a href=&quot;#monitor-analyze-optimize&quot; title=&quot;Monitor, analyze, optimize&quot;&gt;
+                        Monitor, analyze, optimize
+                    &lt;/a&gt;
+                &lt;/li&gt;
+                &lt;li&gt;
+                    &lt;a href=&quot;#planning&quot; title=&quot;Planning and budgeting&quot;&gt;
+                        Planning and budgeting
+                    &lt;/a&gt;
+                &lt;/li&gt;
+                &lt;li&gt;
+                    &lt;a href=&quot;#automation&quot; title=&quot;Automate as much as possible&quot;&gt;
+                        Automate as much as possible
+                    &lt;/a&gt;
+                &lt;/li&gt;
+                &lt;li&gt;
+                    &lt;a href=&quot;#outsourcing&quot; title=&quot;Outsource everything you can&quot;&gt;
+                        Outsource everything you can
+                    &lt;/a&gt;
+                &lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+            &lt;a href=&quot;#operational-costs&quot; title=&quot;Cut operational costs&quot;&gt;
+                Cut operational costs
+            &lt;/a&gt;
+            &lt;ul&gt;
+                &lt;li&gt;
+                    &lt;a href=&quot;#erp-business-management-software&quot; title=&quot;Use business management software to help reduce costs&quot;&gt;
+                        Use business management software to help reduce costs
+                    &lt;/a&gt;
+                &lt;/li&gt;
+                &lt;li&gt;
+                    &lt;a href=&quot;#fixed-assets&quot; title=&quot;Be efficient with your fixed assets&quot;&gt;
+                        Be efficient with your fixed assets
+                    &lt;/a&gt;
+                &lt;/li&gt;
+                &lt;li&gt;
+                    &lt;a href=&quot;#coworking&quot; title=&quot;Reduce office expenses&quot;&gt;
+                        Reduce office expenses
+                    &lt;/a&gt;
+                &lt;/li&gt;
+                &lt;li&gt;
+                    &lt;a href=&quot;#meetings&quot; title=&quot;Meetings are time wasters&quot;&gt;
+                        Meetings are time wasters
+                    &lt;/a&gt;
+                &lt;/li&gt;
+                &lt;li&gt;
+                    &lt;a href=&quot;#equipment&quot; title=&quot;Lower equipment spending&quot;&gt;
+                        Lower equipment spending
+                    &lt;/a&gt;
+                &lt;/li&gt;
+                &lt;li&gt;
+                    &lt;a href=&quot;#oss&quot; title=&quot;Use free or open source software&quot;&gt;
+                        Use free or open source software
+                    &lt;/a&gt;
+                &lt;/li&gt;
+                &lt;li&gt;
+                    &lt;a href=&quot;#recurring-payments&quot; title=&quot;Try to avoid recurring payments&quot;&gt;
+                        Try to avoid recurring payments
+                    &lt;/a&gt;
+                &lt;/li&gt;
+                &lt;li&gt;
+                    &lt;a href=&quot;#upgrade&quot; title=&quot;Upgrade&quot;&gt;
+                        Upgrade
+                    &lt;/a&gt;
+                &lt;/li&gt;
+                &lt;li&gt;
+                    &lt;a href=&quot;#employee-monitoring&quot; title=&quot;Employee monitoring&quot;&gt;
+                        Employee monitoring
+                    &lt;/a&gt;
+                &lt;/li&gt;
+                &lt;li&gt;
+                    &lt;a href=&quot;#reward-value&quot; title=&quot;Reward value given to the company&quot;&gt;
+                        Reward value given to the company
+                    &lt;/a&gt;
+                &lt;/li&gt;
+                &lt;li&gt;
+                    &lt;a href=&quot;#working-hours&quot; title=&quot;Reduce working hours&quot;&gt;
+                        Reduce working hours
+                    &lt;/a&gt;
+                &lt;/li&gt;
+                &lt;li&gt;
+                    &lt;a href=&quot;#supplies&quot; title=&quot;Reduce supply expenditure&quot;&gt;
+                        Reduce supply expenditure
+                    &lt;/a&gt;
+                &lt;/li&gt;
+                &lt;li&gt;
+                    &lt;a href=&quot;#digital&quot; title=&quot;Go digital&quot;&gt;
+                        Go digital
+                    &lt;/a&gt;
+                &lt;/li&gt;
+                &lt;li&gt;
+                    &lt;a href=&quot;#production-costs&quot; title=&quot;Cut production costs&quot;&gt;
+                        Cut production costs
+                    &lt;/a&gt;
+                &lt;/li&gt;
+                &lt;li&gt;
+                    &lt;a href=&quot;#vehicles&quot; title=&quot;Lower vehicle expenses&quot;&gt;
+                        Lower vehicle expenses
+                    &lt;/a&gt;
+                &lt;/li&gt;
+                &lt;li&gt;
+                    &lt;a href=&quot;#electric&quot; title=&quot;Save on the electric bill&quot;&gt;
+                        Save on the electric bill
+                    &lt;/a&gt;
+                &lt;/li&gt;
+                &lt;li&gt;
+                    &lt;a href=&quot;#inventory&quot; title=&quot;Don't keep excess inventory&quot;&gt;
+                        Don't keep excess inventory
+                    &lt;/a&gt;
+                &lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+            &lt;a href=&quot;#financial&quot; title=&quot;Financial cost saving&quot;&gt;
+                Financial cost saving
+            &lt;/a&gt;
+            &lt;ul&gt;
+                &lt;li&gt;
+                    &lt;a href=&quot;#fintech&quot; title=&quot;Use fintech services&quot;&gt;
+                        Use fintech services
+                    &lt;/a&gt;
+                &lt;/li&gt;
+                &lt;li&gt;
+                    &lt;a href=&quot;#unneeded-services&quot; title=&quot;You might not need this&quot;&gt;
+                        You might not need this
+                    &lt;/a&gt;
+                &lt;/li&gt;
+                &lt;li&gt;
+                    &lt;a href=&quot;#late-payments&quot; title=&quot;Avoid late payments&quot;&gt;
+                        Avoid late payments
+                    &lt;/a&gt;
+                &lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+            &lt;a href=&quot;#marketing&quot; title=&quot;Marketing&quot;&gt;
+                Marketing
+            &lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+            &lt;a href=&quot;#bad-cost-cutting&quot; title=&quot;Bad cost cutting&quot;&gt;
+                Bad cost cutting
+            &lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+            &lt;a href=&quot;#conclusion&quot; title=&quot;Conclusion&quot;&gt;
+                Conclusion
+            &lt;/a&gt;
+        &lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/nav&gt;
+&lt;p&gt;Now that we are past the disclaimer let's dive right in!&lt;/p&gt;
+&lt;p&gt;Following are some ideas and examples on how to cut costs efficiently.&lt;/p&gt;
+&lt;h3 id=&quot;general-tips&quot;&gt;General tips for sustainable business cost reduction&lt;/h3&gt;
+&lt;p&gt;Or put another way:&lt;/p&gt;
+&lt;p&gt;These are my universal tips that can be applied in most situations. They are not specific to manufacturing, operations,
+    marketing, finance, etc.&lt;/p&gt;
+&lt;h4 id=&quot;monitor-analyze-optimize&quot;&gt;Monitor, analyze, optimize.&lt;/h4&gt;
+&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/posts/images/reduce-expenses-business-ultimate-guide/monitor-analyze-optimize.jpg&quot;
+     alt=&quot;Always monitor, analyze and optimize your business&quot;
+     title=&quot;Always monitor, analyze and optimize your business&quot;&gt;
+&lt;p&gt;I know it sounds a little bit generic, but this is probably &lt;em&gt;the most important and effective thing anybody can do in
+    their efforts to reduce expenditure, increase revenue and get the maximum &lt;a
+        href=&quot;https://www.investopedia.com/terms/r/returnoninvestment.asp&quot;&gt;return
+            for your investments&lt;/a&gt;&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;This is the reason why different business intelligence and management systems are so wide spread.&lt;/p&gt;
+&lt;p&gt;They can give you invaluable insights about where you can easily make changes, that will be very profitable, or help
+    you identify hidden blockages and &quot;leaks&quot;.
+&lt;/p&gt;
+&lt;p&gt;There are quite a few steps you must take before successfully creating or integrating such system.&lt;/p&gt;
+
+&lt;p&gt;2 of them are:&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        &lt;p&gt;&lt;strong&gt;You have to know the specifics of your business and know what to track.&lt;/strong&gt;&lt;/p&gt;
+        &lt;p&gt;You can always go all in, but sometimes that's a bit of an overkill. It's better to start with essential
+            stuff and then add more as your preferences change or grow.
+        &lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;p&gt;&lt;strong&gt;You have to be able to &quot;evolve and adapt&quot;.&lt;/strong&gt;&lt;/p&gt;
+        &lt;p&gt;What this means is:&lt;/p&gt;
+
+        &lt;p&gt;Your system has to be able to change and grow with you. Your business is not static, so the tools you use
+            shouldn't be as well.&lt;/p&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;My clients have shared all kinds of different findings with me, gathered with the help of their
+    &lt;a href=&quot;https://www.webopedia.com/TERM/E/ERP.html&quot; title=&quot;What is an ERP system&quot;&gt;ERPs&lt;/a&gt; and
+    &lt;a href=&quot;https://searchbusinessanalytics.techtarget.com/definition/business-intelligence-BI&quot;
+       title=&quot;What is business intelligence&quot;&gt;business intelligence&lt;/a&gt; systems.
+&lt;/p&gt;
+&lt;p&gt;From small things like:&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;One department using a few times more office supplies than the others, because employees use them for personal
+        stuff
+    &lt;/li&gt;
+    &lt;li&gt;Workers coming systematically too late to work&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;To bigger things like:&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;Some drivers driving way more carelessly than others and thus causing cars to break down faster&lt;/li&gt;
+    &lt;li&gt;Drivers taking running personal errands and thus increasing fuel expenditure significantly.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;To some, who did major shifts in their companies.&lt;/p&gt;
+&lt;h4 id=&quot;planning&quot;&gt;Planning and budgeting.&lt;/h4&gt;
+&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/posts/images/reduce-expenses-business-ultimate-guide/planning-budgeting.jpg&quot;
+     alt=&quot;Planning and budgeting are important for your business&quot;
+     title=&quot;Planning and budgeting are important for your business&quot;&gt;
+&lt;p&gt;Remember how in the beginning I talked about not waiting for the last moment to implement cost reduction strategies?
+    Well, it's kind of connected to this.
+&lt;/p&gt;
+&lt;p&gt;This might sound a bit complicated but if done right it'll give you a lot of insights about the way your company is
+    going and whether or not a certain task is feasible or not.
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The main idea is to plan ahead.&lt;/strong&gt; Basically you need to:&lt;/p&gt;
+
+&lt;ol start=&quot;1&quot;&gt;
+    &lt;li&gt;Set a goal you want your business to achieve.&lt;/li&gt;
+    &lt;li&gt;Determine the steps that you need to take to reach that goal.&lt;/li&gt;
+    &lt;li&gt;Allocate the needed resources for each step.&lt;/li&gt;
+    &lt;li&gt;Start executing the steps.&lt;/li&gt;
+    &lt;li&gt;Analyze the results and eventually adjust course if they are not the expected ones.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;There's also a little trick that I use:&lt;/p&gt;
+&lt;p&gt;If for some reason I can't figure out a certain step - I don't know how to do it or how much to budget for it or
+    something else, I break it down into smaller steps that I can accomplish easily.
+&lt;em&gt;If you accomplish the smaller steps, you have accomplished the big one as well.&lt;/em&gt;
+&lt;/p&gt;
+&lt;p&gt;A good business planning or management application can help a lot with that. The detailed statistics provided by
+    such tools are great for planning. You'll be able to examine closely how your business functioned in
+    previous periods, keeping everything on track.
+&lt;/p&gt;
+&lt;h4 id=&quot;automation&quot;&gt;Automate as much as possible.&lt;/h4&gt;
+&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/posts/images/reduce-expenses-business-ultimate-guide/automate.jpg&quot;
+     alt=&quot;Automate to reduce expenses&quot;
+     title=&quot;Automate to reduce expenses&quot;&gt;
+&lt;p&gt;This is kind of obvious, right?&lt;/p&gt;
+
+&lt;p&gt;After all:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Reduction in the tasks you have to do manually means reducing time wasted.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Still a lot of businesses struggle with that part. Either because they don't want to invest in it, thinking it won't
+    benefit them, or because they are afraid something will go wrong and believe
+    they are perfectly fine the way they are.
+&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Even if you are OK at the moment it doesn't mean you shouldn't try to improve.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Some of the biggest companies in the world are successfully cutting costs with automation. &lt;a
+        href=&quot;https://www.cnbc.com/2018/10/30/alibaba-cainiao-chinas-biggest-robot-warehouse-for-singles-day.html&quot;&gt;At
+        &quot;Alibaba&quot; they use robots in their warehouses&lt;/a&gt;, &lt;a
+        href=&quot;https://blogs.wsj.com/japanrealtime/2015/08/21/fully-automated-lettuce-factory-to-open-in-japan/&quot;&gt;&quot;Spread&quot;
+        uses robotics to farm lettuce&lt;/a&gt; and &lt;a
+        href=&quot;https://www.reuters.com/article/adidas-manufacturing-idUSL8N13X3CQ20151209&quot;&gt;&quot;Adidas&quot;
+        uses robots to make running shoes&lt;/a&gt;.
+&lt;/p&gt;
+&lt;p&gt;There are many more examples, just check out what the guys at
+    &lt;a href=&quot;https://www.bostondynamics.com/&quot; title=&quot;Boston Dynamics&quot;&gt;Boston Dynamics&lt;/a&gt; are doing:&lt;/p&gt;
+
+&lt;div class=&quot;embed-responsive embed-responsive-16by9 my-4&quot;&gt;
+    &lt;iframe class=&quot;embed-responsive-item&quot; src=&quot;https://www.youtube-nocookie.com/embed/5iV_hB08Uns&quot;
+            allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;This shows us that saving with automation works and it works really well. Otherwise
+    nobody would have put the time and effort to research and create fully automated
+    manufacturing facilities.
+&lt;/p&gt;
+&lt;p&gt;It doesn't matter if you can do it on this scale or not. You can always use the help of computers to automate some
+    of the smaller things in your business and reduce your expenses this way.
+&lt;/p&gt;
+
+&lt;p&gt;Some examples, just to get you started:&lt;/p&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;You can automate communication to get custom alerts, whenever something you care about happens. E.g.
+    when a server is down, when you receive comment on your blogs, whenever somebody tries to access resources without
+    proper authorization, etc.&lt;/li&gt;
+    &lt;li&gt;You can automate sending different &quot;Thank you&quot; messages or even client onboarding. More advanced features are
+        made available from the different customer support tools out there.&lt;/li&gt;
+    &lt;li&gt;You can automate price estimates, orders, invoices, billing, etc.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;With recent advances a lot of stuff that was pretty hard to do in the past is easily achievable today.&lt;/p&gt;
+
+&lt;h4 id=&quot;outsourcing&quot;&gt;Outsource everything you can.&lt;/h4&gt;
+&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/posts/images/reduce-expenses-business-ultimate-guide/outsource.jpg&quot;
+     alt=&quot;Outsourcing can save a lot of money and hassle&quot;
+     title=&quot;Outsourcing can save a lot of money and hassle&quot;&gt;
+&lt;p&gt;Nowadays there's a company for everything.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;You don't want to deal with HR?&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;There's a company that does this.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;You don't want to deal with sales?&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;No problem!&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Marketing? Advertising? Accounting?&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;You're covered.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;In general outsourcing everything that is not your forte is the way to go.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Hiring personnel is expensive and it's not worth it outside your core activity.&lt;/p&gt;
+
+&lt;p&gt;You'll waste a lot of time finding the right candidate. The lack of experience can lead to serious problems and
+    expenses and since you aren't a pro yourself you can't really train somebody. You can
+    just hope for the best, which isn't the best strategy for anything.
+&lt;/p&gt;
+&lt;p&gt;There is the option to hire a trainer to train your staff.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;I think that's even worse.&lt;/strong&gt; Here's why:&lt;/p&gt;
+&lt;p&gt;Instead of paying somebody to do the task at hand, you'll be paying somebody to teach you how to do it. And you'll be
+    paying premium, because trainers usually aren't cheap.
+&lt;/p&gt;
+&lt;p&gt;Besides I'm far from convinced that when the training is done the trainees will be as good at the task at hand as the
+    trainer is.
+&lt;/p&gt;
+&lt;p&gt;Hiring a highly specialized company will give you all the benefits and none of the problems. You get a lot of
+    experience, skills, contacts, tools, knowledge, know-how, etc. that you would otherwise
+    have to spend a fortune on.
+&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;More importantly you get a partner, that is highly motivated to help you, because that's their business.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Your only concern is probably going to be management. But provided you have the right management software you should
+    be fine.&lt;/p&gt;
+&lt;h3 id=&quot;operational-costs&quot;&gt;Cut operational costs.&lt;/h3&gt;
+&lt;h4 id=&quot;erp-business-management-software&quot;&gt;Use ERP or other business management software.&lt;/h4&gt;
+
+&lt;p&gt;There's a reason why these tools are so widely adopted in businesses over the globe:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;They work!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;When it comes to cost reduction seeing data organised in charts and tables is invaluable. It makes identifying
+    problems a breeze.
+&lt;/p&gt;
+&lt;p&gt;Now all that's left to do is:&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;Check cash flows.&lt;/li&gt;
+    &lt;li&gt;Check resource expenditure.&lt;/li&gt;
+    &lt;li&gt;Optimize!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Feeling confused? Let me clarify:&lt;/p&gt;
+&lt;p&gt;You need to analyze where cash and company resources are going, how are they being spent and if that level of
+    spending is expected and normal.
+&lt;/p&gt;
+&lt;p&gt;Afterwards if you find something unusual you need to investigate and optimize the process or if you deem it
+    unnecessary - remove it completely.
+&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;After integrating an ERP and doing some A/B testing one of my clients reported, that buying a different brand of
+        screwdriver bits resulted in spending 20% less for bits and using them 15% longer on average.&lt;/em&gt;
+&lt;/p&gt;
+&lt;p&gt;See how you can save easily on smaller things?&lt;/p&gt;
+&lt;p&gt;OK, next one:&lt;/p&gt;
+&lt;h4 id=&quot;fixed-assets&quot;&gt;Use your fixed assets as efficiently as you can.&lt;/h4&gt;
+&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/posts/images/reduce-expenses-business-ultimate-guide/efficient-assets.jpg&quot;
+     alt=&quot;Using fixed assets efficiently can save money&quot;
+     title=&quot;Using fixed assets efficiently can save money&quot;&gt;
+&lt;p&gt;It could be office space, production real estate, big machinery, etc. but it should be used to its fullest potential.
+&lt;/p&gt;
+
+&lt;p&gt;I don't mean using your meeting rooms once in a week or your multi spindle drilling machine once in a month. You have
+    to be putting your assets to work as close to 100% of the time as you can get.
+&lt;/p&gt;
+&lt;p&gt;Here are a couple of ways to do it:&lt;/p&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;Some of your office spaces can have two functions. Your meeting room can be your break room or you can combine
+        storage and printing.
+    &lt;/li&gt;
+    &lt;li&gt;You can rent out spaces you're currently not using.&lt;/li&gt;
+    &lt;li&gt;You can offer usage of your assets as a service. Smaller companies, DIYers, handymen, etc. that don't have access to
+        such big machines will gladly use that.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;There's of course one problem that can quickly arise:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bad scheduling.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;It can be easily remedied with a good management or scheduling application. This way you'll always be in control of
+    your schedules and there won't be any mixups.
+&lt;/p&gt;
+&lt;p&gt;If you own a sports facility, then good scheduling is crucial for you. You need it in order to optimize your usage of
+    the playgrounds and maximize the time in which you're making money out of them, thus reducing loses.
+&lt;/p&gt;
+&lt;p&gt;If you are a bit more enthusiastic about automation in a lot of cases you can integrate a great deal of
+    interconnected devices and an admin dashboard for them. This way you will be able to control your schedules and the
+    devices from the same application. &lt;em&gt;This is a real time and money saver&lt;/em&gt; - if we go back to the sports facility
+    example turning the lights and music off and locking a room could be happening with a mouse click.
+&lt;/p&gt;
+&lt;p&gt;My next tip is better suited for smaller businesses (of course it'll work well for medium sized companies as well):
+&lt;/p&gt;
+&lt;h4 id=&quot;coworking&quot;&gt;Use coworking office spaces or even work fully remotely.&lt;/h4&gt;
+&lt;p&gt;Now this can save a substantial amount of cash. &lt;a
+        href=&quot;https://www.forbes.com/sites/larryalton/2017/05/09/why-more-millennials-are-flocking-to-shared-office-spaces/&quot;&gt;Shared
+        offices are cheaper&lt;/a&gt; in comparison to renting or buying a traditional office.&lt;/p&gt;
+&lt;p&gt;Also you get the added benefit of somebody taking care of utilities, maintenance, etc.&lt;/p&gt;
+&lt;p&gt;If you want to expand this further and if your business allows it - you can offer telecommuting or even go the fully
+    remote (or office-free) way. A lot of companies are doing this and
+    &lt;a href=&quot;https://www.forbes.com/sites/laurashin/2017/01/31/work-from-home-in-2017-the-top-100-companies-offering-remote-jobs/&quot;&gt;the
+        trend is going up&lt;/a&gt;.
+&lt;/p&gt;
+&lt;p&gt;It's good for office morale and for your wallet. Working remotely usually means happier employees, which is always a
+    good thing. But it'll also potentially save you from utility costs (like
+    electricity, water, internet, etc.) and office space.
+&lt;/p&gt;
+&lt;p&gt;Besides reducing costs, this way of working has other benefits. The &lt;a href=&quot;https://www.ohio.edu/&quot;&gt;University of
+        Ohio&lt;/a&gt; created a
+    &lt;a href=&quot;https://onlinemasters.ohio.edu/blog/how-telecommuting-can-save-businesses-money/&quot;&gt;very
+        nice article and infographic on the topic&lt;/a&gt;, which you can check out here:
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;(After that I'm talking about a potential issue with remote work and how to solve it)&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p style=&quot;clear:both;margin-bottom:20px;&quot;&gt;
+    &lt;a href=&quot;https://onlinemasters.ohio.edu/blog/how-telecommuting-can-save-businesses-money/&quot;&gt;
+        &lt;img src=&quot;https://s3.amazonaws.com/utep-uploads/wp-content/uploads/sparkle-box/2018/03/22163308/telecommuting-can-save-businesses-money-image.jpg&quot;
+             alt=&quot;Telecommuting Can Save Businesses Money infographic&quot; style=&quot;max-width:100%;&quot;/&gt;
+    &lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;The potential issue I mentioned is this:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Management.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Managing a team remotely can be a challenge. You have to figure out ways of communication (don't forget
+    that you might have personnel in different time zones), task assignments, file sharing, etc.
+&lt;/p&gt;
+&lt;p&gt;My experience shows that technology can help a lot for this. You have different issue tracking systems like: &lt;a
+        href=&quot;https://www.atlassian.com/software/jira&quot;&gt;JIRA&lt;/a&gt;,
+    &lt;a
+        href=&quot;https://asana.com/&quot;&gt;Asana&lt;/a&gt;, &lt;a
+        href=&quot;https://trello.com&quot;&gt;Trello&lt;/a&gt;. Everybody is using
+    messaging apps nowadays, so I'm only going to mention Skype, Slack and &lt;a
+        href=&quot;https://hangouts.google.com/&quot;&gt;Google Hangouts&lt;/a&gt;
+    as the most popular ones. File sharing is also pretty easy: &lt;a
+        href=&quot;https://www.dropbox.com/&quot;&gt;DropBox&lt;/a&gt;, &lt;a
+        href=&quot;https://www.google.com/drive/&quot;&gt;Google Drive&lt;/a&gt; are
+    just 2 of the many alternatives you can use.
+
+    In the end it all comes down to preference, but the more things you can do with one app and the more it's suited for
+    your specific needs - the better. You will easily save time and headaches if you
+    can consolidate your management efforts in as little applications as possible or in a single customized one.
+&lt;/p&gt;
+&lt;h4 id=&quot;meetings&quot;&gt;Meetings are time wasters.&lt;/h4&gt;
+&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/posts/images/reduce-expenses-business-ultimate-guide/meetings-waste-time.jpg&quot;
+     alt=&quot;Most meetings waste valuable time&quot;
+     title=&quot;Most meetings waste valuable time&quot;&gt;
+&lt;p&gt;Yes, that's right, unless you're actually making key decisions or making money &lt;a
+        href=&quot;https://www.inc.com/jeff-haden/why-99-percent-of-all-meetings-are-a-complete-wast.html&quot;&gt;you're
+        wasting time&lt;/a&gt;.
+&lt;/p&gt;
+&lt;p&gt;Often people tend to steer off of the agenda, talk about unrelated stuff and also forget about things they talked
+    about later.
+&lt;/p&gt;
+&lt;p&gt;You can easily drop most of the meetings if you use some kind of &lt;a
+        href=&quot;https://en.wikipedia.org/wiki/Comparison_of_project_management_software&quot;&gt;team
+        tracking, organization and management app&lt;/a&gt;.
+&lt;/p&gt;
+&lt;p&gt;This way you will gain the following benefits:&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;You will have history of everything that has been &quot;said&quot; on the given issue/task/theme/etc.&lt;/li&gt;
+    &lt;li&gt;It'll be a lot easier to assign tasks and have people do them.&lt;/li&gt;
+    &lt;li&gt;You can benefit from the so called &quot;agile&quot; methodologies for team management.&lt;/li&gt;
+    &lt;li&gt;If somebody starts working on a given issue later they'll be able to easily follow everything that was
+        discussed prior to them joining.
+    &lt;/li&gt;
+    &lt;li&gt;You don't have to do recaps and waste more time.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;If you have remote workforce you'll save even more from travel expenses.&lt;/em&gt;&lt;/p&gt;
+&lt;h4 id=&quot;equipment&quot;&gt;Be smart about equipment.&lt;/h4&gt;
+&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/posts/images/reduce-expenses-business-ultimate-guide/smart-equipment.jpg&quot;
+     alt=&quot;Don't always buy new and expensive stuff&quot;
+     title=&quot;Don't always buy new and expensive stuff&quot;&gt;
+&lt;p&gt;You can always buy the newest and best of everything, but you also might not need it.&lt;/p&gt;
+
+&lt;p&gt;When you can buy second hand or refurbished stuff - do it, it's cheaper and you often get some remaining
+    warranty.&lt;/p&gt;
+
+&lt;p&gt;If you want to buy a crane a used one is usually a much better choice. It'll cost a lot less (depending on the type
+    of crane), but more importantly - &lt;em&gt;it should have a service history, with all the maintenance and repairs&lt;/em&gt;. This
+    way you can easily determine the condition of the machine and make educated decision on whether or not it's a good
+    purchase.
+&lt;/p&gt;
+
+&lt;p&gt;You can also rent equipment if you only use it once in a while.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;You can rent out your own stuff when you don't need it.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;An advice from me:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Don't waste money on stuff you don't really need.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I'll talk more about this later in this post.&lt;/p&gt;
+&lt;h4 id=&quot;oss&quot;&gt;Use free or open source software.&lt;/h4&gt;
+&lt;p&gt;There's a free alternative to pretty much any computer program you might be using. You can save a lot of money if you
+    start using these.
+&lt;/p&gt;
+
+&lt;p&gt;There's another added benefit:&lt;/p&gt;
+&lt;p&gt;You can make donations to the products you like the most whenever the right moment comes. This way you'll be making
+    the world a better place and you also might get a mention on the product's
+    sponsors page.
+&lt;/p&gt;
+&lt;p&gt;Open source and free software has changed a lot since the days it was almost unusable (or non existent).&lt;/p&gt;
+
+&lt;p&gt;You have free operating systems (Linux), that work quite well and are becoming more and more user-friendly. There are
+    free office suites, creativity apps, management apps, accounting software, etc.
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;It's a good practice to check for a free alternative whenever you consider buying a license, it might save
+        you a lot!&lt;/strong&gt; In some cases it might be even better than the paid alternative.
+&lt;/p&gt;
+&lt;p&gt;I can give an example with myself:&lt;/p&gt;
+&lt;p&gt;This website is hosted for free on &lt;a href=&quot;https://pages.github.com/&quot; title=&quot;GitHub Pages&quot;
+                                         target=&quot;_blank&quot;&gt;github&lt;/a&gt;, using free caching from
+    &lt;a href=&quot;https://www.cloudflare.com/&quot; title=&quot;Cloudflare&quot; target=&quot;_blank&quot;&gt;cloudflare&lt;/a&gt;. I'm using the
+    &lt;a href=&quot;https://jekyllrb.com/&quot; title=&quot;Jekyll - Free static blog system&quot; target=&quot;_blank&quot;&gt;free blogging platform jekyll&lt;/a&gt;
+    to generate it and I'm writing this post for free in my google docs, running on my
+    &lt;a href=&quot;https://www.archlinux.org/&quot; title=&quot;Arch Linux&quot; target=&quot;_blank&quot;&gt;free Arch Linux operating system&lt;/a&gt;. I'm
+    editing images in &lt;a href=&quot;https://www.gimp.org/&quot; title=&quot;GNU image manipulation program&quot; target=&quot;_blank&quot;&gt;GIMP&lt;/a&gt;,
+    &lt;a href=&quot;https://krita.org/&quot; title=&quot;Professional FREE and open source painting program&quot; target=&quot;_blank&quot;&gt;Krita&lt;/a&gt;
+    or &lt;a href=&quot;https://inkscape.org/&quot; title=&quot;Professional vector graphics editor &quot; target=&quot;_blank&quot;&gt;Inkscape&lt;/a&gt;
+    which are all free.
+&lt;/p&gt;
+&lt;p&gt;Alright, next one is connected to this:&lt;/p&gt;
+&lt;h4 id=&quot;website&quot;&gt;Website.&lt;/h4&gt;
+&lt;p&gt;Before I give you the tips I must say this:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Nowadays it's important for &lt;em&gt;every&lt;/em&gt; business to have a website.&lt;/strong&gt; Don't skimp on the cost
+of a good website. It doesn't matter if you'll be investing in digital marketing or not. If somebody tries to look you
+up you must show up in the results, otherwise you risk losing a client.&lt;/p&gt;
+&lt;p&gt;As for how to save from a business website, here are a few pointers:&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        In most of the cases you don't really need a custom made
+        &lt;a href=&quot;https://en.wikipedia.org/wiki/Content_management_system&quot; title=&quot;What's a CMS&quot; target=&quot;_blank&quot;&gt;CMS&lt;/a&gt;.
+        You can use wordpress, joomla, drupal or even jekyll if you're OK with a more technical solution (as I
+        mentioned in the previous section - that's the one I'm using).
+    &lt;/li&gt;
+    &lt;li&gt;
+        Be very careful where you get your domain name from. There are some domain registrars, who have hidden fees,
+        really bad terms and conditions, bad support, etc. &lt;strong&gt;Do your research before buying, to save some money.
+        &lt;/strong&gt;
+        In my research on the topic done in 2019 I gathered positive and negative feedback of people from different
+        forums and I came to the conclusion that Google, CloudFlare, NameSilo and PorkBun are OK. Currently I'm using
+        CloudFlare.
+    &lt;/li&gt;
+    &lt;li&gt;
+        Be really careful about hosting too. Again you should check different reviews (avoid the paid PR reviews,
+        check reddit, forums, etc.). Price is important but also is performance and extras.
+    &lt;/li&gt;
+    &lt;li&gt;
+        If you want to save some cash from the design of your website you can always buy one from the different website
+        template marketplaces like TemplateMonster. It's much cheaper this way, but you might end up with pretty much
+        the same website as somebody else.
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;OK, time to move to the next one and this is:&lt;/p&gt;
+&lt;h4 id=&quot;recurring-payments&quot;&gt;Try to avoid recurring payments. &lt;/h4&gt;
+&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/posts/images/reduce-expenses-business-ultimate-guide/recurring-payments.jpg&quot;
+     alt=&quot;Avoiding recurring payments can save a lot&quot;
+     title=&quot;Avoiding recurring payments can save a lot&quot;&gt;
+&lt;p&gt;Renting has one big benefit:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;It's easy and convenient.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Once or twice a month you need a bus to drive your workers somewhere or maybe a super powerful computer to render the
+    video clip you made. It could also be power tools if you use wider range of
+    them and you don't want to invest.
+&lt;/p&gt;
+&lt;p&gt;Renting is viable solution to such problems. But these costs quickly add up and sometimes it makes more sense to just
+    buy the thing you need.
+&lt;/p&gt;
+&lt;p&gt;Just do a quick calculation of your renting costs for let's say 2 years versus the cost of just buying the thing. If
+    renting is equal or higher - you know what to do.
+&lt;/p&gt;
+&lt;p&gt;Even if it's not - the margin should be quite big for buying not to be the better option.&lt;/p&gt;
+
+&lt;p&gt;I'll give you another interesting example:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Software licenses.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;More and more companies are providing their software as a service, not as a product. It's quite popular.&lt;/p&gt;
+&lt;p&gt;What this actually means is:&lt;/p&gt;
+&lt;p&gt;You have to make recurring payments monthly or yearly in order to have the most recent version.&lt;/p&gt;
+&lt;p&gt;There's also this new trend emerging in which you have to pay also per user.&lt;/p&gt;
+
+&lt;p&gt;The reasoning behind this payment model is that you are always getting the latest and greatest version of the
+    software and that each user needs more resources provisioned on the provider's servers.
+&lt;/p&gt;
+&lt;p&gt;The only problem is:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;The benefits of always being on the bleeding edge of technology are at best debatable for most.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;As for the per user cost - it's often caused by the fact that the provider is trying to serve &lt;a
+        href=&quot;https://en.wikipedia.org/wiki/C10k_problem&quot;&gt;a lot of clients at the same time&lt;/a&gt;.
+&lt;/p&gt;
+&lt;p&gt;Now a quick calculation:&lt;/p&gt;
+&lt;p&gt;Let's say you're paying for a small app (Slack is about $7 per month, per user). If you have 100 employees, that's
+    $700 per month, for a single app. That is $8400 on the first year. $16 800 for two years. &lt;strong&gt;That can cover the
+        costs for developing an enterprise chat application.&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p&gt;You see how this can easily amount to piles of money going out of your company.&lt;/p&gt;
+
+&lt;p&gt;There are other problems as well:&lt;/p&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;You get functionality you don't need, but you're paying for it&lt;/li&gt;
+    &lt;li&gt;You don't get the functionality you actually need, although you're paying for it&lt;/li&gt;
+    &lt;li&gt;Support usually isn't that great, performance may be pretty bad, etc.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;What you can do about it?&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Talk to a development agency and ask them to create something that will suit your needs.&lt;/em&gt;
+    The initial costs will be higher, but having no recurring licence payments will
+    quickly catch up. Afterwards you only pay when you need additional stuff developed.
+&lt;/p&gt;
+&lt;h4 id=&quot;upgrade&quot;&gt;Upgrade.&lt;/h4&gt;
+&lt;p&gt;Your software, your hardware, your tools, your appliances, your offices, everything.&lt;/p&gt;
+&lt;p&gt;Here's why:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;By upgrading old equipment you're gaining better performance.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;More often than not a performance boost results in time and money savings.&lt;/p&gt;
+&lt;p&gt;Of course this should be taken with a grain of salt, because not every upgrade is worth it.&lt;/p&gt;
+&lt;p&gt;We are a software company, so as expected we work on computers to create, well... software.&lt;/p&gt;
+&lt;p&gt;Probably most people think that because computers are our main tool, we are always working on cutting edge tech.
+    &lt;strong&gt;And they are wrong.&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p&gt;We haven't upgraded our CPUs for the last 4 years, because the performance gain for the things we do would be less
+    than 5%. But we do use high-end SSDs &lt;strong&gt;despite their high cost, because the gain is
+        significant.&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p&gt;We do use a &lt;a href=&quot;https://en.wikipedia.org/wiki/Rolling_release&quot;&gt;rolling-release&lt;/a&gt; linux operating system (&lt;a
+        href=&quot;https://www.archlinux.org/&quot;&gt;Arch Linux&lt;/a&gt;) in order to always have up-to-date software, again because we
+    need this and it's very beneficial to us.
+&lt;/p&gt;
+&lt;p&gt;Even if you own a restaurant - a new high-end coffee maker will be better than an old one - it'll work faster, it'll
+    make better coffee and it'll break down less often.
+&lt;/p&gt;
+&lt;p&gt;If you're into car repairs better tools means better and faster repairs.&lt;/p&gt;
+
+&lt;p&gt;If you're a carpenter having new and powerful drill and table saw is going to make things easier for you, which again
+    means reducing overall costs.
+&lt;/p&gt;
+&lt;p&gt;Same applies for pretty much every business, so don't be afraid to invest.&lt;/p&gt;
+
+&lt;p&gt;Just be smart about it:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Don't hesitate to buy the things that will make you money, but avoid unnecessary purchases.&lt;/em&gt;&lt;/p&gt;
+&lt;h4 id=&quot;employee-monitoring&quot;&gt;Employee monitoring.&lt;/h4&gt;
+&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/posts/images/reduce-expenses-business-ultimate-guide/employee-monitoring.jpg&quot;
+     alt=&quot;It's important to know the strengths and weaknesses of your employees&quot;
+     title=&quot;It's important to know the strengths and weaknesses of your employees&quot;&gt;
+&lt;p&gt;Let me make one thing clear:&lt;/p&gt;
+
+&lt;p&gt;Nobody likes to be watched over like it's 1984.&lt;/p&gt;
+&lt;p&gt;But unobtrusive monitoring of your employees' activity has its benefits.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Benefit #1:&lt;/strong&gt; You will find the slackers. People that come way too late to work or that take way too long lunch breaks
+    regularly. What you do with them depends on a lot of things and is out of the
+    scope of this post.
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Benefit #2:&lt;/strong&gt; You will understand what the strengths and the weaknesses of your employees are. You'll find who are the
+    employees that give you the most value. More importantly - over time you'll be
+    able to use your employees' skills more efficiently, because you'll know what they are good at.
+&lt;/p&gt;
+&lt;p&gt;A management application can help a lot with that. You can check when employees come to the office, when they go to
+    and return from breaks and when they leave the office. You can also check the
+    time it takes somebody to complete a task and privately rate if they did a good job or not.
+&lt;/p&gt;
+&lt;p&gt;Managing and task distribution becomes way easier, when you have the right data. &lt;strong&gt;Effective management
+        is one of the best ways to reduce costs in business.&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id=&quot;reward-value&quot;&gt;Reward value given to the company.&lt;/h4&gt;
+&lt;p&gt;Encourage your employees to give value to the company. &lt;em&gt;Rewarding for time spent in the workplace is kind of old
+        school and it's not the most efficient tactic.&lt;/em&gt;
+&lt;/p&gt;
+&lt;p&gt;We've all seen (either on TV or in the real life) this one employee that constantly plays games while &quot;working&quot;.
+    Over time this can add up to a lot of money wasted.
+&lt;/p&gt;
+&lt;p&gt;So it's a good idea to encourage employees to give value to the company. You can do that by organising trainings,
+    giving a bonus for a job well done, have flexible working hours, etc.
+&lt;/p&gt;
+&lt;p&gt;Of course you should always monitor and evaluate performance, so that you'll have statistics and history of what
+    happened.
+&lt;/p&gt;
+&lt;p&gt;All in all implementing this strategy should reduce operational costs, but more importantly - it should also
+    increase employee output.&lt;/p&gt;
+&lt;h4 id=&quot;working-hours&quot;&gt;Reduce working hours.&lt;/h4&gt;
+&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/posts/images/reduce-expenses-business-ultimate-guide/reduce-working-hours.jpg&quot;
+     alt=&quot;Reducing working hours has potential benefits&quot;
+     title=&quot;Reducing working hours has potential benefits&quot;&gt;
+&lt;p&gt;This one is a bit counter intuitive and controversial.&lt;/p&gt;
+
+&lt;p&gt;Just bare with me:&lt;/p&gt;
+&lt;p&gt;Recent studies report that &lt;a href=&quot;https://phys.org/news/2018-07-four-day-weeks-days.html&quot;&gt;reduced working hours
+        actually pay off&lt;/a&gt; and that &lt;a href=&quot;https://www.vouchercloud.com/resources/office-worker-productivity&quot;&gt;the
+        average worker is clocking in no more than 3-4 hours&lt;/a&gt;. This applies especially to creative activities or
+    ones that involve a lot of thinking. So if your type of business allows it, you could reduce working hours a bit.
+&lt;/p&gt;
+&lt;p&gt;This way you will gain from the increased productivity and save from office costs. &lt;strong&gt;Also don't forget the happiness
+        factor.&lt;/strong&gt; Everybody at the office will love you for the improved work-life balance.
+&lt;em&gt;Happy employees are much more likely to bring greater value to your company than unhappy ones.&lt;/em&gt;&lt;/p&gt;
+&lt;h4 id=&quot;supplies&quot;&gt;Reduce supply expenditure.&lt;/h4&gt;
+&lt;p&gt;This can save a lot of money for some businesses like food joints, carpenters, car repair shops, construction businesses, etc.
+&lt;/p&gt;
+&lt;p&gt;You can monitor closely the usage of materials and try to optimize it.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Identifying leaks is important&lt;/strong&gt; - there
+    could be somebody &quot;borrowing&quot; stuff from you, an employee working very inefficiently with some material or
+    something else that's creating excess usage of supplies, that remains hidden.
+&lt;/p&gt;
+
+&lt;p&gt;After finding these issues you should fix them and make sure they are less likely to happen again in the future.&lt;/p&gt;
+
+&lt;p&gt;What's more important:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;You should always check the most recent price lists of suppliers&lt;/strong&gt;, because there could be significant differences with
+    the price you're getting from your current supplier.
+&lt;/p&gt;
+&lt;p&gt;If you find out that you're being charged more you can either switch or let your current supplier know about it and
+    ask for a discount.
+&lt;/p&gt;
+&lt;p&gt;Automating this process can make your life a lot easier, because receiving a notification whenever a lower price
+    appears is much more efficient and time saving than having to go through a bunch of
+    price lists every week.
+&lt;/p&gt;
+&lt;h4 id=&quot;digital&quot;&gt;Go digital as much as you can.&lt;/h4&gt;
+&lt;p&gt;Printing is expensive, archiving stuff on paper even more so.&lt;/p&gt;
+&lt;p&gt;Since computers are a big part of our lives you can save a buck if you decide to &lt;strong&gt;drop printing and paper
+        altogether.&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p&gt;Another benefit of digitalisation is that it's much more convenient - sending an email is a lot faster than printing
+    something and sending it over conventional mail.
+&lt;/p&gt;
+&lt;p&gt;Also if you're going the digital route, archived documents can be indexed and then easily searched for the tiniest
+    bit of information when you need it. &lt;strong&gt;This is way cheaper than paying for physical document storage
+        and much more efficient if you're trying to find some offer from ten years ago.&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    If phone calls are a significant part of your business again you can benefit from digital services. Landlines
+    usually cost more than &lt;a href=&quot;https://en.wikipedia.org/wiki/Voice_over_IP&quot;&gt;VoIP&lt;/a&gt; and have worse quality.
+&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;A lot of management can be digitalised as well&lt;/strong&gt;. This does not lead directly to cost cutting, but it
+    would improve efficiency a lot and will reduce wasted time, errors and other different misunderstandings.&lt;/p&gt;
+
+&lt;p&gt;For example integrating a good team management system can be incredibly beneficial. What you get is a central
+    repository with all projects, all the tasks of all employees (and your own if you want to), etc.&lt;/p&gt;
+&lt;p&gt;Everybody sees only the things they need to.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;This way you won't have employees forgetting what they had to do.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;A good user interface helps a lot because it lets everybody use the application, but more importantly it provides
+    ease of use:&lt;/p&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;searching and grouping of tasks&lt;/li&gt;
+    &lt;li&gt;color coding&lt;/li&gt;
+    &lt;li&gt;adding different types of media&lt;/li&gt;
+    &lt;li&gt;many more&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You also get automatic &quot;deadlines&quot;, reminders and alerts for your tasks. Also task queuing can be automated. It's
+    determined either by creation order or by task &quot;weight&quot;.&lt;/p&gt;
+&lt;p&gt;Of course if you're building a custom team or a whole business management suite you can add whatever
+    functionality you want.&lt;/p&gt;
+&lt;p&gt;In the long run this will substantially reduce wasted money and time &lt;strong&gt;(so it's a good cost cutter)&lt;/strong&gt;.
+&lt;/p&gt;
+
+&lt;p&gt;Of course you don't have to stop here, using technology can help in a lot of aspects of your business. &lt;strong&gt;You've
+    probably noticed that most of the problems mentioned in this article have a working solution using computers and
+    applications.&lt;/strong&gt;
+&lt;/p&gt;
+&lt;h4 id=&quot;production-costs&quot;&gt;Cut production costs.&lt;/h4&gt;
+&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/posts/images/reduce-expenses-business-ultimate-guide/cut-production-costs.jpg&quot;
+     alt=&quot;How to reduce production costs&quot;
+     title=&quot;How to reduce production costs&quot;&gt;
+&lt;p&gt;In the process of creating a material product a lot of businesses have leftovers, cut-outs, scraps and any other kind
+    of stuff that goes to waste in the end.
+&lt;/p&gt;
+&lt;p&gt;There are a couple of cost saving measures you can take to reduce waste and losses:&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;Recycling is sometimes an option, although it's kind of a last resort one.&lt;/li&gt;
+    &lt;li&gt;You can use some simple design tool, CAD software or some custom application to optimize the way you use
+        materials. Let's say you're in the carpentry business and you're using
+        chipboard. An app can create optimized cutting diagram that will save you material and therefore money.
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+    &lt;li&gt;You can sell leftovers. There are &lt;a
+            href=&quot;http://fortune.com/2015/04/16/could-these-apps-solve-americas-huge-food-waste-problem/&quot;&gt;a
+            ton of initiatives out there for restaurants, cafes and all other types of food joints trying to reduce
+            food waste&lt;/a&gt;. Some of them sell the food at lower prices at the end of the day, others just give it away.
+    &lt;/li&gt;
+    &lt;li&gt;In some cases good inventory and production management can help. You can use an application that will help you
+        determine the optimal quantities you should buy of each product and
+        the optimal quantities you should produce. This way much less products will go bad, remain unsold, etc. reducing
+        your overall expenditure significantly.
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;vehicles&quot;&gt;Lower vehicle expenses.&lt;/h4&gt;
+&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/posts/images/reduce-expenses-business-ultimate-guide/vehicle-costs.jpg&quot;
+     alt=&quot;Vehicles cost a lot&quot;
+     title=&quot;Vehicles cost a lot&quot;&gt;
+&lt;p&gt;Vehicles are a rather big expense generator.&lt;/p&gt;
+
+&lt;p&gt;Fortunately there are ways to optimize depending on the situation.&lt;/p&gt;
+&lt;p&gt;You can buy older cars in order to cut on the initial price. Usually a car, that's just a few years old, can cost
+    20-30% less.
+&lt;/p&gt;
+
+&lt;p&gt;You can also buy vehicles which require much less operational costs in terms of fuel, maintenance and repairs.
+    &lt;strong&gt;Diesel, hybrid and electrical vehicles can save a lot of money.&lt;/strong&gt; It's advisable to
+    check when they'll pay back the initial investment and whether or not that's in sync with your plans.
+&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;When operating with a lot of cars proper vehicle management is crucial.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;The reason for this is:&lt;/p&gt;
+&lt;p&gt;You have to maximize the utilisation of your vehicles, thus getting the most out of them. You don't want your cars
+    sitting in a parking somewhere, that you pay for, if they can be making you money.
+&lt;/p&gt;
+&lt;p&gt;A fleet management application can help a lot with this, alerting you whenever you need to change the oil or renew
+    insurance, making proper usage schedules, etc.
+&lt;/p&gt;
+&lt;h4 id=&quot;electric&quot;&gt;Save on the electric bill.&lt;/h4&gt;
+&lt;p&gt;
+    &lt;a href=&quot;https://www.erc-co.org/spooky-statistics-about-energy-and-water-waste/&quot;&gt;You won't believe how much energy
+        is wasted every day&lt;/a&gt;, despite the fact that smart devices and &lt;a
+        href=&quot;https://www.forbes.com/sites/jacobmorgan/2014/05/13/simple-explanation-internet-things-that-anyone-can-understand/&quot;&gt;IoT&lt;/a&gt;
+    have already entered our lives.
+&lt;/p&gt;
+&lt;p&gt;Interesting fact:&lt;/p&gt;
+
+&lt;p&gt;Leaving the lights on in the office overnight &lt;a href=&quot;https://www.environment.admin.cam.ac.uk/facts-figures&quot;&gt;wastes
+        enough energy to make 1000 cups of tea&lt;/a&gt;.
+&lt;/p&gt;
+&lt;p&gt;Not to mention air conditioning, computers, etc. So integrating a smart system, that will turn off every device when
+    it's not needed is a good way to save a lot of money.
+&lt;/p&gt;
+&lt;p&gt;If you want to go one step further you can create more complex rules as to what is turned on or off and when.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Some things you can do right away are:&lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;Use led lights, they save a lot&lt;/li&gt;
+    &lt;li&gt;Use laptops instead of desktops, unless you really need the extra horsepower.&lt;/li&gt;
+    &lt;li&gt;If you're shopping for machines try to buy the ones with the highest efficiency rating, especially when it comes
+        to heating or cooling.
+    &lt;/li&gt;
+    &lt;li&gt;Use high quality insulation for your office buildings&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;inventory&quot;&gt;Don't keep excess inventory on hand.&lt;/h4&gt;
+&lt;p&gt;It might seem like a good idea to be &quot;well stocked&quot; but it actually leads to a lot of excess expenditure.&lt;/p&gt;
+&lt;p&gt;This is why:&lt;/p&gt;
+&lt;ol start=&quot;1&quot;&gt;
+    &lt;li&gt;&lt;strong&gt;You'll have to pay for storage.&lt;/strong&gt; Depending on what you're storing and where you're storing it, this can be pretty
+        expensive. Even if it's not, it's absolutely pointless to pay for
+        something to just sit somewhere.
+    &lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;In some cases a new law or regulation might make a part of your stock unusable.&lt;/strong&gt; If you're producing food, a new
+        law might make all your food dyes or packaging unusable. If you're
+        dealing with air conditioners you might be left with lots of unusable coolant, that you even have to pay to
+        dispose of. Even if things like these are out of your scope you might decide you
+        want to change the design of your labels. How is that going to happen if you're sitting on a few hundred
+        thousand ready ones?
+    &lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Here's what you can do instead:&lt;/p&gt;
+&lt;p&gt;Invest in a good inventory management tool or module and do some inventory planning. You'll be able to create
+    complicated schedules, to have statistics when you'll need more stock and when less and
+    in general to predict what stock levels you'll need with great accuracy. It'll save you some cash and a lot of
+    headaches.
+&lt;/p&gt;
+&lt;p&gt;
+    This rule applies only to inventory or stock, e.g. assets you put in your production. If you have an asset you keep
+    in order to sell for a higher price (investment asset), that's OK. Just make sure that the sale margin is bigger
+    than what you paid to keep the asset.
+&lt;/p&gt;
+&lt;h3 id=&quot;financial&quot;&gt;Financial cost saving&lt;/h3&gt;
+&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/posts/images/reduce-expenses-business-ultimate-guide/financial-cost-saving.jpg&quot;
+     alt=&quot;How to save from finance services&quot;
+     title=&quot;How to save from finance services&quot;&gt;
+&lt;p&gt;If you own a company, chances are - you are using financial services. Be it a bank account, money transfers,
+    insurances, etc. All these services add up when you grow and can become expensive.
+&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;If your company is a big client of the finance sector you should always be trying to get a better deal.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Here's how:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Check the prices that other financial service providers are offering.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Pay special attention to companies that would want and would try to win you over. Usually they'll give the best
+    possible terms.
+&lt;/p&gt;
+&lt;p&gt;If you are offered a better deal, contact your current provider and ask them to match those terms or even ask for
+    better ones. If they don't do it, consider changing providers. This is a simple way to lower financial costs, that
+    can be especially helpful for smaller businesses, where every dollar matters.
+&lt;/p&gt;
+&lt;h4 id=&quot;fintech&quot;&gt;Use fintech services&lt;/h4&gt;
+
+&lt;div class=&quot;embed-responsive embed-responsive-16by9 my-4&quot;&gt;
+    &lt;iframe class=&quot;embed-responsive-item&quot; src=&quot;https://www.youtube-nocookie.com/embed/-EoNrg_DR3s&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The finance sector is changing rapidly due to the mainstream adoption of technology.&lt;/p&gt;
+&lt;p&gt;There are a lot of &lt;a href=&quot;https://www.investopedia.com/terms/f/fintech.asp&quot;&gt;new finance services&lt;/a&gt;
+    emerging that could give you a lot more bang for your buck.
+&lt;/p&gt;
+&lt;p&gt;One good example are wire transfers, especially if currency conversion is involved.&lt;/p&gt;
+&lt;p&gt;Traditional banks usually give you absurd conversion rates and pretty bad transfer fees. Instead you can use one of
+    the many money transfer services (like &lt;a href=&quot;https://transferwise.com/&quot;&gt;TransferWise&lt;/a&gt;) with pretty much no
+    fees and with reasonable conversion rates. &lt;strong&gt;I can tell you from personal experience, that this is actually
+    saving me a lot of expenses.&lt;/strong&gt; But more importantly it's a much more convenient and time-saving alternative.
+&lt;/p&gt;
+
+&lt;p&gt;If you're using a business management application you can integrate payments in it. There are a lot of different
+payment providers (like &lt;a href=&quot;https://stripe.com/&quot; title=&quot;Stripe&quot; target=&quot;_blank&quot;&gt;Stripe&lt;/a&gt; or
+    &lt;a href=&quot;https://www.paypal.com&quot; title=&quot;PayPal&quot; target=&quot;_blank&quot;&gt;PayPal&lt;/a&gt;) making it possible to easily make
+    payments from pretty much any application.
+&lt;/p&gt;
+
+&lt;h4 id=&quot;unneeded-services&quot;&gt;Check if you really need all the services you are currently using.&lt;/h4&gt;
+&lt;p&gt;You might have a couple of overlapping insurances, a bank account you rarely use or something else. Whatever the case
+    try and monitor for such things and remove them as soon as you can. Your business management tool should be able to
+    help you with things like this.
+&lt;/p&gt;
+&lt;h4 id=&quot;late-payments&quot;&gt;Avoid late payments.&lt;/h4&gt;
+&lt;p&gt;Not as easy as it sounds, right?&lt;/p&gt;
+
+&lt;p&gt;You could be waiting to be paid yourself or you could be receiving a ton of invoices on a monthly basis and you're
+    simply forgetting about some of them.
+&lt;/p&gt;
+&lt;p&gt;A little bit of management software can help a lot here. You can have alerts for invoices that are about to be due,
+    you can also plan ahead to avoid not having enough cash on hand at the moment and
+    having to pay more later.
+&lt;/p&gt;
+&lt;h3 id=&quot;marketing&quot;&gt;Marketing&lt;/h3&gt;
+
+&lt;div class=&quot;embed-responsive embed-responsive-16by9 my-4&quot;&gt;
+    &lt;iframe class=&quot;embed-responsive-item&quot; src=&quot;https://www.youtube-nocookie.com/embed/LUbqRwp8NXI&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Just like the finance sector, marketing is being revolutionized thanks to search engines, social networks, web forums
+    and many other platforms that aggregate and show content in one way or another.
+&lt;/p&gt;
+&lt;p&gt;If your business relies on advertisements to get new clients maybe you should shift your focus a bit to gain more for
+    what you're paying. If done right digital marketing can have huge benefits, so
+    maybe that TV or radio commercial that you're running and that's costing you an arm and a leg simply isn't worth it.
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Digital marketing has the benefits of reaching very specifically targeted audiences&lt;/strong&gt;, which are much more likely to
+    buy. Also there's the benefit of being able to manage every aspect of your campaigns from your computer, which
+    would save a lot of time.
+&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Another important part of marketing is giving your company's name the brand status.&lt;/strong&gt; This isn't easy to achieve, but
+    digital marketing can help a lot. If you manage to do it, you'll gain big cuts in
+    your advertisement expenses.
+&lt;/p&gt;
+&lt;p&gt;Some of the easier steps to start walking towards the brand status are to post on specialized forums in order to show
+    your expertise, maybe run a blog or post regularly in a magazine to gain more
+    popularity, answer on platforms like &lt;a href=&quot;https://www.quora.com/&quot;&gt;quora&lt;/a&gt;, etc.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;In general digital marketing gives you much more bang for your buck.&lt;/em&gt; Thus helping in the reduction of
+the expenses for advertisements.
+&lt;/p&gt;
+&lt;h3 id=&quot;bad-cost-cutting&quot;&gt;Bad cost cutting&lt;/h3&gt;
+&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/posts/images/reduce-expenses-business-ultimate-guide/bad-cost-cutting.jpg&quot;
+     alt=&quot;There are also bad ways to cut costs&quot;
+     title=&quot;There are also bad ways to cut costs&quot;&gt;
+&lt;p&gt;Here it is, as promised in the beginning of this post - bad ways to reduce costs.&lt;/p&gt;
+
+&lt;p&gt;The number one rule of expenditure reduction is:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;You should never compromise the quality and value you provide to your customers and to your employees.
+    &lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Usually you can get away with a small drop in your services. Nobody is going to notice, right? Sadly in most cases
+    that leads to more and more cuts being made and without even realising it you are
+    on the track of rapidly losing your clients.
+&lt;/p&gt;
+&lt;p&gt;The situation with your employees is similar.&lt;/p&gt;
+&lt;p&gt;Why?&lt;/p&gt;
+&lt;p&gt;Well because of this simple equation:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Unhappy employees = unhappy customers.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Cutting salaries or benefits, providing cheap tools or worse - not providing them at all and in general - reducing
+    the quality of the working environment in any way are all perfect examples of bad
+    ways to cut costs. They lead to bad quality and low value of the services or products you provide. Ultimately
+    they'll make your clients search for an alternative.
+&lt;/p&gt;
+&lt;p&gt;As a main takeaway from this section I'll give you a list of measures, that I consider really bad and
+    in some cases desperate cost cutting techniques, that I think, shouldn't be used:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;Lay offs, because employees are expensive. This was probably caused by hiring too much workforce in the first
+        place or some other bad decision. Try not to do this, because it
+        reduces morale, it damages your image and it's bad practice in general. However if you absolutely have to, then
+        have meetings with the remaining employees and explain what is happening.
+        Boosting morale in such situation is mandatory.
+    &lt;/li&gt;
+    &lt;li&gt;Don't cut on employee perks. Especially if they are highly valued. You'll simply piss off your workers and
+        sooner or later you'll suffer the consequences.&lt;/li&gt;
+    &lt;li&gt;Don't save from what you give to your clients. From smaller meals, through cheap knock-off parts, to bad
+        untested software it's all going to make you lose clients.
+    &lt;/li&gt;
+    &lt;li&gt;Don't start from Marketing. In a crysis one should try to get more business, which translates to more marketing
+        effort, not to less.
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Of course there are more, but these aren't specific and apply to the majority of situations.&lt;/p&gt;
+&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
+&lt;p&gt;If you made it this far, I want to thank you for being so patient. I hope you found this article useful and the tips
+    helped you.&lt;/p&gt;
+
+&lt;p&gt;I'll be glad to &lt;a href=&quot;/contacts&quot;
+                                   title=&quot;Contacts page&quot;&gt;answer&lt;/a&gt; any questions you might have or add
+    things you think are relevant. Of course I'll try to keep this guide updated with new and relevant information.
+&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Overall these are just some ideas on how to cut costs for your business.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Depending on your core activity there are probably much more things you could do.&lt;/p&gt;
+&lt;p&gt;The main takeaway is this:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Don't sacrifice quality and value to reduce your expenses. These are desperate measures and they don't work long
+    term. Try to act in advance, before things start to go bad.&lt;/strong&gt;
+&lt;/p&gt;</description>
+            <pubDate>Mon, 22 Apr 2019 00:00:00 +0300</pubDate>
+            <link>https://digidworks.com/reduce-expenses-business-ultimate-guide</link>
+            <guid isPermaLink="true">https://digidworks.com/reduce-expenses-business-ultimate-guide</guid>
+            
+            <category>Small business</category>
+            
+            <category>Medium business</category>
+            
+            <category>Cost reduction strategy</category>
+            
+            <category>Management</category>
+            
+            
+            <category>guides</category>
+            
+        </item>
         
         <item>
             <title>The beginning of the Smart Notifier</title>
