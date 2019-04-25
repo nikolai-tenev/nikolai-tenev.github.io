@@ -5,8 +5,8 @@
         <description>DigidWorks provides web application development services. We specialize in developing enterprise and business management applications.</description>
         <link>https://digidworks.com/</link>
         <atom:link href="https://digidworks.com/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 25 Apr 2019 12:03:45 +0300</pubDate>
-        <lastBuildDate>Thu, 25 Apr 2019 12:03:45 +0300</lastBuildDate>
+        <pubDate>Thu, 25 Apr 2019 15:24:48 +0300</pubDate>
+        <lastBuildDate>Thu, 25 Apr 2019 15:24:48 +0300</lastBuildDate>
         <generator>Jekyll v3.8.5</generator>
         
         <item>
@@ -207,7 +207,7 @@
 &lt;p&gt;These are my universal tips that can be applied in most situations. They are not specific to manufacturing, operations,
     marketing, finance, etc.&lt;/p&gt;
 &lt;h4 id=&quot;monitor-analyze-optimize&quot;&gt;Monitor, analyze, optimize.&lt;/h4&gt;
-&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/posts/images/reduce-expenses-business-ultimate-guide/monitor-analyze-optimize.jpg&quot;
+&lt;img class=&quot;img-fluid&quot; data-src=&quot;/assets/img/posts/images/reduce-expenses-business-ultimate-guide/monitor-analyze-optimize.jpg&quot;
      alt=&quot;Always monitor, analyze and optimize your business&quot;
      title=&quot;Always monitor, analyze and optimize your business&quot;&gt;
 &lt;p&gt;I know it sounds a little bit generic, but this is probably &lt;em&gt;the most important and effective thing anybody can do in
@@ -256,7 +256,7 @@
 &lt;/ul&gt;
 &lt;p&gt;To some, who did major shifts in their companies.&lt;/p&gt;
 &lt;h4 id=&quot;planning&quot;&gt;Planning and budgeting.&lt;/h4&gt;
-&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/posts/images/reduce-expenses-business-ultimate-guide/planning-budgeting.jpg&quot;
+&lt;img class=&quot;img-fluid&quot; data-src=&quot;/assets/img/posts/images/reduce-expenses-business-ultimate-guide/planning-budgeting.jpg&quot;
      alt=&quot;Planning and budgeting are important for your business&quot;
      title=&quot;Planning and budgeting are important for your business&quot;&gt;
 &lt;p&gt;Remember how in the beginning I talked about not waiting for the last moment to implement cost reduction strategies?
@@ -284,7 +284,7 @@
     previous periods, keeping everything on track.
 &lt;/p&gt;
 &lt;h4 id=&quot;automation&quot;&gt;Automate as much as possible.&lt;/h4&gt;
-&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/posts/images/reduce-expenses-business-ultimate-guide/automate.jpg&quot;
+&lt;img class=&quot;img-fluid&quot; data-src=&quot;/assets/img/posts/images/reduce-expenses-business-ultimate-guide/automate.jpg&quot;
      alt=&quot;Automate to reduce expenses&quot;
      title=&quot;Automate to reduce expenses&quot;&gt;
 &lt;p&gt;This is kind of obvious, right?&lt;/p&gt;
@@ -309,7 +309,7 @@
     &lt;a href=&quot;https://www.bostondynamics.com/&quot; title=&quot;Boston Dynamics&quot;&gt;Boston Dynamics&lt;/a&gt; are doing:&lt;/p&gt;
 
 &lt;div class=&quot;embed-responsive embed-responsive-16by9 my-4&quot;&gt;
-    &lt;iframe class=&quot;embed-responsive-item&quot; src=&quot;https://www.youtube-nocookie.com/embed/5iV_hB08Uns&quot;
+    &lt;iframe class=&quot;embed-responsive-item&quot; data-src=&quot;https://www.youtube-nocookie.com/embed/5iV_hB08Uns&quot;
             allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
@@ -335,7 +335,7 @@
 &lt;p&gt;With recent advances a lot of stuff that was pretty hard to do in the past is easily achievable today.&lt;/p&gt;
 
 &lt;h4 id=&quot;outsourcing&quot;&gt;Outsource everything you can.&lt;/h4&gt;
-&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/posts/images/reduce-expenses-business-ultimate-guide/outsource.jpg&quot;
+&lt;img class=&quot;img-fluid&quot; data-src=&quot;/assets/img/posts/images/reduce-expenses-business-ultimate-guide/outsource.jpg&quot;
      alt=&quot;Outsourcing can save a lot of money and hassle&quot;
      title=&quot;Outsourcing can save a lot of money and hassle&quot;&gt;
 &lt;p&gt;Nowadays there's a company for everything.&lt;/p&gt;
@@ -399,7 +399,7 @@
 &lt;p&gt;See how you can save easily on smaller things?&lt;/p&gt;
 &lt;p&gt;OK, next one:&lt;/p&gt;
 &lt;h4 id=&quot;fixed-assets&quot;&gt;Use your fixed assets as efficiently as you can.&lt;/h4&gt;
-&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/posts/images/reduce-expenses-business-ultimate-guide/efficient-assets.jpg&quot;
+&lt;img class=&quot;img-fluid&quot; data-src=&quot;/assets/img/posts/images/reduce-expenses-business-ultimate-guide/efficient-assets.jpg&quot;
      alt=&quot;Using fixed assets efficiently can save money&quot;
      title=&quot;Using fixed assets efficiently can save money&quot;&gt;
 &lt;p&gt;It could be office space, production real estate, big machinery, etc. but it should be used to its fullest potential.
@@ -457,7 +457,7 @@
 &lt;/p&gt;
 &lt;p style=&quot;clear:both;margin-bottom:20px;&quot;&gt;
     &lt;a href=&quot;https://onlinemasters.ohio.edu/blog/how-telecommuting-can-save-businesses-money/&quot;&gt;
-        &lt;img src=&quot;https://s3.amazonaws.com/utep-uploads/wp-content/uploads/sparkle-box/2018/03/22163308/telecommuting-can-save-businesses-money-image.jpg&quot;
+        &lt;img data-src=&quot;https://s3.amazonaws.com/utep-uploads/wp-content/uploads/sparkle-box/2018/03/22163308/telecommuting-can-save-businesses-money-image.jpg&quot;
              alt=&quot;Telecommuting Can Save Businesses Money infographic&quot; style=&quot;max-width:100%;&quot;/&gt;
     &lt;/a&gt;
 &lt;/p&gt;
@@ -483,7 +483,7 @@
     can consolidate your management efforts in as little applications as possible or in a single customized one.
 &lt;/p&gt;
 &lt;h4 id=&quot;meetings&quot;&gt;Meetings are time wasters.&lt;/h4&gt;
-&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/posts/images/reduce-expenses-business-ultimate-guide/meetings-waste-time.jpg&quot;
+&lt;img class=&quot;img-fluid&quot; data-src=&quot;/assets/img/posts/images/reduce-expenses-business-ultimate-guide/meetings-waste-time.jpg&quot;
      alt=&quot;Most meetings waste valuable time&quot;
      title=&quot;Most meetings waste valuable time&quot;&gt;
 &lt;p&gt;Yes, that's right, unless you're actually making key decisions or making money &lt;a
@@ -509,7 +509,7 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;em&gt;If you have remote workforce you'll save even more from travel expenses.&lt;/em&gt;&lt;/p&gt;
 &lt;h4 id=&quot;equipment&quot;&gt;Be smart about equipment.&lt;/h4&gt;
-&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/posts/images/reduce-expenses-business-ultimate-guide/smart-equipment.jpg&quot;
+&lt;img class=&quot;img-fluid&quot; data-src=&quot;/assets/img/posts/images/reduce-expenses-business-ultimate-guide/smart-equipment.jpg&quot;
      alt=&quot;Don't always buy new and expensive stuff&quot;
      title=&quot;Don't always buy new and expensive stuff&quot;&gt;
 &lt;p&gt;You can always buy the newest and best of everything, but you also might not need it.&lt;/p&gt;
@@ -592,7 +592,7 @@ up you must show up in the results, otherwise you risk losing a client.&lt;/p&gt
 &lt;/ul&gt;
 &lt;p&gt;OK, time to move to the next one and this is:&lt;/p&gt;
 &lt;h4 id=&quot;recurring-payments&quot;&gt;Try to avoid recurring payments. &lt;/h4&gt;
-&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/posts/images/reduce-expenses-business-ultimate-guide/recurring-payments.jpg&quot;
+&lt;img class=&quot;img-fluid&quot; data-src=&quot;/assets/img/posts/images/reduce-expenses-business-ultimate-guide/recurring-payments.jpg&quot;
      alt=&quot;Avoiding recurring payments can save a lot&quot;
      title=&quot;Avoiding recurring payments can save a lot&quot;&gt;
 &lt;p&gt;Renting has one big benefit:&lt;/p&gt;
@@ -677,7 +677,7 @@ up you must show up in the results, otherwise you risk losing a client.&lt;/p&gt
 &lt;p&gt;Just be smart about it:&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Don't hesitate to buy the things that will make you money, but avoid unnecessary purchases.&lt;/em&gt;&lt;/p&gt;
 &lt;h4 id=&quot;employee-monitoring&quot;&gt;Employee monitoring.&lt;/h4&gt;
-&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/posts/images/reduce-expenses-business-ultimate-guide/employee-monitoring.jpg&quot;
+&lt;img class=&quot;img-fluid&quot; data-src=&quot;/assets/img/posts/images/reduce-expenses-business-ultimate-guide/employee-monitoring.jpg&quot;
      alt=&quot;It's important to know the strengths and weaknesses of your employees&quot;
      title=&quot;It's important to know the strengths and weaknesses of your employees&quot;&gt;
 &lt;p&gt;Let me make one thing clear:&lt;/p&gt;
@@ -714,7 +714,7 @@ up you must show up in the results, otherwise you risk losing a client.&lt;/p&gt
 &lt;p&gt;All in all implementing this strategy should reduce operational costs, but more importantly - it should also
     increase employee output.&lt;/p&gt;
 &lt;h4 id=&quot;working-hours&quot;&gt;Reduce working hours.&lt;/h4&gt;
-&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/posts/images/reduce-expenses-business-ultimate-guide/reduce-working-hours.jpg&quot;
+&lt;img class=&quot;img-fluid&quot; data-src=&quot;/assets/img/posts/images/reduce-expenses-business-ultimate-guide/reduce-working-hours.jpg&quot;
      alt=&quot;Reducing working hours has potential benefits&quot;
      title=&quot;Reducing working hours has potential benefits&quot;&gt;
 &lt;p&gt;This one is a bit counter intuitive and controversial.&lt;/p&gt;
@@ -796,7 +796,7 @@ up you must show up in the results, otherwise you risk losing a client.&lt;/p&gt
     applications.&lt;/strong&gt;
 &lt;/p&gt;
 &lt;h4 id=&quot;production-costs&quot;&gt;Cut production costs.&lt;/h4&gt;
-&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/posts/images/reduce-expenses-business-ultimate-guide/cut-production-costs.jpg&quot;
+&lt;img class=&quot;img-fluid&quot; data-src=&quot;/assets/img/posts/images/reduce-expenses-business-ultimate-guide/cut-production-costs.jpg&quot;
      alt=&quot;How to reduce production costs&quot;
      title=&quot;How to reduce production costs&quot;&gt;
 &lt;p&gt;In the process of creating a material product a lot of businesses have leftovers, cut-outs, scraps and any other kind
@@ -823,7 +823,7 @@ up you must show up in the results, otherwise you risk losing a client.&lt;/p&gt
     &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4 id=&quot;vehicles&quot;&gt;Lower vehicle expenses.&lt;/h4&gt;
-&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/posts/images/reduce-expenses-business-ultimate-guide/vehicle-costs.jpg&quot;
+&lt;img class=&quot;img-fluid&quot; data-src=&quot;/assets/img/posts/images/reduce-expenses-business-ultimate-guide/vehicle-costs.jpg&quot;
      alt=&quot;Vehicles cost a lot&quot;
      title=&quot;Vehicles cost a lot&quot;&gt;
 &lt;p&gt;Vehicles are a rather big expense generator.&lt;/p&gt;
@@ -901,7 +901,7 @@ up you must show up in the results, otherwise you risk losing a client.&lt;/p&gt
     than what you paid to keep the asset.
 &lt;/p&gt;
 &lt;h3 id=&quot;financial&quot;&gt;Financial cost saving&lt;/h3&gt;
-&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/posts/images/reduce-expenses-business-ultimate-guide/financial-cost-saving.jpg&quot;
+&lt;img class=&quot;img-fluid&quot; data-src=&quot;/assets/img/posts/images/reduce-expenses-business-ultimate-guide/financial-cost-saving.jpg&quot;
      alt=&quot;How to save from finance services&quot;
      title=&quot;How to save from finance services&quot;&gt;
 &lt;p&gt;If you own a company, chances are - you are using financial services. Be it a bank account, money transfers,
@@ -921,7 +921,7 @@ up you must show up in the results, otherwise you risk losing a client.&lt;/p&gt
 &lt;h4 id=&quot;fintech&quot;&gt;Use fintech services&lt;/h4&gt;
 
 &lt;div class=&quot;embed-responsive embed-responsive-16by9 my-4&quot;&gt;
-    &lt;iframe class=&quot;embed-responsive-item&quot; src=&quot;https://www.youtube-nocookie.com/embed/-EoNrg_DR3s&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
+    &lt;iframe class=&quot;embed-responsive-item&quot; data-src=&quot;https://www.youtube-nocookie.com/embed/-EoNrg_DR3s&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 &lt;p&gt;The finance sector is changing rapidly due to the mainstream adoption of technology.&lt;/p&gt;
@@ -959,7 +959,7 @@ payment providers (like &lt;a href=&quot;https://stripe.com/&quot; title=&quot;S
 &lt;h3 id=&quot;marketing&quot;&gt;Marketing&lt;/h3&gt;
 
 &lt;div class=&quot;embed-responsive embed-responsive-16by9 my-4&quot;&gt;
-    &lt;iframe class=&quot;embed-responsive-item&quot; src=&quot;https://www.youtube-nocookie.com/embed/LUbqRwp8NXI&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
+    &lt;iframe class=&quot;embed-responsive-item&quot; data-src=&quot;https://www.youtube-nocookie.com/embed/LUbqRwp8NXI&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 &lt;p&gt;Just like the finance sector, marketing is being revolutionized thanks to search engines, social networks, web forums
@@ -985,7 +985,7 @@ payment providers (like &lt;a href=&quot;https://stripe.com/&quot; title=&quot;S
 the expenses for advertisements.
 &lt;/p&gt;
 &lt;h3 id=&quot;bad-cost-cutting&quot;&gt;Bad cost cutting&lt;/h3&gt;
-&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/posts/images/reduce-expenses-business-ultimate-guide/bad-cost-cutting.jpg&quot;
+&lt;img class=&quot;img-fluid&quot; data-src=&quot;/assets/img/posts/images/reduce-expenses-business-ultimate-guide/bad-cost-cutting.jpg&quot;
      alt=&quot;There are also bad ways to cut costs&quot;
      title=&quot;There are also bad ways to cut costs&quot;&gt;
 &lt;p&gt;Here it is, as promised in the beginning of this post - bad ways to reduce costs.&lt;/p&gt;
