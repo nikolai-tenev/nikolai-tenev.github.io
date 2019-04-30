@@ -5,17 +5,22 @@
         <description>DigidWorks provides web application development services. We specialize in developing enterprise and business management applications.</description>
         <link>https://digidworks.com/</link>
         <atom:link href="https://digidworks.com/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 25 Apr 2019 16:36:13 +0300</pubDate>
-        <lastBuildDate>Thu, 25 Apr 2019 16:36:13 +0300</lastBuildDate>
+        <pubDate>Tue, 30 Apr 2019 17:44:06 +0300</pubDate>
+        <lastBuildDate>Tue, 30 Apr 2019 17:44:06 +0300</lastBuildDate>
         <generator>Jekyll v3.8.5</generator>
         
         <item>
-            <title>How to cut costs in business in 2019? [Ultimate guide]</title>
-            <description>&lt;p&gt;This is my advanced guide to reduce your business costs without sacrificing quality.&lt;/p&gt;
+            <title>How to cut business costs in 2019? [Ultimate guide]</title>
+            <description>&lt;p&gt;This is my advanced guide on how to cut business costs without sacrificing quality.&lt;/p&gt;
 &lt;p&gt;Prior to writing this I've done quite a lot of research and I've also included some real-life examples from my
     experience.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;I've tried to be very comprehensive. This is the reason why this turned out to be 6000+ words post.
+    Feel free to use the &lt;a href=&quot;#table-contents&quot; title=&quot;Table of Contents&quot;&gt;Table of Contents&lt;/a&gt; below
+    to skip to the parts that interest you the most.&lt;/strong&gt;&lt;/p&gt;
+
 &lt;p&gt;I've intentionally avoided some cost reduction techniques, because in the end they'll bring more harm than good. I'll
-    add them to the &lt;a href=&quot;#bad-cost-cutting&quot;&gt;Bad cost cutting&lt;/a&gt; section.&lt;/p&gt;
+    add them to the &lt;a href=&quot;#bad-cost-cutting&quot; title=&quot;There are bad ways to cut costs&quot;&gt;Bad cost cutting&lt;/a&gt; section.&lt;/p&gt;
 
 &lt;p&gt;Before we begin I have to make 1 thing clear:&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;It will be best to implement these strategies before you actually need to.&lt;/strong&gt; You should look at this article more as a
@@ -40,7 +45,7 @@
         one of the main goals for every businessman.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;nav class=&quot;mb-5&quot;&gt;
-    &lt;h4 class=&quot;mb-3&quot;&gt;Table of contents&lt;/h4&gt;
+    &lt;h4 id=&quot;table-contents&quot; class=&quot;mb-3&quot;&gt;Table of contents&lt;/h4&gt;
     &lt;ul class=&quot;nav flex-column&quot;&gt;
         &lt;li&gt;
             &lt;a href=&quot;#general-tips&quot; title=&quot;The foundations of cost saving&quot;&gt;
@@ -626,10 +631,15 @@ up you must show up in the results, otherwise you risk losing a client.&lt;/p&gt
         href=&quot;https://en.wikipedia.org/wiki/C10k_problem&quot;&gt;a lot of clients at the same time&lt;/a&gt;.
 &lt;/p&gt;
 &lt;p&gt;Now a quick calculation:&lt;/p&gt;
-&lt;p&gt;Let's say you're paying for a small app (Slack is about $7 per month, per user). If you have 100 employees, that's
-    $700 per month, for a single app. That is $8400 on the first year. $16 800 for two years. &lt;strong&gt;That can cover the
-        costs for developing an enterprise chat application.&lt;/strong&gt;
+&lt;p&gt;Let's say you're paying for a small app (Slack is about $7 per month, per user). If you have 100 employees, that
+    ammounts to $700 per month, for just one tool.&lt;/p&gt;
+
+&lt;p&gt;So for the first year it's $8400. Then if you add the second it's $16 800. And so on.&lt;/p&gt;
+&lt;p&gt;
+   &lt;strong&gt;That can cover the costs of developing a simpler enterprise chat application, that will still do the
+       job for you.&lt;/strong&gt; Provided you don't need every single feature of Slack.
 &lt;/p&gt;
+
 &lt;p&gt;You see how this can easily amount to piles of money going out of your company.&lt;/p&gt;
 
 &lt;p&gt;There are other problems as well:&lt;/p&gt;
