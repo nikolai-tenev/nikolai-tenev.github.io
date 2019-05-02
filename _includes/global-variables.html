@@ -9,9 +9,7 @@
         {%- if page.title.size < site.display_site_title_char_limit -%}
             {{- site.title -}}
         {%- endif -%}
-    {%- else %}
-        | {{ site.title -}}
-    {%- endif -%}
+    {%- else %} | {{ site.title -}}{%- endif -%}
 {%- endcapture -%}
 {%- capture meta_description -%}
     {%- if page.resume -%}
