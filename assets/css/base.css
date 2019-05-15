@@ -14,6 +14,14 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
 }
 
+a {
+    color: #6c184e;
+}
+
+a:hover {
+    color: #430e31;
+}
+
 .breadcrumb, .btn, input, textarea, input.form-control, textarea.form-control {
     border-radius: 0;
 }
@@ -97,10 +105,6 @@ h4 {
 #navbar-brand-link img {
     vertical-align: bottom;
     height: 39px;
-}
-
-.navbar-social-link img {
-    vertical-align: baseline;
 }
 
 .navbar-expand-lg .navbar-collapse {
@@ -237,8 +241,8 @@ h4 {
     }
 }
 
-#who-are-we h3, #what-we-can-do h3, #projects h3, #blog h1, #contacts h3, #contacts h1, #testimonials h3, #get-free-quote h3, #sitemap h1, #subscribe h3, #error h1 {
-    font-size: 3.3rem;
+.big-bold-heading {
+    font-size: 40px;
     font-weight: 900;
 }
 
@@ -299,25 +303,26 @@ h4 {
 }
 
 #technical-side h2 {
-    font-size: 40px;
-    font-weight: bold;
-    background-color: rgba(0, 0, 0, 0.7);
-    padding: 5px;
+    /*font-size: 40px;*/
+    /*font-weight: bold;*/
+    /*background-color: rgba(0, 0, 0, 0.7);*/
+    /*padding: 5px;*/
 }
 
 #technical-side {
-    color: #fff;
-    background: linear-gradient(
-            rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.5)
-    ), url("../img/tech.jpg"), no-repeat, center center, #000;
-    background-size: cover;
+    /*color: #fff;*/
+    background: #faf9f8;
+    /*background: linear-gradient(*/
+    /*        rgba(0, 0, 0, 0.5),*/
+    /*        rgba(0, 0, 0, 0.5)*/
+    /*), url("../img/tech.jpg"), no-repeat, center center, #000;*/
+    /*background-size: cover;*/
 }
 
 #technical-side p {
-    font-weight: bold;
-    background-color: rgba(0, 0, 0, 0.7);
-    padding: 5px;
+    /*font-weight: bold;*/
+    /*background-color: rgba(0, 0, 0, 0.7);*/
+    /*padding: 5px;*/
 }
 
 #projects {
@@ -465,14 +470,18 @@ h4 {
     text-decoration: underline;
 }
 
-#copyright .navbar a.active {
+#copyright .nav a.active {
     color: #b12b7e;
+}
+
+#copyright .social img {
+    max-width: 30px;
 }
 
 #copyright p, #copyright a {
     color: #fff;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 #single-project-page .single-post-header + .row, #single-post-page .single-post-header + .row {
@@ -874,10 +883,6 @@ nav .pagination.purple .page-item.active .page-link, nav .pagination.purple .pag
 
 .cta {
     font-size: 1.2rem;
-}
-
-#web-app-benefits {
-    font-size: 18px;
 }
 
 #share-buttons {

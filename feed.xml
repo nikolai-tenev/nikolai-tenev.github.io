@@ -5,8 +5,8 @@
         <description>DigidWorks provides application development services. We bring software and tech solutions to your business!</description>
         <link>https://digidworks.com/</link>
         <atom:link href="https://digidworks.com/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 13 May 2019 15:01:58 +0300</pubDate>
-        <lastBuildDate>Mon, 13 May 2019 15:01:58 +0300</lastBuildDate>
+        <pubDate>Wed, 15 May 2019 15:34:28 +0300</pubDate>
+        <lastBuildDate>Wed, 15 May 2019 15:34:28 +0300</lastBuildDate>
         <generator>Jekyll v3.8.5</generator>
         
         <item>
@@ -213,7 +213,7 @@
      title=&quot;Always monitor, analyze and optimize your business&quot;&gt;
 &lt;p&gt;I know it sounds a little bit generic, but this is probably &lt;em&gt;the most important and effective thing anybody can do in
     their efforts to reduce business expenditure, increase revenue and get the maximum &lt;a
-        href=&quot;https://www.investopedia.com/terms/r/returnoninvestment.asp&quot;&gt;return
+        href=&quot;https://www.investopedia.com/terms/r/returnoninvestment.asp&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;return
             for your investments&lt;/a&gt;&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;This is the reason why different business intelligence and management systems are so wide spread.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;They can give you invaluable insights about where you can easily make changes, that will be very profitable
@@ -221,9 +221,9 @@
 &lt;/p&gt;
 
 &lt;p&gt;My clients have shared all kinds of different findings with me, gathered with the help of their
-    &lt;a href=&quot;https://www.webopedia.com/TERM/E/ERP.html&quot; title=&quot;What is an ERP system&quot;&gt;ERPs&lt;/a&gt; and
-    &lt;a href=&quot;https://searchbusinessanalytics.techtarget.com/definition/business-intelligence-BI&quot;
-       title=&quot;What is business intelligence&quot;&gt;business intelligence&lt;/a&gt; systems.
+    &lt;a href=&quot;https://www.webopedia.com/TERM/E/ERP.html&quot; title=&quot;What is an ERP system&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;ERPs&lt;/a&gt; and
+    &lt;a href=&quot;https://searchbusinessanalytics.techtarget.com/definition/business-intelligence-BI&quot; target=&quot;_blank&quot;
+       rel=&quot;noopener&quot; title=&quot;What is business intelligence&quot;&gt;business intelligence&lt;/a&gt; systems.
 &lt;/p&gt;
 &lt;p&gt;From small things like:&lt;/p&gt;
 &lt;ul&gt;
@@ -278,15 +278,16 @@ If you accomplish the smaller steps, you have accomplished the big one as well.
 &lt;p&gt;&lt;em&gt;Even if you are OK at the moment it doesn't mean you shouldn't try to improve.&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;Some of the biggest companies in the world are successfully cutting costs with automation. &lt;a
-        href=&quot;https://www.cnbc.com/2018/10/30/alibaba-cainiao-chinas-biggest-robot-warehouse-for-singles-day.html&quot;&gt;At
-        &quot;Alibaba&quot; they use robots in their warehouses&lt;/a&gt;, &lt;a
-        href=&quot;https://blogs.wsj.com/japanrealtime/2015/08/21/fully-automated-lettuce-factory-to-open-in-japan/&quot;&gt;&quot;Spread&quot;
-        uses robotics to farm lettuce&lt;/a&gt; and &lt;a
-        href=&quot;https://www.reuters.com/article/adidas-manufacturing-idUSL8N13X3CQ20151209&quot;&gt;&quot;Adidas&quot;
-        uses robots to make running shoes&lt;/a&gt;.
+        href=&quot;https://www.cnbc.com/2018/10/30/alibaba-cainiao-chinas-biggest-robot-warehouse-for-singles-day.html&quot;
+        target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;At &quot;Alibaba&quot; they use robots in their warehouses&lt;/a&gt;, &lt;a
+        href=&quot;https://blogs.wsj.com/japanrealtime/2015/08/21/fully-automated-lettuce-factory-to-open-in-japan/&quot;
+        target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&quot;Spread&quot; uses robotics to farm lettuce&lt;/a&gt; and &lt;a
+        href=&quot;https://www.reuters.com/article/adidas-manufacturing-idUSL8N13X3CQ20151209&quot; target=&quot;_blank&quot;
+        rel=&quot;noopener&quot;&gt;&quot;Adidas&quot; uses robots to make running shoes&lt;/a&gt;.
 &lt;/p&gt;
 &lt;p&gt;There are many more examples, just check out what the guys at
-    &lt;a href=&quot;https://www.bostondynamics.com/&quot; title=&quot;Boston Dynamics&quot;&gt;Boston Dynamics&lt;/a&gt; are doing:&lt;/p&gt;
+    &lt;a href=&quot;https://www.bostondynamics.com/&quot; title=&quot;Boston Dynamics&quot; target=&quot;_blank&quot;
+       rel=&quot;noopener&quot;&gt;Boston Dynamics&lt;/a&gt; are doing:&lt;/p&gt;
 
 &lt;div class=&quot;embed-responsive embed-responsive-16by9 my-4&quot;&gt;
     &lt;iframe class=&quot;embed-responsive-item&quot; data-src=&quot;https://www.youtube-nocookie.com/embed/5iV_hB08Uns&quot;
@@ -413,27 +414,30 @@ If you accomplish the smaller steps, you have accomplished the big one as well.
 &lt;/p&gt;
 &lt;h4 id=&quot;coworking&quot;&gt;Use coworking office spaces or even work fully remotely.&lt;/h4&gt;
 &lt;p&gt;Now this can save a substantial amount of cash. &lt;a
-        href=&quot;https://www.forbes.com/sites/larryalton/2017/05/09/why-more-millennials-are-flocking-to-shared-office-spaces/&quot;&gt;Shared
+        href=&quot;https://www.forbes.com/sites/larryalton/2017/05/09/why-more-millennials-are-flocking-to-shared-office-spaces/&quot;
+        target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Shared
         offices are cheaper&lt;/a&gt; in comparison to renting or buying a traditional office.&lt;/p&gt;
 &lt;p&gt;Also you get the added benefit of somebody taking care of utilities, maintenance, etc.&lt;/p&gt;
 &lt;p&gt;If you want to expand this further and if your business allows it - you can offer telecommuting or even go the fully
     remote (or office-free) way. A lot of companies are doing this and
-    &lt;a href=&quot;https://www.forbes.com/sites/laurashin/2017/01/31/work-from-home-in-2017-the-top-100-companies-offering-remote-jobs/&quot;&gt;the
-        trend is going up&lt;/a&gt;.
+    &lt;a href=&quot;https://www.forbes.com/sites/laurashin/2017/01/31/work-from-home-in-2017-the-top-100-companies-offering-remote-jobs/&quot;
+       target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;the trend is going up&lt;/a&gt;.
 &lt;/p&gt;
 &lt;p&gt;It's good for office morale and for your wallet. Working remotely usually means happier employees, which is always a
     good thing. But it'll also potentially save you from utility costs (like
     electricity, water, internet, etc.) and office space.
 &lt;/p&gt;
-&lt;p&gt;Besides reducing costs, this way of working has other benefits. The &lt;a href=&quot;https://www.ohio.edu/&quot;&gt;University of
+&lt;p&gt;Besides reducing costs, this way of working has other benefits. The &lt;a href=&quot;https://www.ohio.edu/&quot;  target=&quot;_blank&quot;
+                                                                          rel=&quot;noopener&quot;&gt;University of
         Ohio&lt;/a&gt; created a
-    &lt;a href=&quot;https://onlinemasters.ohio.edu/blog/how-telecommuting-can-save-businesses-money/&quot;&gt;very
-        nice article and infographic on the topic&lt;/a&gt;, which you can check out here:
+    &lt;a href=&quot;https://onlinemasters.ohio.edu/blog/how-telecommuting-can-save-businesses-money/&quot; target=&quot;_blank&quot;
+       rel=&quot;noopener&quot;&gt;very nice article and infographic on the topic&lt;/a&gt;, which you can check out here:
 &lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;(After that I'm talking about a potential issue with remote work and how to solve it)&lt;/strong&gt;
 &lt;/p&gt;
 &lt;p style=&quot;clear:both;margin-bottom:20px;&quot;&gt;
-    &lt;a href=&quot;https://onlinemasters.ohio.edu/blog/how-telecommuting-can-save-businesses-money/&quot;&gt;
+    &lt;a href=&quot;https://onlinemasters.ohio.edu/blog/how-telecommuting-can-save-businesses-money/&quot; target=&quot;_blank&quot;
+       rel=&quot;noopener&quot;&gt;
         &lt;img data-src=&quot;https://s3.amazonaws.com/utep-uploads/wp-content/uploads/sparkle-box/2018/03/22163308/telecommuting-can-save-businesses-money-image.jpg&quot;
              alt=&quot;Telecommuting Can Save Businesses Money infographic&quot; style=&quot;max-width:100%;&quot;/&gt;
     &lt;/a&gt;
@@ -444,15 +448,15 @@ If you accomplish the smaller steps, you have accomplished the big one as well.
     that you might have personnel in different time zones), task assignments, file sharing, etc.
 &lt;/p&gt;
 &lt;p&gt;My experience shows that technology can help a lot for this. You have different issue tracking systems like: &lt;a
-        href=&quot;https://www.atlassian.com/software/jira&quot;&gt;JIRA&lt;/a&gt;,
+        href=&quot;https://www.atlassian.com/software/jira&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;JIRA&lt;/a&gt;,
     &lt;a
-        href=&quot;https://asana.com/&quot;&gt;Asana&lt;/a&gt;, &lt;a
-        href=&quot;https://trello.com&quot;&gt;Trello&lt;/a&gt;. Everybody is using
+        href=&quot;https://asana.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Asana&lt;/a&gt;, &lt;a
+        href=&quot;https://trello.com&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Trello&lt;/a&gt;. Everybody is using
     messaging apps nowadays, so I'm only going to mention Skype, Slack and &lt;a
-        href=&quot;https://hangouts.google.com/&quot;&gt;Google Hangouts&lt;/a&gt;
+        href=&quot;https://hangouts.google.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Google Hangouts&lt;/a&gt;
     as the most popular ones. File sharing is also pretty easy: &lt;a
-        href=&quot;https://www.dropbox.com/&quot;&gt;DropBox&lt;/a&gt;, &lt;a
-        href=&quot;https://www.google.com/drive/&quot;&gt;Google Drive&lt;/a&gt; are
+        href=&quot;https://www.dropbox.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;DropBox&lt;/a&gt;, &lt;a
+        href=&quot;https://www.google.com/drive/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Google Drive&lt;/a&gt; are
     just 2 of the many alternatives you can use.
 
     In the end it all comes down to preference, but the more things you can do with one app and the more it's suited for
@@ -464,15 +468,15 @@ If you accomplish the smaller steps, you have accomplished the big one as well.
      alt=&quot;Most meetings waste valuable time&quot;
      title=&quot;Most meetings waste valuable time&quot;&gt;
 &lt;p&gt;Yes, that's right, unless you're actually making key decisions or making money &lt;a
-        href=&quot;https://www.inc.com/jeff-haden/why-99-percent-of-all-meetings-are-a-complete-wast.html&quot;&gt;you're
-        wasting time&lt;/a&gt;.
+        href=&quot;https://www.inc.com/jeff-haden/why-99-percent-of-all-meetings-are-a-complete-wast.html&quot; target=&quot;_blank&quot;
+        rel=&quot;noopener&quot;&gt;you're wasting time&lt;/a&gt;.
 &lt;/p&gt;
 &lt;p&gt;Often people tend to steer off of the agenda, talk about unrelated stuff and also forget about things they talked
     about later.
 &lt;/p&gt;
 &lt;p&gt;You can easily drop most of the meetings if you use some kind of &lt;a
-        href=&quot;https://en.wikipedia.org/wiki/Comparison_of_project_management_software&quot;&gt;team
-        tracking, organization and management app&lt;/a&gt;.
+        href=&quot;https://en.wikipedia.org/wiki/Comparison_of_project_management_software&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
+        team tracking, organization and management app&lt;/a&gt;.
 &lt;/p&gt;
 &lt;p&gt;This way you will gain the following benefits:&lt;/p&gt;
 &lt;ul&gt;
@@ -525,14 +529,14 @@ If you accomplish the smaller steps, you have accomplished the big one as well.
 &lt;/p&gt;
 &lt;p&gt;I can give an example with myself:&lt;/p&gt;
 &lt;p&gt;This website is hosted for free on &lt;a href=&quot;https://pages.github.com/&quot; title=&quot;GitHub Pages&quot;
-                                         target=&quot;_blank&quot;&gt;github&lt;/a&gt;, using free caching from
-    &lt;a href=&quot;https://www.cloudflare.com/&quot; title=&quot;Cloudflare&quot; target=&quot;_blank&quot;&gt;cloudflare&lt;/a&gt;. I'm using the
-    &lt;a href=&quot;https://jekyllrb.com/&quot; title=&quot;Jekyll - Free static blog system&quot; target=&quot;_blank&quot;&gt;free blogging platform jekyll&lt;/a&gt;
+                                         target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;github&lt;/a&gt;, using free caching from
+    &lt;a href=&quot;https://www.cloudflare.com/&quot; title=&quot;Cloudflare&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;cloudflare&lt;/a&gt;. I'm using the
+    &lt;a href=&quot;https://jekyllrb.com/&quot; title=&quot;Jekyll - Free static blog system&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;free blogging platform jekyll&lt;/a&gt;
     to generate it and I'm writing this post for free in my google docs, running on my
-    &lt;a href=&quot;https://www.archlinux.org/&quot; title=&quot;Arch Linux&quot; target=&quot;_blank&quot;&gt;free Arch Linux operating system&lt;/a&gt;. I'm
-    editing images in &lt;a href=&quot;https://www.gimp.org/&quot; title=&quot;GNU image manipulation program&quot; target=&quot;_blank&quot;&gt;GIMP&lt;/a&gt;,
-    &lt;a href=&quot;https://krita.org/&quot; title=&quot;Professional FREE and open source painting program&quot; target=&quot;_blank&quot;&gt;Krita&lt;/a&gt;
-    or &lt;a href=&quot;https://inkscape.org/&quot; title=&quot;Professional vector graphics editor &quot; target=&quot;_blank&quot;&gt;Inkscape&lt;/a&gt;
+    &lt;a href=&quot;https://www.archlinux.org/&quot; title=&quot;Arch Linux&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;free Arch Linux operating system&lt;/a&gt;. I'm
+    editing images in &lt;a href=&quot;https://www.gimp.org/&quot; title=&quot;GNU image manipulation program&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;GIMP&lt;/a&gt;,
+    &lt;a href=&quot;https://krita.org/&quot; title=&quot;Professional FREE and open source painting program&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Krita&lt;/a&gt;
+    or &lt;a href=&quot;https://inkscape.org/&quot; title=&quot;Professional vector graphics editor &quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Inkscape&lt;/a&gt;
     which are all free.
 &lt;/p&gt;
 &lt;p&gt;Alright, next one is connected to this:&lt;/p&gt;
@@ -545,7 +549,7 @@ up you must show up in the results, otherwise you risk losing a client.&lt;/p&gt
 &lt;ul&gt;
     &lt;li&gt;
         In most of the cases you don't really need a custom made
-        &lt;a href=&quot;https://en.wikipedia.org/wiki/Content_management_system&quot; title=&quot;What's a CMS&quot; target=&quot;_blank&quot;&gt;CMS&lt;/a&gt;.
+        &lt;a href=&quot;https://en.wikipedia.org/wiki/Content_management_system&quot; title=&quot;What's a CMS&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;CMS&lt;/a&gt;.
         You can use wordpress, joomla, drupal or even jekyll if you're OK with a more technical solution (as I
         mentioned in the previous section - that's the one I'm using).
     &lt;/li&gt;
@@ -600,7 +604,7 @@ up you must show up in the results, otherwise you risk losing a client.&lt;/p&gt
 &lt;p&gt;The only problem is:&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;The benefits of always being on the bleeding edge of technology are at best debatable for most.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;As for the per user cost - it's often caused by the fact that the provider is trying to serve &lt;a
-        href=&quot;https://en.wikipedia.org/wiki/C10k_problem&quot;&gt;a lot of clients at the same time&lt;/a&gt;.
+        href=&quot;https://en.wikipedia.org/wiki/C10k_problem&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;a lot of clients at the same time&lt;/a&gt;.
 &lt;/p&gt;
 &lt;p&gt;Now a quick calculation:&lt;/p&gt;
 &lt;p&gt;Let's say you're paying for a small app (Slack is about $7 per month, per user). If you have 100 employees, that
@@ -642,9 +646,9 @@ up you must show up in the results, otherwise you risk losing a client.&lt;/p&gt
     than 5%. But we do use high-end SSDs &lt;strong&gt;despite their high cost, because the gain is
         significant.&lt;/strong&gt;
 &lt;/p&gt;
-&lt;p&gt;We do use a &lt;a href=&quot;https://en.wikipedia.org/wiki/Rolling_release&quot;&gt;rolling-release&lt;/a&gt; linux operating system (&lt;a
-        href=&quot;https://www.archlinux.org/&quot;&gt;Arch Linux&lt;/a&gt;) in order to always have up-to-date software, again because we
-    need this and it's very beneficial to us.
+&lt;p&gt;We do use a &lt;a href=&quot;https://en.wikipedia.org/wiki/Rolling_release&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;rolling-release&lt;/a&gt;
+    linux operating system (&lt;a href=&quot;https://www.archlinux.org/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Arch Linux&lt;/a&gt;) in
+    order to always have up-to-date software, again because we need this and it's very beneficial to us.
 &lt;/p&gt;
 &lt;p&gt;Even if you own a restaurant - a new high-end coffee maker will be better than an old one - it'll work faster, it'll
     make better coffee and it'll break down less often.
@@ -702,8 +706,10 @@ up you must show up in the results, otherwise you risk losing a client.&lt;/p&gt
 &lt;p&gt;This one is a bit counter intuitive and controversial.&lt;/p&gt;
 
 &lt;p&gt;Just bare with me:&lt;/p&gt;
-&lt;p&gt;Recent studies report that &lt;a href=&quot;https://phys.org/news/2018-07-four-day-weeks-days.html&quot;&gt;reduced working hours
-        actually pay off&lt;/a&gt; and that &lt;a href=&quot;https://www.vouchercloud.com/resources/office-worker-productivity&quot;&gt;the
+&lt;p&gt;Recent studies report that &lt;a href=&quot;https://phys.org/news/2018-07-four-day-weeks-days.html&quot; target=&quot;_blank&quot;
+                                 rel=&quot;noopener&quot;&gt;reduced working hours
+        actually pay off&lt;/a&gt; and that &lt;a href=&quot;https://www.vouchercloud.com/resources/office-worker-productivity&quot;
+                                         target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;the
         average worker is clocking in no more than 3-4 hours&lt;/a&gt;. This applies especially to creative activities or
     ones that involve a lot of thinking. So if your type of business allows it, you could reduce working hours a bit.
 &lt;/p&gt;
@@ -746,7 +752,8 @@ up you must show up in the results, otherwise you risk losing a client.&lt;/p&gt
 &lt;/p&gt;
 &lt;p&gt;
     If phone calls are a significant part of your business again you can benefit from digital services. Landlines
-    usually cost more than &lt;a href=&quot;https://en.wikipedia.org/wiki/Voice_over_IP&quot;&gt;VoIP&lt;/a&gt; and have worse quality.
+    usually cost more than &lt;a href=&quot;https://en.wikipedia.org/wiki/Voice_over_IP&quot; target=&quot;_blank&quot;
+                              rel=&quot;noopener&quot;&gt;VoIP&lt;/a&gt; and have worse quality.
 &lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;A lot of management can be digitalised as well&lt;/strong&gt;. This does not lead directly to cost cutting, but it
@@ -794,7 +801,8 @@ up you must show up in the results, otherwise you risk losing a client.&lt;/p&gt
 &lt;/ul&gt;
 &lt;ul&gt;
     &lt;li&gt;You can sell leftovers. There are &lt;a
-            href=&quot;http://fortune.com/2015/04/16/could-these-apps-solve-americas-huge-food-waste-problem/&quot;&gt;a
+            href=&quot;http://fortune.com/2015/04/16/could-these-apps-solve-americas-huge-food-waste-problem/&quot;
+            target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;a
             ton of initiatives out there for restaurants, cafes and all other types of food joints trying to reduce
             food waste&lt;/a&gt;. Some of them sell the food at lower prices at the end of the day, others just give it away.
     &lt;/li&gt;
@@ -830,14 +838,17 @@ up you must show up in the results, otherwise you risk losing a client.&lt;/p&gt
 &lt;/p&gt;
 &lt;h4 id=&quot;electric&quot;&gt;Save on the electric bill.&lt;/h4&gt;
 &lt;p&gt;
-    &lt;a href=&quot;https://www.erc-co.org/spooky-statistics-about-energy-and-water-waste/&quot;&gt;You won't believe how much energy
+    &lt;a href=&quot;https://www.erc-co.org/spooky-statistics-about-energy-and-water-waste/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;You
+        won't believe how much energy
         is wasted every day&lt;/a&gt;, despite the fact that smart devices and &lt;a
-        href=&quot;https://www.forbes.com/sites/jacobmorgan/2014/05/13/simple-explanation-internet-things-that-anyone-can-understand/&quot;&gt;IoT&lt;/a&gt;
+        href=&quot;https://www.forbes.com/sites/jacobmorgan/2014/05/13/simple-explanation-internet-things-that-anyone-can-understand/&quot;
+        target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;IoT&lt;/a&gt;
     have already entered our lives.
 &lt;/p&gt;
 &lt;p&gt;Interesting fact:&lt;/p&gt;
 
-&lt;p&gt;Leaving the lights on in the office overnight &lt;a href=&quot;https://www.environment.admin.cam.ac.uk/facts-figures&quot;&gt;wastes
+&lt;p&gt;Leaving the lights on in the office overnight &lt;a href=&quot;https://www.environment.admin.cam.ac.uk/facts-figures&quot;
+                                                    target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;wastes
         enough energy to make 1000 cups of tea&lt;/a&gt;.
 &lt;/p&gt;
 &lt;p&gt;Not to mention air conditioning, computers, etc. So integrating a smart system, that will turn off every device when
@@ -907,19 +918,20 @@ up you must show up in the results, otherwise you risk losing a client.&lt;/p&gt
 &lt;/div&gt;
 
 &lt;p&gt;The finance sector is changing rapidly due to the mainstream adoption of technology.&lt;/p&gt;
-&lt;p&gt;There are a lot of &lt;a href=&quot;https://www.investopedia.com/terms/f/fintech.asp&quot;&gt;new finance services&lt;/a&gt;
-    emerging that could give you a lot more bang for your buck.
+&lt;p&gt;There are a lot of &lt;a href=&quot;https://www.investopedia.com/terms/f/fintech.asp&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;new
+        finance services&lt;/a&gt; emerging that could give you a lot more bang for your buck.
 &lt;/p&gt;
 &lt;p&gt;One good example are wire transfers, especially if currency conversion is involved.&lt;/p&gt;
 &lt;p&gt;Traditional banks usually give you absurd conversion rates and pretty bad transfer fees. Instead you can use one of
-    the many money transfer services (like &lt;a href=&quot;https://transferwise.com/&quot;&gt;TransferWise&lt;/a&gt;) with pretty much no
+    the many money transfer services (like &lt;a href=&quot;https://transferwise.com/&quot; target=&quot;_blank&quot;
+                                              rel=&quot;noopener&quot;&gt;TransferWise&lt;/a&gt;) with pretty much no
     fees and with reasonable conversion rates. &lt;strong&gt;I can tell you from personal experience, that this is actually
     saving me a lot of expenses.&lt;/strong&gt; But more importantly it's a much more convenient and time-saving alternative.
 &lt;/p&gt;
 
 &lt;p&gt;If you're using management software you can integrate payments in it. There are a lot of different
-payment providers (like &lt;a href=&quot;https://stripe.com/&quot; title=&quot;Stripe&quot; target=&quot;_blank&quot;&gt;Stripe&lt;/a&gt; or
-    &lt;a href=&quot;https://www.paypal.com&quot; title=&quot;PayPal&quot; target=&quot;_blank&quot;&gt;PayPal&lt;/a&gt;) making it possible to easily make
+payment providers (like &lt;a href=&quot;https://stripe.com/&quot; title=&quot;Stripe&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Stripe&lt;/a&gt; or
+    &lt;a href=&quot;https://www.paypal.com&quot; title=&quot;PayPal&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;PayPal&lt;/a&gt;) making it possible to easily make
     payments from pretty much any application.
 &lt;/p&gt;
 
@@ -962,7 +974,7 @@ payment providers (like &lt;a href=&quot;https://stripe.com/&quot; title=&quot;S
 &lt;/p&gt;
 &lt;p&gt;Some of the easier steps to start walking towards the brand status are to post on specialized forums in order to show
     your expertise, maybe run a blog or post regularly in a magazine to gain more
-    popularity, answer on platforms like &lt;a href=&quot;https://www.quora.com/&quot;&gt;quora&lt;/a&gt;, etc.&lt;/p&gt;
+    popularity, answer on platforms like &lt;a href=&quot;https://www.quora.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;quora&lt;/a&gt;, etc.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;In general digital marketing gives you much more bang for your buck.&lt;/em&gt; Thus helping in the reduction of
 the expenses for advertisements.
 &lt;/p&gt;
@@ -1061,8 +1073,8 @@ the expenses for advertisements.
     if a new, better platform arises.&lt;/p&gt;
 
     &lt;p&gt;The link to the GitHub repo is here -
-        &lt;a href=&quot;https://github.com/nikolai-tenev/smart-notifier-frontend&quot; target=&quot;_blank&quot; title=&quot;Front end github repo&quot;&gt;front end&lt;/a&gt;,
-        &lt;a href=&quot;https://github.com/nikolai-tenev/smart-notifier-backend&quot; target=&quot;_blank&quot; title=&quot;Back end github repo&quot;&gt;back end&lt;/a&gt;.&lt;/p&gt;
+        &lt;a href=&quot;https://github.com/nikolai-tenev/smart-notifier-frontend&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; title=&quot;Front end github repo&quot;&gt;front end&lt;/a&gt;,
+        &lt;a href=&quot;https://github.com/nikolai-tenev/smart-notifier-backend&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; title=&quot;Back end github repo&quot;&gt;back end&lt;/a&gt;.&lt;/p&gt;
 
     &lt;h3&gt;How to use it&lt;/h3&gt;
 
@@ -1190,7 +1202,7 @@ the expenses for advertisements.
 
     &lt;p&gt;One cool option, that GitLab gives you, is that you can enter names and values of variables in your account for later use in the &lt;code&gt;.gitlab-ci.yml&lt;/code&gt; file. This way your sensitive data
         will be protected from the public. At the time of writing, the variables are entered through Project -&gt; Settings -&gt; Pipelines -&gt; Secret Variables. The documentation of GitLab CI is
-        &lt;a href=&quot;https://docs.gitlab.com/ce/ci/&quot; target=&quot;_blank&quot; title=&quot;GitLab CI docs&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+        &lt;a href=&quot;https://docs.gitlab.com/ce/ci/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; title=&quot;GitLab CI docs&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
     &lt;h2&gt;What exactly did I do?&lt;/h2&gt;
 
