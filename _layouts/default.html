@@ -148,36 +148,69 @@
         </button>
 
         <div class="collapse navbar-collapse" id="main-navbar-collapsed-content">
-            {% include navbar.html ulClasses="mx-auto" %}
-            {% comment -%}
-            {% for item in site.data.social_profiles.items %}
-                <a class="navbar-social-link" href="{{ item[1].url }}" target="_blank" title="{{ item[1].title }}">
-                    <img class="w-20 mr-1" src="{{ item[1].img }}" alt="{{ item[1].title }}" title="{{ item[1].title }}">
-                </a>
-            {% endfor %}
-            {%- endcomment -%}
+            {% include navbar.html ulClasses="navbar-nav mx-auto" %}
         </div>
     </nav>
     {{ content }}
     <footer id="copyright" class="row py-3 text-justify text-md-left mt-auto">
-        <div class="col-md-3 py-2 py-md-0 d-flex align-items-center justify-content-around justify-content-md-start">
-            <a class="no-underline mr-3" href="{{ site.data.navigation.items.home.url | relative_url }}"
-               title="{{ site.name }} | {{ site.title }}">
-                <img class="img-fluid" src="{{ site.logo_small_svg }}" alt="{{ site.name }} | {{ site.title }}"
-                     title="{{ site.name }} | {{ site.title }}">
-            </a>
-            <a class="py-3 color-orange" href="{{ site.data.navigation.other.sitemap | relative_url }}"
-               title="{{ site.name }}' sitemap - check out everything in one place">
-                Sitemap
-            </a>
-        </div>
-        <div class="col-md-4 py-2 py-md-0 d-flex align-items-center justify-content-around justify-content-md-start">
-            <nav class="navbar navbar-expand">
-                {% include navbar.html %}
-            </nav>
-        </div>
-        <div class="col-md-5 py-2 py-md-0 d-flex align-items-center justify-content-around justify-content-md-end">
-            <p class="my-0 pr-2 text-center text-md-left">{{ site.name }} | {{ site.title }}. All rights reserved - {{ site.time | date: '%Y' }}©</p>
+        <div class="col-12">
+            <div class="row pb-3">
+                <div class="col-12">
+                    {% include navbar.html ulClasses="nav justify-content-center" liClasses="nav-item px-md-3" %}
+                </div>
+            </div>
+            <div class="row pb-3">
+                <div class="col-12">
+                    <ul class="social nav justify-content-center">
+                        <li class="nav-item px-3">
+                            <a class="d-inline-block pr-md-2" href="{{ site.data.social_profiles.items.linkedin.url }}"
+                               aria-label="{{ site.data.social_profiles.items.linkedin.title }}"
+                               title="{{ site.data.social_profiles.items.linkedin.title }}"
+                               rel="noopener" target="_blank">
+                                <img src="{{ site.data.social_profiles.items.linkedin.img }}"
+                                     alt="{{ site.data.social_profiles.items.linkedin.title }}"
+                                     title="{{ site.data.social_profiles.items.linkedin.title }}">
+                            </a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a class="d-inline-block pl-md-2" href="{{ site.data.social_profiles.items.twitter.url }}"
+                               aria-label="{{ site.data.social_profiles.items.twitter.title }}"
+                               title="{{ site.data.social_profiles.items.twitter.title }}"
+                               rel="noopener" target="_blank">
+                                <img src="{{ site.data.social_profiles.items.twitter.img }}"
+                                     alt="{{ site.data.social_profiles.items.twitter.title }}"
+                                     title="{{ site.data.social_profiles.items.twitter.title }}">
+                            </a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a class="d-inline-block" href="{{ site.data.social_profiles.items.facebook.url }}"
+                               aria-label="{{ site.data.social_profiles.items.facebook.title }}"
+                               title="{{ site.data.social_profiles.items.facebook.title }}"
+                               rel="noopener" target="_blank">
+                                <img src="{{ site.data.social_profiles.items.facebook.img }}"
+                                     alt="{{ site.data.social_profiles.items.facebook.title }}"
+                                     title="{{ site.data.social_profiles.items.facebook.title }}">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 py-2 py-md-0 d-flex align-items-center justify-content-around justify-content-md-start">
+                    <a class="no-underline mr-3" href="{{ site.data.navigation.items.home.url | relative_url }}"
+                       title="{{ site.name }} | {{ site.title }}">
+                        <img class="img-fluid" src="{{ site.logo_small_svg }}" alt="{{ site.name }} | {{ site.title }}"
+                             title="{{ site.name }} | {{ site.title }}">
+                    </a>
+                    <a class="py-3 color-orange" href="{{ site.data.navigation.other.sitemap | relative_url }}"
+                       title="{{ site.name }}' sitemap - check out everything in one place">
+                        Sitemap
+                    </a>
+                </div>
+                <div class="col-md-9 py-2 py-md-0 d-flex align-items-center justify-content-around justify-content-md-end">
+                    <p class="my-0 pr-2 text-center text-md-left">{{ site.name }} | {{ site.title }}. All rights reserved - {{ site.time | date: '%Y' }}©</p>
+                </div>
+            </div>
         </div>
     </footer>
 </div>

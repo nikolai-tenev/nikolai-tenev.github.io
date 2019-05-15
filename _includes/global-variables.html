@@ -24,7 +24,7 @@
     {%- if page.thumbnails and page.thumbnails.full -%}
         {{- page.thumbnails.full | absolute_url -}}
     {%- else -%}
-        {{- site.logo | absolute_url -}}
+        {{- site.logo_social | absolute_url -}}
     {%- endif -%}
 {%- endcapture -%}
 {%- assign head_title = head_title | strip_html | strip_newlines | strip | replace: '  ', ' ' -%}

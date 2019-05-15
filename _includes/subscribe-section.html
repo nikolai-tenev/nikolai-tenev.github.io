@@ -3,7 +3,7 @@
         <div class="row">
             <div class="offset-1 col-10 offset-lg-3 col-lg-6 text-right">
                 {% assign allTags = page.tags | join -%}
-                <h3 class="mb-3">Want some more {% if allTags contains "business" or allTags contains "management" or allTags contains "companies" or allTags contains "company" %} business{% else %} code{% endif %}?</h3>
+                <h3 class="big-bold-heading mb-3">Want some more <span class="color-orange">{% if allTags contains "business" or allTags contains "management" or allTags contains "companies" or allTags contains "company" %} business{% else %} code{% endif %}</span>?</h3>
                 <div class="slogan-underline-delim mb-5 mr-0"></div>
                 <p class="font-weight-bolder">Subscribe! This way you'll get tips on how to optimize, automate and manage more efficiently.</p>
             </div>
@@ -11,7 +11,7 @@
         <div class="row">
             <div class="offset-1 col-10 offset-lg-3 col-lg-6 text-right">
                 <form action="https://gmail.us20.list-manage.com/subscribe/post?u=7176421fedb2c7dcd68297cfa&id=d90e03c4a5"
-                      method="post" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                      method="post" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate rel="noopener">
                     <div class="form-group row justify-content-end">
                         <div class="col-sm-7">
                             <input id="subscribeEmail" class="form-control h-100" type="email" value="" name="EMAIL" placeholder="Email" required>
