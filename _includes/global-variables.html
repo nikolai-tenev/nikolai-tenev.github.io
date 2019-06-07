@@ -30,3 +30,17 @@
 {%- endcapture -%}
 {%- assign head_title = head_title | strip_html | strip_newlines | strip | replace: '  ', ' ' -%}
 {%- assign meta_description = meta_description | strip_html | strip_newlines | strip | replace: '  ', ' ' -%}
+{%- if paginator -%}
+    {%- capture additional_link_tags -%}
+    {%- if paginator.page == 1 -%}
+        <link rel="next" href="{{ paginator.next_page_path | absolute_url }}">
+    {%- else if paginator.page > 1 -%}
+        {%- if paginator.page < paginator.last_page -%}
+            <link rel="prev" href="{{ paginator.previous_page_path | absolute_url }}">
+            <link rel="next" href="{{ paginator.next_page_path | absolute_url }}">
+        {%- else -%}
+            <link rel="prev" href="{{ paginator.previous_page_path | absolute_url }}">
+        {%- endif -%}
+    {%- endif -%}
+    {%- endcapture -%}
+{%- endif -%}

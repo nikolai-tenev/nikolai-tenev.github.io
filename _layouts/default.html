@@ -13,6 +13,7 @@
     {%- assign head_title = "" -%}
     {%- assign meta_description = "" -%}
     {%- assign page_image = "" -%}
+    {%- assign additional_link_tags = "" -%}
     {%- include global-variables.html %}
     <title>{{ head_title }}</title>
 
@@ -129,6 +130,8 @@
     <link rel="canonical" href="{{ page.url | replace: 'index.html', '' | absolute_url }}">
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} | {{ site.title }}" href="{{ "/feed.xml" | absolute_url }}">
     <link rel="sitemap" type="application/xml" title="Sitemap" href="{{ "/sitemap.xml" | absolute_url }}">
+
+    {{ additional_link_tags }}
 
     <meta name="google-site-verification" content="1_irwCWmloJ900cuEDmNr5RSH0tcTpqKNpVi-FDbnlU">
 </head>
