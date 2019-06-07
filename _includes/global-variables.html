@@ -19,6 +19,7 @@
     {%- else -%}
         {{- site.description -}}
     {%- endif -%}
+    {%- if paginator and paginator.page > 1 %} Page {{ paginator.page }}{%- endif -%}
 {%- endcapture -%}
 {%- capture page_image -%}
     {%- if page.thumbnails and page.thumbnails.full -%}
