@@ -5,8 +5,8 @@
         <description>DigidWorks provides application development services. We bring software and tech solutions to your business!</description>
         <link>https://digidworks.com/</link>
         <atom:link href="https://digidworks.com/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 11 Jun 2019 17:31:47 +0300</pubDate>
-        <lastBuildDate>Tue, 11 Jun 2019 17:31:47 +0300</lastBuildDate>
+        <pubDate>Thu, 13 Jun 2019 14:01:20 +0300</pubDate>
+        <lastBuildDate>Thu, 13 Jun 2019 14:01:20 +0300</lastBuildDate>
         <generator>Jekyll v3.8.5</generator>
         
         <item>
@@ -418,7 +418,7 @@ additional stuff as well.&lt;/p&gt;
         one of the main goals for every businessman.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;nav class=&quot;mb-5&quot;&gt;
-    &lt;h4 id=&quot;table-contents&quot; class=&quot;mb-3&quot;&gt;Table of contents&lt;/h4&gt;
+    &lt;h3 id=&quot;table-contents&quot; class=&quot;mb-3&quot;&gt;Table of contents&lt;/h3&gt;
     &lt;ul class=&quot;nav flex-column&quot;&gt;
         &lt;li&gt;
             &lt;a href=&quot;#general-tips&quot; title=&quot;The foundations of cost saving&quot;&gt;
@@ -579,8 +579,8 @@ additional stuff as well.&lt;/p&gt;
     &lt;/ul&gt;
 &lt;/nav&gt;
 &lt;p&gt;Now that we are past the disclaimer let's dive right in!&lt;/p&gt;
-&lt;h3 id=&quot;general-tips&quot;&gt;General tips for sustainable business cost reduction&lt;/h3&gt;
-&lt;h4 id=&quot;monitor-analyze-optimize&quot;&gt;Monitor, analyze, optimize.&lt;/h4&gt;
+&lt;h2 id=&quot;general-tips&quot;&gt;General tips for sustainable business cost reduction&lt;/h2&gt;
+&lt;h3 id=&quot;monitor-analyze-optimize&quot;&gt;Monitor, analyze, optimize.&lt;/h3&gt;
 &lt;img class=&quot;img-fluid&quot; data-src=&quot;/assets/img/posts/images/reduce-expenses-business-ultimate-guide/monitor-analyze-optimize.jpg&quot;
      alt=&quot;Always monitor, analyze and optimize your business&quot;
      title=&quot;Always monitor, analyze and optimize your business&quot;&gt;
@@ -613,7 +613,7 @@ additional stuff as well.&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;To some, who did major shifts, like changing their whole process, because they saw how this will
 help them reduce operating expenses.&lt;/p&gt;
-&lt;h4 id=&quot;planning&quot;&gt;Planning and budgeting.&lt;/h4&gt;
+&lt;h3 id=&quot;planning&quot;&gt;Planning and budgeting.&lt;/h3&gt;
 &lt;img class=&quot;img-fluid&quot; data-src=&quot;/assets/img/posts/images/reduce-expenses-business-ultimate-guide/planning-budgeting.jpg&quot;
      alt=&quot;Planning and budgeting are important for your business&quot;
      title=&quot;Planning and budgeting are important for your business&quot;&gt;
@@ -641,7 +641,7 @@ If you accomplish the smaller steps, you have accomplished the big one as well.
     such tools are great for planning. You'll be able to examine closely how your business functioned in
     previous periods, keeping everything on track.
 &lt;/p&gt;
-&lt;h4 id=&quot;automation&quot;&gt;Automate as much as possible.&lt;/h4&gt;
+&lt;h3 id=&quot;automation&quot;&gt;Automate as much as possible.&lt;/h3&gt;
 &lt;img class=&quot;img-fluid&quot; data-src=&quot;/assets/img/posts/images/reduce-expenses-business-ultimate-guide/automate.jpg&quot;
      alt=&quot;Automate to reduce expenses&quot;
      title=&quot;Automate to reduce expenses&quot;&gt;
@@ -689,7 +689,7 @@ If you accomplish the smaller steps, you have accomplished the big one as well.
     &lt;li&gt;You can automate price estimates, orders, invoices, billing, etc.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id=&quot;outsourcing&quot;&gt;Outsource everything you can.&lt;/h4&gt;
+&lt;h3 id=&quot;outsourcing&quot;&gt;Outsource everything you can.&lt;/h3&gt;
 &lt;img class=&quot;img-fluid&quot; data-src=&quot;/assets/img/posts/images/reduce-expenses-business-ultimate-guide/outsource.jpg&quot;
      alt=&quot;Outsourcing can save a lot of money and hassle&quot;
      title=&quot;Outsourcing can save a lot of money and hassle&quot;&gt;
@@ -726,8 +726,8 @@ If you accomplish the smaller steps, you have accomplished the big one as well.
 
 &lt;p&gt;Your only concern is probably going to be management. But provided you have the right management software you should
     be fine.&lt;/p&gt;
-&lt;h3 id=&quot;operational-costs&quot;&gt;Reduce operating expenses in business.&lt;/h3&gt;
-&lt;h4 id=&quot;erp-business-management-software&quot;&gt;Use ERP or other management software.&lt;/h4&gt;
+&lt;h2 id=&quot;operational-costs&quot;&gt;Reduce operating expenses in business.&lt;/h2&gt;
+&lt;h3 id=&quot;erp-business-management-software&quot;&gt;Use ERP or other management software.&lt;/h3&gt;
 
 &lt;p&gt;There's a reason why these tools are so widely adopted in businesses over the globe:&lt;/p&gt;
 
@@ -750,7 +750,7 @@ If you accomplish the smaller steps, you have accomplished the big one as well.
 &lt;p&gt;See how you can save easily on smaller things?&lt;/p&gt;
 
 &lt;p&gt;OK, next one:&lt;/p&gt;
-&lt;h4 id=&quot;fixed-assets&quot;&gt;Use your fixed assets as efficiently as you can.&lt;/h4&gt;
+&lt;h3 id=&quot;fixed-assets&quot;&gt;Use your fixed assets as efficiently as you can.&lt;/h3&gt;
 &lt;img class=&quot;img-fluid&quot; data-src=&quot;/assets/img/posts/images/reduce-expenses-business-ultimate-guide/efficient-assets.jpg&quot;
      alt=&quot;Using fixed assets efficiently can save money&quot;
      title=&quot;Using fixed assets efficiently can save money&quot;&gt;
@@ -786,7 +786,7 @@ If you accomplish the smaller steps, you have accomplished the big one as well.
 &lt;/p&gt;
 &lt;p&gt;My next tip is better suited for smaller businesses (of course it'll work well for medium sized companies as well):
 &lt;/p&gt;
-&lt;h4 id=&quot;coworking&quot;&gt;Use coworking office spaces or even work fully remotely.&lt;/h4&gt;
+&lt;h3 id=&quot;coworking&quot;&gt;Use coworking office spaces or even work fully remotely.&lt;/h3&gt;
 &lt;p&gt;Now this can save a substantial amount of cash. &lt;a
         href=&quot;https://www.forbes.com/sites/larryalton/2017/05/09/why-more-millennials-are-flocking-to-shared-office-spaces/&quot;
         target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Shared
@@ -837,7 +837,7 @@ If you accomplish the smaller steps, you have accomplished the big one as well.
     your specific needs - the better. You will easily save time and headaches if you
     can consolidate your management efforts in as little applications as possible or in a single customized one.
 &lt;/p&gt;
-&lt;h4 id=&quot;meetings&quot;&gt;Meetings are time wasters.&lt;/h4&gt;
+&lt;h3 id=&quot;meetings&quot;&gt;Meetings are time wasters.&lt;/h3&gt;
 &lt;img class=&quot;img-fluid&quot; data-src=&quot;/assets/img/posts/images/reduce-expenses-business-ultimate-guide/meetings-waste-time.jpg&quot;
      alt=&quot;Most meetings waste valuable time&quot;
      title=&quot;Most meetings waste valuable time&quot;&gt;
@@ -863,7 +863,7 @@ If you accomplish the smaller steps, you have accomplished the big one as well.
     &lt;li&gt;You don't have to do recaps and waste more time.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;em&gt;If you have remote workforce you'll save even more from travel expenses.&lt;/em&gt;&lt;/p&gt;
-&lt;h4 id=&quot;equipment&quot;&gt;Be smart about equipment.&lt;/h4&gt;
+&lt;h3 id=&quot;equipment&quot;&gt;Be smart about equipment.&lt;/h3&gt;
 &lt;img class=&quot;img-fluid&quot; data-src=&quot;/assets/img/posts/images/reduce-expenses-business-ultimate-guide/smart-equipment.jpg&quot;
      alt=&quot;Don't always buy new and expensive stuff&quot;
      title=&quot;Don't always buy new and expensive stuff&quot;&gt;
@@ -883,7 +883,7 @@ If you accomplish the smaller steps, you have accomplished the big one as well.
 &lt;p&gt;An advice from me:&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Don't waste money on stuff you don't really need.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;I'll talk more about this later in this post.&lt;/p&gt;
-&lt;h4 id=&quot;oss&quot;&gt;Use free or open source software.&lt;/h4&gt;
+&lt;h3 id=&quot;oss&quot;&gt;Use free or open source software.&lt;/h3&gt;
 &lt;p&gt;There's a free alternative to pretty much any computer program you might be using. You can save a lot of money if you
     start using these.
 &lt;/p&gt;
@@ -914,7 +914,7 @@ If you accomplish the smaller steps, you have accomplished the big one as well.
     which are all free.
 &lt;/p&gt;
 &lt;p&gt;Alright, next one is connected to this:&lt;/p&gt;
-&lt;h4 id=&quot;website&quot;&gt;Website.&lt;/h4&gt;
+&lt;h3 id=&quot;website&quot;&gt;Website.&lt;/h3&gt;
 &lt;p&gt;Before I give you the tips I must say this:&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Nowadays it's important for &lt;em&gt;every&lt;/em&gt; business to have a website.&lt;/strong&gt; Don't skimp on the cost
 of a good website. It doesn't matter if you'll be investing in digital marketing or not. If somebody tries to look you
@@ -946,7 +946,7 @@ up you must show up in the results, otherwise you risk losing a client.&lt;/p&gt
     &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;OK, time to move to the next one and this is:&lt;/p&gt;
-&lt;h4 id=&quot;recurring-payments&quot;&gt;Try to avoid recurring payments. &lt;/h4&gt;
+&lt;h3 id=&quot;recurring-payments&quot;&gt;Try to avoid recurring payments. &lt;/h3&gt;
 &lt;img class=&quot;img-fluid&quot; data-src=&quot;/assets/img/posts/images/reduce-expenses-business-ultimate-guide/recurring-payments.jpg&quot;
      alt=&quot;Avoiding recurring payments can save a lot&quot;
      title=&quot;Avoiding recurring payments can save a lot&quot;&gt;
@@ -1006,7 +1006,7 @@ up you must show up in the results, otherwise you risk losing a client.&lt;/p&gt
     The initial costs will be higher, but having no recurring licence payments will
     quickly catch up. Afterwards you only pay when you need additional stuff developed.
 &lt;/p&gt;
-&lt;h4 id=&quot;upgrade&quot;&gt;Upgrade.&lt;/h4&gt;
+&lt;h3 id=&quot;upgrade&quot;&gt;Upgrade.&lt;/h3&gt;
 &lt;p&gt;Your software, your hardware, your tools, your appliances, your offices, everything.&lt;/p&gt;
 &lt;p&gt;Here's why:&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;By upgrading old equipment you're gaining better performance.&lt;/strong&gt;&lt;/p&gt;
@@ -1036,7 +1036,7 @@ up you must show up in the results, otherwise you risk losing a client.&lt;/p&gt
 
 &lt;p&gt;Just be smart about it:&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Don't hesitate to buy the things that will make you money, but avoid unnecessary purchases.&lt;/em&gt;&lt;/p&gt;
-&lt;h4 id=&quot;employee-monitoring&quot;&gt;Employee monitoring.&lt;/h4&gt;
+&lt;h3 id=&quot;employee-monitoring&quot;&gt;Employee monitoring.&lt;/h3&gt;
 &lt;img class=&quot;img-fluid&quot; data-src=&quot;/assets/img/posts/images/reduce-expenses-business-ultimate-guide/employee-monitoring.jpg&quot;
      alt=&quot;It's important to know the strengths and weaknesses of your employees&quot;
      title=&quot;It's important to know the strengths and weaknesses of your employees&quot;&gt;
@@ -1058,7 +1058,7 @@ up you must show up in the results, otherwise you risk losing a client.&lt;/p&gt
 &lt;/p&gt;
 &lt;p&gt;Managing and task distribution becomes way easier, when you have the right data. &lt;strong&gt;Effective management
         is one of the best ways to reduce costs in business.&lt;/strong&gt;&lt;/p&gt;
-&lt;h4 id=&quot;reward-value&quot;&gt;Reward value given to the company.&lt;/h4&gt;
+&lt;h3 id=&quot;reward-value&quot;&gt;Reward value given to the company.&lt;/h3&gt;
 &lt;p&gt;Encourage your employees to give value to the company. &lt;em&gt;Rewarding for time spent in the workplace is kind of old
         school and it's not the most efficient tactic.&lt;/em&gt;
 &lt;/p&gt;
@@ -1073,7 +1073,7 @@ up you must show up in the results, otherwise you risk losing a client.&lt;/p&gt
 &lt;/p&gt;
 &lt;p&gt;All in all implementing this strategy should reduce operational costs, but more importantly - it should also
     increase employee output.&lt;/p&gt;
-&lt;h4 id=&quot;working-hours&quot;&gt;Reduce working hours.&lt;/h4&gt;
+&lt;h3 id=&quot;working-hours&quot;&gt;Reduce working hours.&lt;/h3&gt;
 &lt;img class=&quot;img-fluid&quot; data-src=&quot;/assets/img/posts/images/reduce-expenses-business-ultimate-guide/reduce-working-hours.jpg&quot;
      alt=&quot;Reducing working hours has potential benefits&quot;
      title=&quot;Reducing working hours has potential benefits&quot;&gt;
@@ -1090,7 +1090,7 @@ up you must show up in the results, otherwise you risk losing a client.&lt;/p&gt
 &lt;p&gt;This way you will gain from the increased productivity and save from office costs. &lt;strong&gt;Also don't forget the happiness
         factor.&lt;/strong&gt; Everybody at the office will love you for the improved work-life balance.
 &lt;em&gt;Happy employees are much more likely to bring greater value to your company than unhappy ones.&lt;/em&gt;&lt;/p&gt;
-&lt;h4 id=&quot;supplies&quot;&gt;Reduce supply expenditure.&lt;/h4&gt;
+&lt;h3 id=&quot;supplies&quot;&gt;Reduce supply expenditure.&lt;/h3&gt;
 &lt;p&gt;This can save a lot of money for some businesses like food joints, carpenters, car repair shops, construction businesses, etc.
 &lt;/p&gt;
 &lt;p&gt;You can monitor closely the usage of materials and try to optimize it.&lt;/p&gt;
@@ -1112,7 +1112,7 @@ up you must show up in the results, otherwise you risk losing a client.&lt;/p&gt
     appears is much more efficient and time saving than having to go through a bunch of
     price lists every week.
 &lt;/p&gt;
-&lt;h4 id=&quot;digital&quot;&gt;Go digital as much as you can.&lt;/h4&gt;
+&lt;h3 id=&quot;digital&quot;&gt;Go digital as much as you can.&lt;/h3&gt;
 &lt;p&gt;Printing is expensive, archiving stuff on paper even more so.&lt;/p&gt;
 &lt;p&gt;Since computers are a big part of our lives you can save a buck if you decide to &lt;strong&gt;drop printing and paper
         altogether.&lt;/strong&gt;
@@ -1158,7 +1158,7 @@ up you must show up in the results, otherwise you risk losing a client.&lt;/p&gt
     probably noticed that most of the problems mentioned in this article have a working solution using computers and
     software.&lt;/strong&gt;
 &lt;/p&gt;
-&lt;h4 id=&quot;production-costs&quot;&gt;Cut production costs.&lt;/h4&gt;
+&lt;h3 id=&quot;production-costs&quot;&gt;Cut production costs.&lt;/h3&gt;
 &lt;img class=&quot;img-fluid&quot; data-src=&quot;/assets/img/posts/images/reduce-expenses-business-ultimate-guide/cut-production-costs.jpg&quot;
      alt=&quot;How to reduce production costs&quot;
      title=&quot;How to reduce production costs&quot;&gt;
@@ -1186,7 +1186,7 @@ up you must show up in the results, otherwise you risk losing a client.&lt;/p&gt
         your overall expenditure significantly.
     &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&quot;vehicles&quot;&gt;Lower vehicle expenses.&lt;/h4&gt;
+&lt;h3 id=&quot;vehicles&quot;&gt;Lower vehicle expenses.&lt;/h3&gt;
 &lt;img class=&quot;img-fluid&quot; data-src=&quot;/assets/img/posts/images/reduce-expenses-business-ultimate-guide/vehicle-costs.jpg&quot;
      alt=&quot;Vehicles cost a lot&quot;
      title=&quot;Vehicles cost a lot&quot;&gt;
@@ -1210,7 +1210,7 @@ up you must show up in the results, otherwise you risk losing a client.&lt;/p&gt
 &lt;p&gt;A fleet management software can help a lot with this, alerting you whenever you need to change the oil or renew
     insurance, making proper usage schedules, etc.
 &lt;/p&gt;
-&lt;h4 id=&quot;electric&quot;&gt;Save on the electric bill.&lt;/h4&gt;
+&lt;h3 id=&quot;electric&quot;&gt;Save on the electric bill.&lt;/h3&gt;
 &lt;p&gt;
     &lt;a href=&quot;https://www.erc-co.org/spooky-statistics-about-energy-and-water-waste/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;You
         won't believe how much energy
@@ -1240,7 +1240,7 @@ up you must show up in the results, otherwise you risk losing a client.&lt;/p&gt
     &lt;/li&gt;
     &lt;li&gt;Use high quality insulation for your office buildings&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&quot;inventory&quot;&gt;Don't keep excess inventory on hand.&lt;/h4&gt;
+&lt;h3 id=&quot;inventory&quot;&gt;Don't keep excess inventory on hand.&lt;/h3&gt;
 &lt;p&gt;It might seem like a good idea to be &quot;well stocked&quot; but it actually leads to a lot of excess expenditure.&lt;/p&gt;
 &lt;p&gt;This is why:&lt;/p&gt;
 &lt;ol start=&quot;1&quot;&gt;
@@ -1267,7 +1267,7 @@ up you must show up in the results, otherwise you risk losing a client.&lt;/p&gt
     in order to sell for a higher price (investment asset), that's OK. Just make sure that the sale margin is bigger
     than what you paid to keep the asset.
 &lt;/p&gt;
-&lt;h3 id=&quot;financial&quot;&gt;Financial cost saving&lt;/h3&gt;
+&lt;h2 id=&quot;financial&quot;&gt;Financial cost saving&lt;/h2&gt;
 &lt;img class=&quot;img-fluid&quot; data-src=&quot;/assets/img/posts/images/reduce-expenses-business-ultimate-guide/financial-cost-saving.jpg&quot;
      alt=&quot;How to save from finance services&quot;
      title=&quot;How to save from finance services&quot;&gt;
@@ -1285,7 +1285,7 @@ up you must show up in the results, otherwise you risk losing a client.&lt;/p&gt
     better ones. If they don't do it, consider changing providers. This is a simple way to lower financial costs, that
     can be especially helpful for smaller businesses, where every dollar matters.
 &lt;/p&gt;
-&lt;h4 id=&quot;fintech&quot;&gt;Use fintech services&lt;/h4&gt;
+&lt;h3 id=&quot;fintech&quot;&gt;Use fintech services&lt;/h3&gt;
 
 &lt;div class=&quot;embed-responsive embed-responsive-16by9 my-4&quot;&gt;
     &lt;iframe class=&quot;embed-responsive-item&quot; data-src=&quot;https://www.youtube-nocookie.com/embed/-EoNrg_DR3s&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
@@ -1309,12 +1309,12 @@ payment providers (like &lt;a href=&quot;https://stripe.com/&quot; title=&quot;S
     payments from pretty much any application.
 &lt;/p&gt;
 
-&lt;h4 id=&quot;unneeded-services&quot;&gt;Check if you really need all the services you are currently using.&lt;/h4&gt;
+&lt;h3 id=&quot;unneeded-services&quot;&gt;Check if you really need all the services you are currently using.&lt;/h3&gt;
 &lt;p&gt;You might have a couple of overlapping insurances, a bank account you rarely use or something else. Whatever the case
     try and monitor for such things and remove them as soon as you can. Your business management tool should be able to
     help you with things like this.
 &lt;/p&gt;
-&lt;h4 id=&quot;late-payments&quot;&gt;Avoid late payments.&lt;/h4&gt;
+&lt;h3 id=&quot;late-payments&quot;&gt;Avoid late payments.&lt;/h3&gt;
 &lt;p&gt;Not as easy as it sounds, right?&lt;/p&gt;
 
 &lt;p&gt;You could be waiting to be paid yourself or you could be receiving a ton of invoices on a monthly basis and you're
@@ -1324,7 +1324,7 @@ payment providers (like &lt;a href=&quot;https://stripe.com/&quot; title=&quot;S
     you can also plan ahead to avoid not having enough cash on hand at the moment and
     having to pay more later.
 &lt;/p&gt;
-&lt;h3 id=&quot;marketing&quot;&gt;Marketing&lt;/h3&gt;
+&lt;h2 id=&quot;marketing&quot;&gt;Marketing&lt;/h2&gt;
 
 &lt;div class=&quot;embed-responsive embed-responsive-16by9 my-4&quot;&gt;
     &lt;iframe class=&quot;embed-responsive-item&quot; data-src=&quot;https://www.youtube-nocookie.com/embed/LUbqRwp8NXI&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
@@ -1352,7 +1352,7 @@ payment providers (like &lt;a href=&quot;https://stripe.com/&quot; title=&quot;S
 &lt;p&gt;&lt;em&gt;In general digital marketing gives you much more bang for your buck.&lt;/em&gt; Thus helping in the reduction of
 the expenses for advertisements.
 &lt;/p&gt;
-&lt;h3 id=&quot;bad-cost-cutting&quot;&gt;Bad cost cutting&lt;/h3&gt;
+&lt;h2 id=&quot;bad-cost-cutting&quot;&gt;Bad cost cutting&lt;/h2&gt;
 &lt;img class=&quot;img-fluid&quot; data-src=&quot;/assets/img/posts/images/reduce-expenses-business-ultimate-guide/bad-cost-cutting.jpg&quot;
      alt=&quot;There are also bad ways to cut costs&quot;
      title=&quot;There are also bad ways to cut costs&quot;&gt;
@@ -1394,7 +1394,7 @@ the expenses for advertisements.
     &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Of course there are more, but these aren't specific and apply to the majority of situations.&lt;/p&gt;
-&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
 &lt;p&gt;If you made it this far, I want to thank you for being so patient. I hope you found this article useful and the tips
     helped you.&lt;/p&gt;
 
