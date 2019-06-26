@@ -13,11 +13,71 @@ last_modified_at: 2019-06-25
     concept better.</p>
 <p>If you're using the Internet, chances are - you're already using web applications (or apps, for short). The whole G Suite, office 365, the whole ZOHO suite, Salesforce, HubSpot,
     FreshBooks, Dropbox, the browser version of Slack, etc. are all examples of web applications.</p>
-<h2>So what's the definition of a web application?</h2>
+
+<nav class="mb-5">
+    <h4 id="table-contents" class="mb-3">Table of contents</h4>
+    <ul class="nav flex-column">
+        <li><a href="#definition" title="So what's the definition of a web application?">So what's the definition of a web application?</a>
+            <ul>
+                <li><a href="#how-they-work" title="How web applications work?">How web applications work?</a></li>
+                <li><a href="#technical-details" title="Some technical details about the web apps">Some technical details about the web apps</a>
+                    <ul>
+                        <li><a href="#fe" title="Front end/client side technological stack">Front end/client side technological stack</a>
+                            <ul>
+                                <li><a href="#html" title="HTML">HTML</a></li>
+                                <li><a href="#css" title="CSS">CSS</a></li>
+                                <li><a href="#js" title="JavaScript">JavaScript</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#be" title="Back end/server side technological stack">Back end/server side technological stack</a>
+                            <ul>
+                                <li><a href="#java" title="Java">Java</a></li>
+                                <li><a href="#py" title="Python">Python</a></li>
+                                <li><a href="#csharp" title="C#">C#</a></li>
+                                <li><a href="#nodejs" title="JavaScript / Node.js">JavaScript / Node.js</a></li>
+                                <li><a href="#php" title="PHP">PHP</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li><a href="#vs-websites" title="Web applications vs. websites">Web applications vs. websites</a></li>
+        <li><a href="#vs-web-services" title="Web applications vs. web services">Web applications vs. web services</a></li>
+        <li><a href="#vs-mobile" title="Web applications vs. mobile applications">Web applications vs. mobile applications</a></li>
+        <li><a href="#pros-cons" title="Pros and cons of web applications">Pros and cons of web applications</a>
+            <ul>
+                <li><a href="#adv" title="Business advantages">Business advantages</a>
+                    <ul>
+                        <li><a href="#independent" title="Platform independent">Platform independent</a></li>
+                        <li><a href="#no-installation" title="No installation">No installation</a></li>
+                        <li><a href="#updates" title="Easy updates">Easy updates</a></li>
+                        <li><a href="#piracy" title="Less software piracy">Less software piracy</a></li>
+                        <li><a href="#dev-resources" title="Less resources for development">Less resources for development</a></li>
+                        <li><a href="#sandbox" title="Secure">Secure</a></li>
+                        <li><a href="#access" title="Access from everywhere">Access from everywhere</a></li>
+                        <li><a href="#backups" title="Easy data backups">Easy data backups</a></li>
+                        <li><a href="#analytics" title="Easier analytics">Easier analytics</a></li>
+                        <li><a href="#support" title="Easier support">Easier support</a></li>
+                    </ul>
+                </li>
+                <li><a href="#disadv" title="Disadvantages">Disadvantages</a>
+                    <ul>
+                        <li><a href="#performance" title="Performance and hardware access">Performance and hardware access</a></li>
+                        <li><a href="#sec" title="Security">Security</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li><a href="#conclusion" title="Conclusion">Conclusion</a></li>
+    </ul>
+</nav>
+
+<h2 id="definition">So what's the definition of a web application?</h2>
 <p><strong>A web application is any application that's developed using web technologies and is usually executed in a web browser, by going to a specific URL.</strong></p>
 <p>I'm saying <em>"usually executed"</em>, because in some use cases developers use <strong>"wrappers"</strong>. The role of the wrappers is to make the experience of using the web application
     indistinguishable from using a native desktop or mobile application.</p>
-<h3>How web applications work?</h3>
+<h3 id="how-they-work">How web applications work?</h3>
 {% include lazy-img.html src="/assets/img/posts/images/what-is-web-application-non-tech-explanation/inner-workings.jpg" alt="web applications inner workings" %}
 <p>Every web application consists of two parts:</p>
 <ul>
@@ -46,41 +106,41 @@ last_modified_at: 2019-06-25
     <li>Go to point 2.</li>
 </ol>
 <p>That's a very basic description, but it's enough to give you a good idea of what's going on behind the curtains.</p>
-<h3>Some technical details about the web apps</h3>
-<h4>Front end/client side technological stack</h4>
+<h3 id="technical-details">Some technical details about the web apps</h3>
+<h4 id="fe">Front end/client side technological stack</h4>
 {% include lazy-img.html src="/assets/img/posts/images/what-is-web-application-non-tech-explanation/html-css-js.jpg" alt="Front end technologies" %}
 <p>The technologies used to create the client side are usually JavaScript, HTML and CSS. There are others as well like Adobe Flash, Microsoft Silverlight, Java Applets, etc. but
     today they are almost extinct.</p>
-<h5>HTML</h5>
+<h5 id="html">HTML</h5>
 <p>HTML is the simplest tool of the mentioned above. It's used to describe the structure and content of the different screens (or pages if you prefer) of the web app.</p>
-<h5>CSS</h5>
+<h5 id="css">CSS</h5>
 <p>CSS is used solely to describe the visuals of a web app. This includes simple animations, fonts, colors, sizing and spacing, borders, etc.</p>
-<h5>JavaScript</h5>
+<h5 id="js">JavaScript</h5>
 <p>JavaScript is the most complex tool of the three. It's used for complex visual effects, communication with different services (including the web application's server) and everything else connected with the logic of the application.</p>
-<h4>Back end/server side technological stack</h4>
+<h4 id="be">Back end/server side technological stack</h4>
 {% include lazy-img.html src="/assets/img/posts/images/what-is-web-application-non-tech-explanation/java-server-side.jpg" alt="Back end technologies" %}
 <p>The server side is a bit more complicated. There are numerous options when it comes to serving your app, each with its own tools, languages, etc.</p>
 <p>I'll list some of the more widely used server side languages. I'm going to use {% include outside-link.html url="https://www.tiobe.com/tiobe-index/" text="a popular usage index from TIOBE" %}
 to rank them.</p>
-<h5>Java</h5>
+<h5 id="java">Java</h5>
 <p>This is one of the well-established languages. It has a great eco system of different tools, libraries, etc.</p>
 <p>Very often it's used in enterprise applications, because it's a secure, performant and flexible language providing developers with a lot of options.</p>
-<h5>Python</h5>
+<h5 id="py">Python</h5>
 <p>Another very wide-spread language with a vast number of libraries and tools.</p>
 <p>It's known for its rapid prototyping capabilities and it's frequently used to create different tools or MVPs quickly.</p>
 <p>It lacks a bit in performance compared to others, but there are ways to remedy this.</p>
-<h5>C#</h5>
+<h5 id="csharp">C#</h5>
 <p>C# is kind of the Microsoft version of Java. It has similar syntax and features, but it's not as widely used as Java.</p>
 <p>Applications developed in this language tend to stick to the Microsoft tech stack.</p>
-<h5>JavaScript / Node.js</h5>
+<h5 id="nodejs">JavaScript / Node.js</h5>
 <p>JavaScript is a bit newer to the server world. Just like Python, it's good for rapid prototyping. It has a vast ecosystem of tools, libraries, frameworks, etc.</p>
 <p>On the performance part - it's not exceptionally fast, but theoretically it can be pretty performant for some more specific (IO bound) use cases.</p>
-<h5>PHP</h5>
+<h5 id="php">PHP</h5>
 <p>Today {% include outside-link.html url="https://w3techs.com/technologies/details/pl-php/all/all" text="PHP powers 80% of the internet" %}.
     It is really popular and Wordpress, the most widespread blogging CMS, uses it.</p>
 <p>Out-of-the-box performance isn't really great. Of course there are ways to remedy the situation a bit like {% include outside-link.html url="https://hhvm.com/" text="HHVM" %}.</p>
 <p>One of the biggest business advantages of PHP is the abundance of cheap shared hosting for it. This is especially useful when bootstrapping or creating an MVP.</p>
-<h2>Web applications vs. websites</h2>
+<h2 id="vs-websites">Web applications vs. websites</h2>
 {% include lazy-img.html src="/assets/img/posts/images/what-is-web-application-non-tech-explanation/websites.jpg" alt="Web applications are websites" %}
 <p>I guess by now everybody reading this is wondering "What is the difference between a web application and a website?".</p>
 <p>Truth be told:</p>
@@ -90,53 +150,53 @@ to rank them.</p>
     {% include outside-link.html url="https://bloomberg.com/" text="Bloomberg.com" %},
     {% include outside-link.html url="https://digidworks.com/" text="DigidWorks.com" %}.</p>
 <p>Web applications on the other hand are characterized by the ability of the user to do stuff (send commands, perform actions, call it however you want). <strong>Web applications have content too, but it's dynamic, and they allow the user much more interaction in comparison to a website</strong>. Some good examples of web applications are Gmail, Google Docs, Google Analytics, Office 365, Amazon AWS, JIRA, Asana, Wave and so on.</p>
-<h2>Web applications vs. web services</h2>
+<h2 id="vs-web-services">Web applications vs. web services</h2>
 {% include lazy-img.html src="/assets/img/posts/images/what-is-web-application-non-tech-explanation/server.jpg" alt="Server" %}
 <p>A web service is a piece of software that accepts commands and serves data in any format. The format can be JSON, XML, some proprietary data format or something else.</p>
 <p>Usually people refer to web services as APIs. The API is the interface of a web service, the part somebody can interact with and thus use the service.</p>
 <p>When talking about web applications, usually a web application contains a web service. It's the back end part (or the server), that's serving data to and accepting commands from the front end part (or the client).</p>
 <p>Basically you can think of it like this:</p>
 <p><em><strong>A web application is meant to serve the user</strong>. It's an interface, that's meant to be used by humans. On the other hand a <strong>web service serves machines</strong> and it's an interface, that's used by other computers and devices.</em></p>
-<h2>Web applications vs. mobile applications</h2>
+<h2 id="vs-mobile">Web applications vs. mobile applications</h2>
 {% include lazy-img.html src="/assets/img/posts/images/what-is-web-application-non-tech-explanation/mobile.jpg" alt="Mobile" %}
 <p>Web apps and mobile apps can be almost the same or they can be very different. It depends on the purpose of the application and on the chosen way to implement it.</p>
 <p>There are web applications that are built in such a way, that <strong>they can be used on mobile devices just as easily as on desktops</strong>. These can be pure web apps that are accessed just like any normal web site - through a browser, or wrapped web apps (hybrid apps), that use some kind of wrapper, to make them more native-like.</p>
-<p>There are also frameworks like {% include outside-link.html url="https://facebook.github.io/react-native/" text="React Native" %} and {% include outside-link.html url="https://flutter.dev/" text="Flutter" %}, that use web technologies to create native applications. It's kind of a mix between web applications and mobile applications trying to take the best of both worlds. <strong>Their strongest advantage is that you only have to support a single code base for all operating systems</strong>, as opposed to supporting a separate code base for every mobile OS when coding mobile apps natively.</p>
-<h2>Pros and cons of web applications</h2>
+<p>There are also frameworks like {% include outside-link.html url="https://facebook.github.io/react-native/" text="React Native" %} and {% include outside-link.html url="https://flutter.dev/" text="Flutter" %}, that use web technologies to create native applications. It's kind of a mix between web applications and mobile applications trying to get the best of both worlds. <strong>Their strongest advantage is that you only have to support a single code base for all operating systems</strong>, as opposed to supporting a separate code base for every mobile OS when coding mobile apps natively.</p>
+<h2 id="pros-cons">Pros and cons of web applications</h2>
 <p>Depending on the project a web application might or might not be the best choice. They are becoming increasingly more popular, but there are still use cases, where a web application is not the best fit.</p>
-<h3>Business advantages</h3>
-<h4>Platform independent</h4>
+<h3 id="adv">Business advantages</h3>
+<h4 id="independent">Platform independent</h4>
 <p>Unlike desktop and mobile applications, you can run a web application on every device that has a web browser.</p>
 <p>This makes them much more convenient than their counterparts.</p>
-<h4>No installation</h4>
+<h4 id="no-installation">No installation</h4>
 <p>Web applications don't need to be installed. The only thing that a user has to do, in order to start the application, is to navigate their browser to a certain URL.</p>
 <p>Again this is a big convenience for end users, because it eliminates the need for big downloads, installation and configuration, hard disk space requirements, etc.</p>
-<h4>Easy updates</h4>
+<h4 id="updates">Easy updates</h4>
 <p>Updates are handled by the developers of the application. The end user does not have to do anything to use the latest version of a web application.</p>
-<h4>Less software piracy</h4>
+<h4 id="piracy">Less software piracy</h4>
 {% include lazy-img.html src="/assets/img/posts/images/what-is-web-application-non-tech-explanation/piracy.jpg" alt="Less piracy" %}
 <p>You can't crack a web application. You might be able to "lend" your account to somebody, but it's impossible to use it for free if the authors of the app don't want you to.</p>
 <p>Hackers might be able to get access to an account they don't own in less secure web apps, but that happens rarely in comparison to software piracy.</p>
-<h4>Less resources for development</h4>
+<h4 id="dev-resources">Less resources for development</h4>
 <p>In most cases, developing a web application takes less time (and therefore money), than developing a desktop app.</p>
-<h4>Secure</h4>
+<h4 id="sandbox">Secure</h4>
 <p>This is a bit controversial. In general every piece of software that performs network communication is vulnerable to attacks.</p>
 <p><strong>So why are web apps secure?</strong></p>
 <p>Because they are sandboxed in the browser environment. They access everything through the browser and can't access the user's computer directly. This makes it impossible for a web
 application to cause data loss on a user's machine.</p>
 <p><em>Also if a computer is stolen or damaged too badly to recover, your data is safe on the servers of the web application.</em></p>
-<h4>Access from everywhere</h4>
+<h4 id="access">Access from everywhere</h4>
 <p>Web apps store their data in a centralized server (or servers). This means that a user can access their data from everywhere, without the need to transfer files.</p>
-<h4>Easy data backups</h4>
+<h4 id="backups">Easy data backups</h4>
 {% include lazy-img.html src="/assets/img/posts/images/what-is-web-application-non-tech-explanation/backup.jpg" alt="Easy backups" %}
 <p>This is another benefit from the centralized data storage - it's easier to create automated backups of your data.</p>
-<h4>Easier user tracking</h4>
+<h4 id="analytics">Easier analytics</h4>
 <p>You can track what your users are doing. Of course I'm not talking about their private data, but rather what features are they using, are they utilising the application to its fullest potential, etc.</p>
 <p>This is very convenient for the providers of the application, because with this information they can determine ways to improve their software.</p>
-<h4>Easier support</h4>
+<h4 id="support">Easier support</h4>
 <p>The developers of a web application can choose the most optimal deployment environment and that's the only one they'll have to support. This eliminates issues caused by problems in the device of the end user and also issues caused by using different operating systems.</p>
-<h3>Disadvantages</h3>
-<h4>Performance and hardware access</h4>
+<h3 id="disadv">Disadvantages</h3>
+<h4 id="performance">Performance and hardware access</h4>
 {% include lazy-img.html src="/assets/img/posts/images/what-is-web-application-non-tech-explanation/gpus.jpg" alt="Performance and hardware" %}
 <p>Some of the more specialized software programs need a bit more resources than the rest.</p>
 <p>{% include outside-link.html url="https://en.wikipedia.org/wiki/Computer-aided_design" text="CAD software" %} and {% include outside-link.html url="https://en.wikipedia.org/wiki/Graphics_software" text="vector and raster graphics editing software" %} among others need 2D and 3D computing power. That's provided by your computer's graphics processor, but accessing it through the browser can be limiting and is usually not enough for the needs of programs like Photoshop, CorelDRAW, AutoCAD, Solidworks, Revit, ArchiCAD, LibreCAD, etc.</p>
@@ -144,11 +204,11 @@ application to cause data loss on a user's machine.</p>
 <p>These are just some examples of software, that can't be implemented as web applications.</p>
 <p>The simple rule of thumb is:</p>
 <p><strong>If you need access to some specific hardware on the users computer or your application is very performance dependent, then web applications aren't the way to go.</strong></p>
-<h4>Security</h4>
+<h4 id="sec">Security</h4>
 <p>Just like any other application, that uses the Internet, web applications are vulnerable to a variety of attacks. They can be hacked, users can be misled into giving their credentials for accessing sensitive data and so on.</p>
 <p>That's why it's crucial to {% include outside-link.html url="https://en.wikipedia.org/wiki/Hardening_(computing)" text="harden the security" %} of the web application and it's server. Implementing the best security practices often isn't enough. The users of the web application have to be educated on the subject of security in order not to be easily scammed.</p>
 <p><strong>Despite what many people think, all these things apply to traditional desktop applications with network communication as well</strong>. So this isn't exactly a web application problem, rather an Internet usage one.</p>
-<h2>Conclusion</h2>
+<h2 id="conclusion">Conclusion</h2>
 {% include lazy-img.html src="/assets/img/posts/images/what-is-web-application-non-tech-explanation/versatile.jpg" alt="Versatile tool" %}
 <p>As you can see web applications are a very versatile tool. Their fairly quick development time and great accessibility make them preferred for a variety of use cases.</p>
 <p>They <a href="{%- post_url 2019-04-22-reduce-expenses-business-ultimate-guide -%}" target="_blank" title="How to reduce business costs">help companies reduce costs</a>, increase efficiency and optimize processes. With the ever increasing Internet usage amongst businesses and people, web applications are becoming the norm for software with very small exceptions.</p>
