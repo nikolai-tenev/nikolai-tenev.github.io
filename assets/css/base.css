@@ -1,16 +1,7 @@
-@font-face {
-    font-family: 'tex_gyre_adventorregular';
-    font-display: swap;
-    src: url('../fonts/texgyreadventor-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
 h1, h2, h3, h4, h5, h6 {
     letter-spacing: 0;
     font-style: normal;
-    font-family: 'tex_gyre_adventorregular', serif;
+    font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
 }
 
@@ -26,20 +17,18 @@ a:hover {
     border-radius: 0;
 }
 
+.breadcrumb {
+    font-family: 'Poppins', sans-serif;
+}
+
 button:focus {
     outline: 5px auto #ff6038;
 }
 
 #single-project-page h1,
-#single-post-page h1,
-#single-post-page h2,
-#single-post-page h3,
-#single-post-page h4 {
+#projects h1,
+#single-post-page h1 {
     font-weight: 900;
-}
-
-h4 {
-    font-size: 20px;
 }
 
 .w-20 {
@@ -77,7 +66,7 @@ h4 {
     right: 0;
     left: 0;
     z-index: 1000;
-    font-family: "tex_gyre_adventorregular", monospace;
+    font-family: 'Poppins', sans-serif;
 }
 
 #navbar.light {
@@ -126,10 +115,7 @@ h4 {
 }
 
 #navbar .nav-link {
-    color: #fff;
-    font-size: 0.9rem;
     font-weight: 600;
-    letter-spacing: 3px;
     text-align: center;
     text-transform: uppercase;
 }
@@ -167,7 +153,7 @@ h4 {
 }
 
 .navbar-push {
-    padding-top: 63px;
+    padding-top: 65px;
 }
 
 #home {
@@ -352,7 +338,7 @@ h4 {
 
 #blog h2 {
     text-transform: none;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 #subscribe p {
@@ -615,7 +601,7 @@ nav .pagination.purple .page-item.active .page-link, nav .pagination.purple .pag
 }
 
 .project-box > .d-flex h4 {
-    font-size: 25px;
+    font-size: 30px;
 }
 
 .project-box > .d-flex p, .project-box > .d-flex h4 {
@@ -640,7 +626,7 @@ nav .pagination.purple .page-item.active .page-link, nav .pagination.purple .pag
 
 .blog-box .blog-excerpt h3 {
     text-transform: none;
-    font-size: 20px;
+    font-size: 23px;
 }
 
 .blog-box .blog-excerpt h3 a {
@@ -819,7 +805,7 @@ nav .pagination.purple .page-item.active .page-link, nav .pagination.purple .pag
 
 @media (min-width: 1600px) {
     #single-post-page h1, #single-project-page h1 {
-        font-size: 4rem;
+        font-size: 50px;
     }
 }
 
