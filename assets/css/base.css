@@ -1,7 +1,7 @@
 h1, h2, h3, h4, h5, h6 {
     letter-spacing: 0;
     font-style: normal;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Fjalla One', sans-serif;
     text-transform: uppercase;
 }
 
@@ -18,7 +18,7 @@ a:hover {
 }
 
 .breadcrumb {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Fjalla One', sans-serif;
 }
 
 button:focus {
@@ -29,22 +29,6 @@ button:focus {
 #projects h1,
 #single-post-page h1 {
     font-weight: 900;
-}
-
-.w-20 {
-    width: 20px;
-}
-
-.bg-black {
-    background-color: #161616;
-}
-
-.bg-main-gray-0 {
-    background-color: #faf9f8;
-}
-
-.mt-50 {
-    margin-top: 50px;
 }
 
 .color-purple {
@@ -66,7 +50,7 @@ button:focus {
     right: 0;
     left: 0;
     z-index: 1000;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Fjalla One', sans-serif;
 }
 
 #navbar.light {
@@ -115,9 +99,12 @@ button:focus {
 }
 
 #navbar .nav-link {
+    font-size: 20px;
     font-weight: 600;
     text-align: center;
     text-transform: uppercase;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 #navbar .nav-link:hover {
@@ -153,7 +140,7 @@ button:focus {
 }
 
 .navbar-push {
-    padding-top: 65px;
+    padding-top: 63px;
 }
 
 #home {
@@ -162,23 +149,24 @@ button:focus {
     position: relative;
 }
 
-#neon-slogan main {
+#neon-slogan>div {
     position: relative;
     z-index: 3;
     overflow: visible;
     width: 100%;
 }
 
-#neon-slogan h1, #neon-slogan h2 {
+#neon-slogan .first, #neon-slogan .second {
     font-family: 'Iceland', cursive;
+    line-height: 1.2;
 }
 
-#neon-slogan h1 {
+#neon-slogan .first {
     font-size: 2em;
     white-space: nowrap;
 }
 
-#neon-slogan h2 {
+#neon-slogan .second {
     font-size: 1.3em;
 }
 
@@ -215,16 +203,9 @@ button:focus {
     white-space: pre-wrap;
 }
 
-#who-are-we {
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-
-@media (min-width: 576px) {
-    #who-are-we {
-        padding-top: 100px;
-        padding-bottom: 100px;
-    }
+#what-we-can-do, #get-free-quote, #copyright {
+    color: #fff;
+    background-color: #24181f;
 }
 
 .big-bold-heading {
@@ -232,48 +213,29 @@ button:focus {
     font-weight: 900;
 }
 
+@media (min-width: 576px) {
+    .big-bold-heading {
+        font-size: 45px;
+    }
+}
+
+@media (min-width: 992px) {
+    .big-bold-heading {
+        font-size: 50px;
+    }
+}
+
 #what-we-can-do h4 {
     font-weight: bold;
 }
 
-#what-we-can-do {
-    background-image: url("../img/hyper-city.jpeg");
-    background-color: #000;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
 #testimonials {
-    font-weight: bold;
-}
-
-#testimonials blockquote {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: #faf9f8;
 }
 
 #testimonials blockquote footer {
     color: #ff6038;
-}
-
-#testimonials > .col-12 > .row:last-child {
-    background-image: url("../img/testimonials.jpg");
-    background-color: #000;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-#what-we-can-do > .col-12, #testimonials > .col-12 > .row:last-child > .col-12 {
-    color: #fff;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    background-color: rgba(108, 24, 78, 0.4);
-}
-
-@media (min-width: 576px) {
-    #what-we-can-do > .col-12, #testimonials > .col-12 > .row:last-child > .col-12 {
-        padding-top: 80px;
-        padding-bottom: 80px;
-    }
+    font-weight: bold;
 }
 
 #what-we-can-do img {
@@ -284,31 +246,8 @@ button:focus {
     margin-bottom: 30px;
 }
 
-#what-we-can-do article p span {
-    background-color: #6c184e;
-}
-
-#technical-side h2 {
-    /*font-size: 40px;*/
-    /*font-weight: bold;*/
-    /*background-color: rgba(0, 0, 0, 0.7);*/
-    /*padding: 5px;*/
-}
-
 #technical-side {
-    /*color: #fff;*/
     background: #faf9f8;
-    /*background: linear-gradient(*/
-    /*        rgba(0, 0, 0, 0.5),*/
-    /*        rgba(0, 0, 0, 0.5)*/
-    /*), url("../img/tech.jpg"), no-repeat, center center, #000;*/
-    /*background-size: cover;*/
-}
-
-#technical-side p {
-    /*font-weight: bold;*/
-    /*background-color: rgba(0, 0, 0, 0.7);*/
-    /*padding: 5px;*/
 }
 
 #projects {
@@ -347,25 +286,6 @@ button:focus {
 
 #subscribe .small, #subscribe .small p {
     font-size: 12px;
-}
-
-#get-free-quote > .col-12, #subscribe > .col-12, #sitemap > .col-12 {
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-
-@media (min-width: 576px) {
-    #get-free-quote > .col-12, #subscribe > .col-12, #sitemap > .col-12 {
-        padding-top: 80px;
-        padding-bottom: 80px;
-    }
-}
-
-@media (min-width: 992px) {
-    #get-free-quote > .col-12, #subscribe > .col-12, #sitemap > .col-12 {
-        padding-top: 150px;
-        padding-bottom: 150px;
-    }
 }
 
 #get-free-quote a.btn, #subscribe a.btn {
@@ -431,43 +351,24 @@ button:focus {
 }
 
 #copyright {
-    background-color: #320d25;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 20px;
+}
+
+#copyright strong {
+    text-transform: uppercase;
 }
 
 #copyright img {
     height: 40px;
 }
 
-#copyright .navbar {
-    padding: 0;
-}
-
-#copyright .navbar li:first-child a {
-    padding-left: 0;
-}
-
-#copyright .navbar li a {
-    padding-left: 0;
-    padding-top: 0;
-    padding-bottom: 0;
-}
-
-#copyright .navbar li a:hover {
-    text-decoration: underline;
-}
-
-#copyright .nav a.active {
+#copyright .nav a.active, #copyright .nav a:hover {
     color: #b12b7e;
 }
 
 #copyright .social img {
     max-width: 30px;
-}
-
-#copyright p, #copyright a {
-    color: #fff;
-    font-weight: 700;
-    font-size: 16px;
 }
 
 #single-project-page .single-post-header + .row, #single-post-page .single-post-header + .row {
@@ -494,7 +395,25 @@ button:focus {
 }
 
 #single-post-page h1, #single-project-page h1 {
-    font-size: 2rem;
+    font-size: 20px;
+}
+
+@media (min-width: 576px) {
+    #single-post-page h1, #single-project-page h1 {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 992px) {
+    #single-post-page h1, #single-project-page h1 {
+        font-size: 40px;
+    }
+}
+
+@media (min-width: 1600px) {
+    #single-post-page h1, #single-project-page h1 {
+        font-size: 50px;
+    }
 }
 
 #single-post-page .offset-3.col-6 h2, #single-post-page .offset-3.col-6 h3, #single-post-page .offset-3.col-6 h4, #single-post-page .offset-3.col-6 h5, #single-post-page .offset-3.col-6 h6 {
@@ -760,30 +679,26 @@ nav .pagination.purple .page-item.active .page-link, nav .pagination.purple .pag
 }
 
 @media (min-width: 600px) {
-    #neon-slogan h1 {
+    #neon-slogan .first {
         font-size: 2.5em;
     }
 
-    #neon-slogan h2 {
+    #neon-slogan .second {
         font-size: 1.5em;
     }
 }
 
 @media (min-width: 700px) {
-    #neon-slogan h1 {
+    #neon-slogan .first {
         font-size: 3em;
     }
 
-    #neon-slogan h2 {
+    #neon-slogan .second {
         font-size: 1.8em;
     }
 }
 
 @media (min-width: 992px) {
-    #what-we-can-do {
-        background-position: center -72px;
-    }
-
     #what-we-can-do article {
         margin-bottom: 0;
     }
@@ -794,18 +709,12 @@ nav .pagination.purple .page-item.active .page-link, nav .pagination.purple .pag
 }
 
 @media (min-width: 1200px) {
-    #neon-slogan h1 {
+    #neon-slogan .first {
         font-size: 5em;
     }
 
-    #neon-slogan h2 {
+    #neon-slogan .second {
         font-size: 2em;
-    }
-}
-
-@media (min-width: 1600px) {
-    #single-post-page h1, #single-project-page h1 {
-        font-size: 50px;
     }
 }
 

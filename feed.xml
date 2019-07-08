@@ -5,12 +5,12 @@
         <description>DigidWorks provides application development services. We bring software and tech solutions to your business!</description>
         <link>https://digidworks.com/</link>
         <atom:link href="https://digidworks.com/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 26 Jun 2019 18:36:52 +0300</pubDate>
-        <lastBuildDate>Wed, 26 Jun 2019 18:36:52 +0300</lastBuildDate>
+        <pubDate>Mon, 08 Jul 2019 18:09:44 +0300</pubDate>
+        <lastBuildDate>Mon, 08 Jul 2019 18:09:44 +0300</lastBuildDate>
         <generator>Jekyll v3.8.5</generator>
         
         <item>
-            <title>What's a web application? [Non tech explanation]</title><description>This article is a business oriented explanation of web applications, their benefits and comparisons with websites and web services. Check it out!
+            <title>What's a web application? [Beginner's Guide]</title><description>This article is a business oriented definition of web applications, their benefits and comparisons with websites and web services. Check it out!
 </description>
             <pubDate>Sat, 22 Jun 2019 00:00:00 +0300</pubDate>
             <link>https://digidworks.com/what-is-web-application-non-tech-explanation</link>
@@ -24,9 +24,7 @@
             
             <category>Pros and Cons</category>
             
-            <category>Small business</category>
-            
-            <category>Medium business</category>
+            <category>Beginner's Guide</category>
             <category>Product Descriptions</category>, <category>Enterprise</category>, <category>Guides</category></item>
         
         <item>
