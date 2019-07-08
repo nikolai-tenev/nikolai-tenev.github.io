@@ -4,9 +4,6 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    {% comment %}
-        TODO check generated sources to see if everything's OK, esp. ld-json
-    {% endcomment %}
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="900">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
@@ -26,9 +23,9 @@
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
 
     {% if page.url == "/" %}
-        <link href="https://fonts.googleapis.com/css?family=Iceland|Poppins|Raleway&display=swap&subset=latin-ext" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Iceland|Fjalla+One|Raleway&display=swap&subset=latin-ext" rel="stylesheet">
     {% else %}
-        <link href="https://fonts.googleapis.com/css?family=Poppins|Raleway&display=swap&subset=latin-ext" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Raleway&display=swap&subset=latin-ext" rel="stylesheet">
     {% endif %}
 
     <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
@@ -93,7 +90,8 @@
                  title="{{ site.name }} | {{ site.title }}">
         </a>
 
-        <button class="border-0 navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar-collapsed-content" aria-controls="main-navbar-collapsed-content" aria-expanded="false"
+        <button class="border-0 navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar-collapsed-content" aria-controls="main-navbar-collapsed-content"
+                aria-expanded="false"
                 aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -103,17 +101,16 @@
         </div>
     </nav>
     {{ content }}
-    <footer id="copyright" class="row py-3 text-justify text-md-left mt-auto">
+    <footer id="copyright" class="row p-5 mt-auto">
         <div class="col-12">
-            <div class="row pb-3">
-                <div class="col-12">
-                    {% include navbar.html ulClasses="nav justify-content-center" liClasses="nav-item px-md-3" %}
-                </div>
-            </div>
-            <div class="row pb-3">
-                <div class="col-12">
-                    <ul class="social nav justify-content-center">
-                        <li class="nav-item px-3">
+            <div class="row mb-4">
+                <div class="col-12 col-md-3">
+                    {% comment %}
+                        {% include navbar.html ulClasses="nav justify-content-center" liClasses="nav-item px-md-3" %}
+                    {% endcomment %}
+                    <strong>Social</strong>
+                    <ul class="social nav mb-3">
+                        <li class="nav-item">
                             <a class="d-inline-block pr-md-2" href="{{ site.data.social_profiles.items.linkedin.url }}"
                                aria-label="{{ site.data.social_profiles.items.linkedin.title }}"
                                title="{{ site.data.social_profiles.items.linkedin.title }}"
@@ -123,7 +120,7 @@
                                      title="{{ site.data.social_profiles.items.linkedin.title }}">
                             </a>
                         </li>
-                        <li class="nav-item px-3">
+                        <li class="nav-item px-4">
                             <a class="d-inline-block pl-md-2" href="{{ site.data.social_profiles.items.twitter.url }}"
                                aria-label="{{ site.data.social_profiles.items.twitter.title }}"
                                title="{{ site.data.social_profiles.items.twitter.title }}"
@@ -133,7 +130,7 @@
                                      title="{{ site.data.social_profiles.items.twitter.title }}">
                             </a>
                         </li>
-                        <li class="nav-item px-3">
+                        <li class="nav-item">
                             <a class="d-inline-block" href="{{ site.data.social_profiles.items.facebook.url }}"
                                aria-label="{{ site.data.social_profiles.items.facebook.title }}"
                                title="{{ site.data.social_profiles.items.facebook.title }}"
@@ -145,20 +142,30 @@
                         </li>
                     </ul>
                 </div>
+                <div class="col-12 col-md-3">
+                    <strong>Working hours</strong>
+                    <p class="mb-0">Mon - Fri: 9:30 - 18:30 EET/EEST</p>
+                    <p>Sat - Sun: closed</p>
+                </div>
+                <div class="col-12 col-md-3">
+                    <strong>Address</strong>
+                    <p class="mb-0">106, Gen. Gurko Str.</p>
+                    <p>St. Zagora, Bulgaria, European Union</p>
+                </div>
+                <div class="col-12 col-md-3">
+                    <a class="py-3 color-orange" href="{{ site.data.navigation.other.sitemap | relative_url }}"
+                       title="{{ site.name }}' sitemap - check out everything in one place">
+                        <strong>Sitemap</strong>
+                    </a>
+                </div>
             </div>
             <div class="row">
-                <div class="col-md-3 py-2 py-md-0 d-flex align-items-center justify-content-around justify-content-md-start">
+                <div class="col-md-9 py-2 py-md-0 d-flex align-items-center justify-content-around justify-content-md-end">
                     <a class="no-underline mr-3" href="{{ site.data.navigation.items.home.url | relative_url }}"
                        title="{{ site.name }} | {{ site.title }}">
                         <img class="img-fluid" src="{{ site.logo_small_svg }}" alt="{{ site.name }} | {{ site.title }}"
                              title="{{ site.name }} | {{ site.title }}">
                     </a>
-                    <a class="py-3 color-orange" href="{{ site.data.navigation.other.sitemap | relative_url }}"
-                       title="{{ site.name }}' sitemap - check out everything in one place">
-                        Sitemap
-                    </a>
-                </div>
-                <div class="col-md-9 py-2 py-md-0 d-flex align-items-center justify-content-around justify-content-md-end">
                     <p class="my-0 pr-2 text-center text-md-left">{{ site.name }} | {{ site.title }}. All rights reserved - {{ site.time | date: '%Y' }}©</p>
                 </div>
             </div>
@@ -232,14 +239,17 @@
 </script>
 <script src="https://instant.page/1.2.2" type="module" integrity="sha384-2xV8M5griQmzyiY3CDqh1dn4z3llDVqZDqzjzcY+jCBCk/a5fXJmuZ/40JJAPeoU"></script>
 <script>
-    (function(h,o,t,j,a,r){
-        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-        h._hjSettings={hjid:1265090,hjsv:6};
-        a=o.getElementsByTagName('head')[0];
-        r=o.createElement('script');r.async=1;
-        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+    (function (h, o, t, j, a, r) {
+        h.hj = h.hj || function () {
+            (h.hj.q = h.hj.q || []).push(arguments)
+        };
+        h._hjSettings = {hjid: 1265090, hjsv: 6};
+        a = o.getElementsByTagName('head')[0];
+        r = o.createElement('script');
+        r.async = 1;
+        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
         a.appendChild(r);
-    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+    })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
 </script>
 </body>
 </html>
