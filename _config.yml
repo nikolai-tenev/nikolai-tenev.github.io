@@ -26,6 +26,7 @@ logo_social: "/assets/img/digid-works-logo-2x1.png"
 
 logo_svg: "/assets/img/digid-works-logo.svg"
 logo_small_svg: "/assets/img/digid-works-logo-small.svg"
+logo_small_bw_svg: "/assets/img/digid-works-logo-small-bw.svg"
 twitter_handle: "@th3_mad_hatter"
 timezone: Europe/Sofia
 permalink: /:title

@@ -14,7 +14,7 @@ items:
   facebook:
     url: 'https://www.facebook.com/digid.works/'
     title: 'Like us on Facebook'
-    img: '/assets/img/facebook-logo-icon.svg'
+    img: '/assets/img/facebook-logo-icon-new.svg'
   linkedin:
     url: 'https://www.linkedin.com/company/digidworks/'
     title: 'Follow us on LinkedIn'

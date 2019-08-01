@@ -18,7 +18,7 @@ last_modified_at: 2019-04-01
     <div class="col-12 p-0">
         <div class="row no-gutters">
             <div class="col-11">
-                <h1 class="big-bold-heading mb-3 text-right">Projects</h1>
+                <h1 class="mt-5 mb-3 text-right">Projects</h1>
                 <div class="slogan-underline-delim delim-right mb-5"></div>
             </div>
         </div>
@@ -26,7 +26,7 @@ last_modified_at: 2019-04-01
             {% for project in paginator.posts %}
                 <div class="col-xl-4 p-0">
                     <div class="project-box d-flex" style="background-image: url('{{ project.thumbnails.full }}');">
-                        <a class="d-flex flex-column justify-content-center text-center {% cycle 'justify-content-xl-start', '', 'justify-content-xl-end' %}"
+                        <a class="d-flex flex-column justify-content-center text-center {% cycle 'justify-content-xl-end', '', 'justify-content-xl-start' %}"
                            href="{{ project.url }}">
                             <h4>{{ project.title }}</h4>
                             <p>{{ project.languages | join: ", " }}, {{ project.technologies | join: ", " }}</p>

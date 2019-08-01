@@ -37,38 +37,40 @@ breadcrumb:
     #single-post-page article h6::before {
         content: "";
         display: block;
-        height: 63px;
-        margin: -63px 0 0;
+        height: 3.5rem;
+        margin: -3.5rem 0 0;
     }
 </style>
 <section id="single-post-page" class="row navbar-push">
     <article class="col-12">
         <div class="row single-post-header" style="background-image: url('{{page.thumbnails.full}}');">
             <div class="col-12 d-flex flex-column justify-content-end text-center">
-                <h1 class="mt-auto mb-0 mx-auto">{{page.title}}</h1>
-                <div class="mb-auto mx-auto post-subheader text-center">
-                    <p class="d-md-inline-block d-block">Author: Nikolai Tenev</p>
-                    <p class="d-md-inline-block d-block"><span class="icon-tag"></span>{{ page.tags | join: ", " }}</p>
-                    <p class="d-md-inline-block d-block"><span class="icon-calendar"></span>
-                        <time datetime="{{page.date | time_tag}}">{{page.date | date: "%e %B %Y"}}</time>
-                    </p>
-                    <p class="d-md-inline-block d-block"><span class="icon-folder"></span>
-                        {%- for cat in page.categories -%}
-                            {{- site.data.categories[cat] -}}
-                            {%- unless forloop.last %}, {% endunless -%}
-                        {%- endfor -%}
-                    </p>
-                </div>
+                <h1 class="m-auto">{{page.title}}</h1>
                 {% include breadcrumbs.html %}
             </div>
         </div>
-        <div class="row justify-content-center">
-            <div class="col-12 col-md-8 col-xl-7 col-xxxl-5 col-xxxxl-4">
+        <div class="row justify-content-center single-post-content">
+            <div class="col-12 col-md-8 col-xl-7 col-xxxl-5 col-xxxxl-4 mt-3">
                 {{ page.content }}
             </div>
         </div>
-        <div class="row">
-            <div class="col-12 col-md-8 offset-md-2">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-8 col-xl-7 col-xxxl-5 col-xxxxl-4 font-weight-bolder pt-3 border-top">
+                <p class="d-md-inline-block d-block">Author: Nikolai Tenev</p>
+                <p class="d-md-inline-block d-block"><span class="icon-calendar"></span>
+                    <time datetime="{{page.date | time_tag}}">{{page.date | date: "%e %B %Y"}}</time>
+                </p>
+                <p class="d-md-inline-block d-block"><span class="icon-folder"></span>
+                    {%- for cat in page.categories -%}
+                        {{- site.data.categories[cat] -}}
+                        {%- unless forloop.last %}, {% endunless -%}
+                    {%- endfor -%}
+                </p>
+                <p class="d-md-inline-block d-block"><span class="icon-tag"></span>{{ page.tags | join: ", " }}</p>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-8 col-xl-7 col-xxxl-5 col-xxxxl-4 pt-3 border-top">
                 {% include social-share.html %}
             </div>
         </div>

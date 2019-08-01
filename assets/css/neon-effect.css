@@ -48,26 +48,16 @@ Props go to Jase Smith (https://codepen.io/jasesmith/pen/rrVzym) for making this
 
 @keyframes small-flicker1 {
     85% {
-        text-shadow: 0 0 0.05em var(--purle),
-        0 0 0.1em var(--purle),
-        calc(var(--shift) * 1) calc(var(--shift) * 1) calc(var(--spread) / 25) var(--purle),
-        calc(var(--shift) * -1) calc(var(--shift) * -1) calc(var(--spread) / 25) var(--purle),
-        calc(var(--shift) * 1) calc(var(--shift) * -1) calc(var(--spread) / 25) var(--purle),
-        calc(var(--shift) * -1) calc(var(--shift) * 1) calc(var(--spread) / 25) var(--purle),
-        0 0 var(--spread) var(--purle),
-        0 0 calc(var(--spread) / 1.5) var(--purle);
+        text-shadow: 0 0 0.05em var(--light-purple),
+        0 0 0.1em var(--light-purple),
+        calc(var(--shift) * 1) calc(var(--shift) * 1) calc(var(--spread) / 25) var(--light-purple),
+        calc(var(--shift) * -1) calc(var(--shift) * -1) calc(var(--spread) / 25) var(--light-purple),
+        calc(var(--shift) * 1) calc(var(--shift) * -1) calc(var(--spread) / 25) var(--light-purple),
+        calc(var(--shift) * -1) calc(var(--shift) * 1) calc(var(--spread) / 25) var(--light-purple),
+        0 0 0 var(--light-purple),
+        0 0 0 var(--light-purple);
     }
     88% {
-        text-shadow: 0 0 0.05em var(--light-purple),
-        0 0 0.1em var(--light-purple),
-        calc(var(--shift) * 1) calc(var(--shift) * 1) calc(var(--spread) / 25) var(--light-purple),
-        calc(var(--shift) * -1) calc(var(--shift) * -1) calc(var(--spread) / 25) var(--light-purple),
-        calc(var(--shift) * 1) calc(var(--shift) * -1) calc(var(--spread) / 25) var(--light-purple),
-        calc(var(--shift) * -1) calc(var(--shift) * 1) calc(var(--spread) / 25) var(--light-purple),
-        0 0 0 var(--light-purple),
-        0 0 0 var(--light-purple);
-    }
-    95% {
         text-shadow: 0 0 0.05em var(--purle),
         0 0 0.1em var(--purle),
         calc(var(--shift) * 1) calc(var(--shift) * 1) calc(var(--spread) / 25) var(--purle),
@@ -77,7 +67,7 @@ Props go to Jase Smith (https://codepen.io/jasesmith/pen/rrVzym) for making this
         0 0 var(--spread) var(--purle),
         0 0 calc(var(--spread) / 1.5) var(--purle);
     }
-    98% {
+    97% {
         text-shadow: 0 0 0.05em var(--light-purple),
         0 0 0.1em var(--light-purple),
         calc(var(--shift) * 1) calc(var(--shift) * 1) calc(var(--spread) / 25) var(--light-purple),
@@ -86,6 +76,16 @@ Props go to Jase Smith (https://codepen.io/jasesmith/pen/rrVzym) for making this
         calc(var(--shift) * -1) calc(var(--shift) * 1) calc(var(--spread) / 25) var(--light-purple),
         0 0 0 var(--light-purple),
         0 0 0 var(--light-purple);
+    }
+    98% {
+        text-shadow: 0 0 0.05em var(--purle),
+        0 0 0.1em var(--purle),
+        calc(var(--shift) * 1) calc(var(--shift) * 1) calc(var(--spread) / 25) var(--purle),
+        calc(var(--shift) * -1) calc(var(--shift) * -1) calc(var(--spread) / 25) var(--purle),
+        calc(var(--shift) * 1) calc(var(--shift) * -1) calc(var(--spread) / 25) var(--purle),
+        calc(var(--shift) * -1) calc(var(--shift) * 1) calc(var(--spread) / 25) var(--purle),
+        0 0 var(--spread) var(--purle),
+        0 0 calc(var(--spread) / 1.5) var(--purle);
     }
 }
 
@@ -107,14 +107,14 @@ Props go to Jase Smith (https://codepen.io/jasesmith/pen/rrVzym) for making this
 }
 
 #neon-slogan .second {
-    text-shadow: 0 0 0.05em var(--purle),
-    0 0 0.1em var(--purle),
-    calc(var(--shift) * 1) calc(var(--shift) * 1) calc(var(--spread) / 50) var(--purle),
-    calc(var(--shift) * -1) calc(var(--shift) * -1) calc(var(--spread) / 50) var(--purle),
-    calc(var(--shift) * 1) calc(var(--shift) * -1) calc(var(--spread) / 50) var(--purle),
-    calc(var(--shift) * -1) calc(var(--shift) * 1) calc(var(--spread) / 50) var(--purle),
-    0 0 var(--spread) var(--purle),
-    0 0 calc(var(--spread) / 1.5) var(--purle);
+    text-shadow: 0 0 0.05em var(--light-purple),
+    0 0 0.1em var(--light-purple),
+    calc(var(--shift) * 1) calc(var(--shift) * 1) calc(var(--spread) / 25) var(--light-purple),
+    calc(var(--shift) * -1) calc(var(--shift) * -1) calc(var(--spread) / 25) var(--light-purple),
+    calc(var(--shift) * 1) calc(var(--shift) * -1) calc(var(--spread) / 25) var(--light-purple),
+    calc(var(--shift) * -1) calc(var(--shift) * 1) calc(var(--spread) / 25) var(--light-purple),
+    0 0 0 var(--light-purple),
+    0 0 0 var(--light-purple);
 }
 
 #neon-slogan .first span:nth-child(1), #neon-slogan .first span span:nth-child(2) {
