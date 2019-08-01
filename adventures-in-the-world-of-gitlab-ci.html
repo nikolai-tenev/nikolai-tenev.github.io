@@ -18,13 +18,14 @@
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
 
     
-        <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Raleway&display=swap&subset=latin-ext" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Montserrat:300,300i,400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet">
     
 
     <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="/assets/css/base.css">
     <meta name="theme-color" content="#ffffff">
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-38364723-2"></script>
+    <script async src="/assets/js/cp.js" ></script>
     <script>
         window.dataLayer = window.dataLayer || [];
 
@@ -86,21 +87,21 @@
 </script>
 
 <div id="container" class="container-fluid">
-    <nav id="navbar" class="navbar light navbar-expand-lg">
+    <nav id="navbar" class="navbar fixed-top navbar-expand-md">
         <a id="navbar-brand-link" class="navbar-brand" href="/"
            title="DigidWorks | Enterprise and Management Software">
             <img class="img-fluid" src="/assets/img/digid-works-logo.svg" alt="DigidWorks | Enterprise and Management Software"
                  title="DigidWorks | Enterprise and Management Software">
         </a>
 
-        <button class="border-0 navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar-collapsed-content" aria-controls="main-navbar-collapsed-content"
+        <button class="border-0 navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#main-navbar-collapsed-content" aria-controls="main-navbar-collapsed-content"
                 aria-expanded="false"
                 aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="main-navbar-collapsed-content">
-            <ul class="navbar-nav mx-auto">
+            <ul class="navbar-nav mx-auto text-center">
     <li class="">
             <a class="nav-link " href="/"
                title="DigidWorks | Enterprise and Management Web Apps">Home</a>
@@ -217,24 +218,16 @@
     #single-post-page article h6::before {
         content: "";
         display: block;
-        height: 63px;
-        margin: -63px 0 0;
+        height: 3.5rem;
+        margin: -3.5rem 0 0;
     }
 </style>
 <section id="single-post-page" class="row navbar-push">
     <article class="col-12">
         <div class="row single-post-header" style="background-image: url('/assets/img/posts/thumbs/gitlab-docker.jpeg');">
             <div class="col-12 d-flex flex-column justify-content-end text-center">
-                <h1 class="mt-auto mb-0 mx-auto">Adventures in the world of GitLab CI</h1>
-                <div class="mb-auto mx-auto post-subheader text-center">
-                    <p class="d-md-inline-block d-block">Author: Nikolai Tenev</p>
-                    <p class="d-md-inline-block d-block"><span class="icon-tag"></span>Laravel, Docker, CI/CD, GitLab, PHP</p>
-                    <p class="d-md-inline-block d-block"><span class="icon-calendar"></span>
-                        <time datetime="2017-07-13 00:00:00 +0300">13 July 2017</time>
-                    </p>
-                    <p class="d-md-inline-block d-block"><span class="icon-folder"></span>DevOps</p>
-                </div>
-                <nav aria-label="breadcrumb">
+                <h1 class="m-auto">Adventures in the world of GitLab CI</h1>
+                <nav aria-label="breadcrumb" class="mb-1">
     <ol class="breadcrumb">
         <li class="breadcrumb-item">
             <a href="https://digidworks.com" title="DigidWorks | Enterprise and Management Software">
@@ -246,8 +239,8 @@
 
             </div>
         </div>
-        <div class="row justify-content-center">
-            <div class="col-12 col-md-8 col-xl-7 col-xxxl-5 col-xxxxl-4">
+        <div class="row justify-content-center single-post-content">
+            <div class="col-12 col-md-8 col-xl-7 col-xxxl-5 col-xxxxl-4 mt-3">
                     <p>I start this article with an important disclaimer - I haven't used GitLab's continuous integration so far, so this post can be seen kind of as an intro.</p>
 
     <h2>How does the whole thing work?</h2>
@@ -337,9 +330,164 @@
 
             </div>
         </div>
-        <div class="row">
-            <div class="col-12 col-md-8 offset-md-2">
-                <p class="mb-1 font-weight-bold">Sharing is caring: </p>
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-8 col-xl-7 col-xxxl-5 col-xxxxl-4 font-weight-bolder pt-3 border-top">
+                <p class="d-md-inline-block d-block">Author: Nikolai Tenev</p>
+                <p class="d-md-inline-block d-block"><span class="icon-calendar"></span>
+                    <time datetime="2017-07-13 00:00:00 +0300">13 July 2017</time>
+                </p>
+                <p class="d-md-inline-block d-block"><span class="icon-folder"></span>DevOps</p>
+                <p class="d-md-inline-block d-block"><span class="icon-tag"></span>Laravel, Docker, CI/CD, GitLab, PHP</p>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-8 col-xl-7 col-xxxl-5 col-xxxxl-4 pt-3 border-top">
+                <style>
+    #share-buttons {
+        display: inline-flex;
+    }
+
+    #share-buttons > div a, #share-buttons > div a:hover {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    #share-buttons > div {
+        border-radius: 5px;
+        transition: 25ms ease-out;
+        padding: 0.1em 0.35em;
+        margin-left: 0.25em;
+        margin-right: 0.25em;
+        margin-bottom: 0.25em;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif
+    }
+
+    #share-buttons > div:hover {
+        cursor: pointer;
+    }
+
+    #share-buttons > div svg {
+        width: 1.2em;
+        height: 1.2em;
+    }
+
+    #share-buttons > div svg {
+        fill: #fff;
+        stroke: none
+    }
+
+    #share-buttons > div.twitter {
+        background-color: #55acee
+    }
+
+    #share-buttons > div.twitter:hover {
+        background-color: #2795e9
+    }
+
+    #share-buttons > div.pinterest {
+        background-color: #bd081c
+    }
+
+    #share-buttons > div.pinterest:hover {
+        background-color: #8c0615
+    }
+
+    #share-buttons > div.facebook {
+        background-color: #3b5998
+    }
+
+    #share-buttons > div.facebook:hover {
+        background-color: #2d4373
+    }
+
+    #share-buttons > div.tumblr {
+        background-color: #35465C
+    }
+
+    #share-buttons > div.tumblr:hover {
+        background-color: #222d3c
+    }
+
+    #share-buttons > div.reddit {
+        background-color: #5f99cf
+    }
+
+    #share-buttons > div.reddit:hover {
+        background-color: #3a80c1
+    }
+
+    #share-buttons > div.linkedin {
+        background-color: #0077b5
+    }
+
+    #share-buttons > div.linkedin:hover {
+        background-color: #046293
+    }
+
+    #share-buttons > div.mail {
+        background-color: #777
+    }
+
+    #share-buttons > div.mail:hover {
+        background-color: #5e5e5e
+    }
+
+    #share-buttons > div.facebook {
+        background-color: #3b5998;
+        border-color: #3b5998;
+    }
+
+    #share-buttons > div.facebook:hover,
+    #share-buttons > div.facebook:active {
+        background-color: #2d4373;
+        border-color: #2d4373;
+    }
+
+    #share-buttons > div.twitter {
+        background-color: #55acee;
+        border-color: #55acee;
+    }
+
+    #share-buttons > div.twitter:hover,
+    #share-buttons > div.twitter:active {
+        background-color: #2795e9;
+        border-color: #2795e9;
+    }
+
+    #share-buttons > div.tumblr {
+        background-color: #35465C;
+        border-color: #35465C;
+    }
+
+    #share-buttons > div.tumblr:hover,
+    #share-buttons > div.tumblr:active {
+        background-color: #222d3c;
+        border-color: #222d3c;
+    }
+
+    #share-buttons > div.mail {
+        background-color: #777777;
+        border-color: #777777;
+    }
+
+    #share-buttons > div.mail:hover,
+    #share-buttons > div.mail:active {
+        background-color: #5e5e5e;
+        border-color: #5e5e5e;
+    }
+
+    #share-buttons > div.pinterest {
+        background-color: #bd081c;
+        border-color: #bd081c;
+    }
+
+    #share-buttons > div.pinterest:hover,
+    #share-buttons > div.pinterest:active {
+        background-color: #8c0615;
+        border-color: #8c0615;
+    }
+</style>
+<p class="mb-2 font-weight-bold">Sharing is caring: </p>
 
 <div id="share-buttons" class="flex-wrap">
     <div class="facebook">
@@ -413,17 +561,17 @@
         });
     })();
 </script>
-<section id="subscribe" class="row p-5 ">
-    <div class="col-12 p-5">
-        <div class="row">
-            <div class="offset-1 col-10 offset-lg-3 col-lg-6 text-right">
-                <h3 class="big-bold-heading mb-3">Want some more <span class="color-orange"> code</span>?</h3>
+<section id="subscribe" class="row ">
+    <div class="col-12 py-5">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-8 col-xl-7 col-xxxl-5 col-xxxxl-4 text-right">
+                <h3 class=" mb-3">Want some more  code?</h3>
                 <div class="slogan-underline-delim mb-5 mr-0"></div>
-                <p class="font-weight-bolder">Subscribe! This way you'll get tips on how to optimize, automate and manage more efficiently.</p>
+                <p class="font-weight-bolder">Subscribe and get expert tips on how to optimize, automate and manage more efficiently.</p>
             </div>
         </div>
-        <div class="row">
-            <div class="offset-1 col-10 offset-lg-3 col-lg-6 text-right">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-8 col-xl-7 col-xxxl-5 col-xxxxl-4 text-right">
                 <form action="https://gmail.us20.list-manage.com/subscribe/post?u=7176421fedb2c7dcd68297cfa&id=d90e03c4a5"
                       method="post" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate rel="noopener">
                     <div class="form-group row justify-content-end">
@@ -431,7 +579,7 @@
                             <input id="subscribeEmail" class="form-control h-100" type="email" value="" name="EMAIL" placeholder="Email" required>
                         </div>
                         <div class="col-sm-auto pt-3 pt-sm-0">
-                            <button class="btn btn-lg highlight-light" type="submit">Get notifications</button>
+                            <button class="btn btn-lg highlight-light cta-button" type="submit">Get notifications</button>
                         </div>
                     </div>
                     <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_7176421fedb2c7dcd68297cfa_d90e03c4a5" tabindex="-1" value=""></div>
@@ -441,15 +589,14 @@
     </div>
 </section>
 
-    <footer id="copyright" class="row p-5 mt-auto">
-        <div class="col-12">
+    <footer id="copyright" class="row p-5 mt-auto justify-content-center">
+        <div class="col-12 col-md-10 col-xl-8 col-xxxl-6 col-xxxxl-5">
             <div class="row mb-4">
-                <div class="col-12 col-md-3">
-                    
+                <div class="col-12 col-md-3 text-md-right">
                     <strong>Social</strong>
-                    <ul class="social nav mb-3">
-                        <li class="nav-item">
-                            <a class="d-inline-block pr-md-2" href="https://www.linkedin.com/company/digidworks/"
+                    <ul class="social nav mb-3 justify-content-md-end">
+                        <li class="nav-item pr-2 pr-lg-3">
+                            <a class="d-inline-block" href="https://www.linkedin.com/company/digidworks/"
                                aria-label="Follow us on LinkedIn"
                                title="Follow us on LinkedIn"
                                rel="noopener" target="_blank">
@@ -458,8 +605,8 @@
                                      title="Follow us on LinkedIn">
                             </a>
                         </li>
-                        <li class="nav-item px-4">
-                            <a class="d-inline-block pl-md-2" href="https://twitter.com/th3_mad_hatter"
+                        <li class="nav-item pr-2 pr-lg-3">
+                            <a class="d-inline-block" href="https://twitter.com/th3_mad_hatter"
                                aria-label="Our Twitter profile "
                                title="Our Twitter profile "
                                rel="noopener" target="_blank">
@@ -473,7 +620,7 @@
                                aria-label="Like us on Facebook"
                                title="Like us on Facebook"
                                rel="noopener" target="_blank">
-                                <img src="/assets/img/facebook-logo-icon.svg"
+                                <img src="/assets/img/facebook-logo-icon-new.svg"
                                      alt="Like us on Facebook"
                                      title="Like us on Facebook">
                             </a>
@@ -490,7 +637,7 @@
                     <p class="mb-0">106, Gen. Gurko Str.</p>
                     <p>St. Zagora, Bulgaria, European Union</p>
                 </div>
-                <div class="col-12 col-md-3">
+                <div class="col-12 col-md-3 text-md-left">
                     <a class="py-3 color-orange" href="/sitemap"
                        title="DigidWorks' sitemap - check out everything in one place">
                         <strong>Sitemap</strong>
@@ -498,7 +645,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-9 py-2 py-md-0 d-flex align-items-center justify-content-around justify-content-md-end">
+                <div class="col-12 py-2 py-md-0 d-flex align-items-center justify-content-center">
                     <a class="no-underline mr-3" href="/"
                        title="DigidWorks | Enterprise and Management Software">
                         <img class="img-fluid" src="/assets/img/digid-works-logo-small.svg" alt="DigidWorks | Enterprise and Management Software"
