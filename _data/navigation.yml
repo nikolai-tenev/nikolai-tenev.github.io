@@ -3,9 +3,9 @@ items:
     name: Home
     url: "/"
     title: "DigidWorks | Enterprise and Management Web Apps"
-  projects:
-    name: Projects
-    url: "/projects/"
+  portfolio:
+    name: Portfolio
+    url: "/portfolio/"
     title: "Enterprise applications we have done"
   posts:
     name: Blog

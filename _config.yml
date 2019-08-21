@@ -51,7 +51,7 @@ plugins:
 #   - vendor/ruby/
 
 collections:
-  projects:
+  portfolio:
     output: true
 
 defaults:
@@ -65,7 +65,7 @@ defaults:
       layout: "redirect"
   - scope:
       path: ""
-      type: "projects"
+      type: "portfolio"
     values:
       layout: "project"
       permalink: /:title

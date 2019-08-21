@@ -43,9 +43,9 @@ last_modified_at: 2019-06-07
                         </ul>
                     </li>
                     <li>
-                        <a href="{{ site.data.navigation.items.projects.url | replace: 'index.html', '' | relative_url }}" title="{{ site.data.navigation.items.projects.title }}">{{ site.data.navigation.items.projects.name }}</a>:
+                        <a href="{{ site.data.navigation.items.portfolio.url | replace: 'index.html', '' | relative_url }}" title="{{ site.data.navigation.items.portfolio.title }}">{{ site.data.navigation.items.portfolio.name }}</a>:
                         <ul>
-                            {%- assign ordered_projects = site.projects | sort:"position" | reverse  -%}
+                            {%- assign ordered_projects = site.portfolio | sort:"position" | reverse  -%}
                             {%- for page in ordered_projects -%}
                                 <li>
                                     <a href="{{ page.url | replace: 'index.html', '' | relative_url }}" title="{{ page.title }}">{{ page.title }}</a>

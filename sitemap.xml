@@ -11,7 +11,7 @@ layout: null
     {%- for page in site.posts %}
 {% include sitemap/entity.html %}
     {%- endfor -%}
-    {%- for page in site.projects %}
+    {%- for page in site.portfolio %}
 {% include sitemap/entity.html %}
     {%- endfor %}
 </urlset>
