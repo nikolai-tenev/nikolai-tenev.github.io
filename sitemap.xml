@@ -16,22 +16,22 @@
     <changefreq>monthly</changefreq>
 </url>
 <url>
-    <loc>https://digidworks.com/projects/</loc>
-    <lastmod>2019-04-01T00:00:00+03:00</lastmod>
-    <changefreq>monthly</changefreq>
-</url>
-<url>
-    <loc>https://digidworks.com/projects/page2/</loc>
-    <lastmod>2019-04-01T00:00:00+03:00</lastmod>
-    <changefreq>monthly</changefreq>
-</url>
-<url>
     <loc>https://digidworks.com/blog/</loc>
     <lastmod>2019-04-01T00:00:00+03:00</lastmod>
     <changefreq>monthly</changefreq>
 </url>
 <url>
     <loc>https://digidworks.com/blog/page2/</loc>
+    <lastmod>2019-04-01T00:00:00+03:00</lastmod>
+    <changefreq>monthly</changefreq>
+</url>
+<url>
+    <loc>https://digidworks.com/portfolio/</loc>
+    <lastmod>2019-04-01T00:00:00+03:00</lastmod>
+    <changefreq>monthly</changefreq>
+</url>
+<url>
+    <loc>https://digidworks.com/portfolio/page2/</loc>
     <lastmod>2019-04-01T00:00:00+03:00</lastmod>
     <changefreq>monthly</changefreq>
 </url>
