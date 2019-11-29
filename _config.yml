@@ -14,8 +14,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 name: DigidWorks
-title: Enterprise and Management Software
-email: your-email@example.com
+title: Business Software
+email: hi@digidworks.com
 description: >- # this means to ignore newlines until "baseurl:"
   DigidWorks provides application development services. We bring software and tech solutions to your business!
 display_site_title_char_limit: 20
@@ -62,12 +62,21 @@ defaults:
   - scope:
       path: "project"
     values:
-      layout: "redirect"
+      layout: "redirect-to-product"
+  - scope:
+      path: "portfolio"
+    values:
+      layout: "redirect-to-product"
+  - scope:
+      path: "portfolio"
+      type: "pages"
+    values:
+      layout: "redirect-to-product"
   - scope:
       path: ""
       type: "portfolio"
     values:
-      layout: "project"
+      layout: "redirect-to-product"
       permalink: /:title
   - scope:
       path: ""

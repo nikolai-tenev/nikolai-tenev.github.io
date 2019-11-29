@@ -1,7 +1,6 @@
 ---
-layout: default
-title: Our portfolio - Enterprise and Management Web Apps
-description: DigidWorks' portfolio. Explore enterprise management, monitoring and automation systems, complex business ERPs and CRMs and others. Ideas for cost reduction and time saving for your own application.
+sitemap:
+    exclude: true
 pagination:
     enabled: true
     collection: portfolio
@@ -14,27 +13,4 @@ pagination:
         after: 2
 last_modified_at: 2019-04-01
 ---
-<section id="projects" class="row navbar-push">
-    <div class="col-12 p-0">
-        <div class="row no-gutters">
-            <div class="col-11">
-                <h1 class="mt-5 mb-3 text-right">Portfolio</h1>
-                <div class="slogan-underline-delim delim-right mb-5"></div>
-            </div>
-        </div>
-        <div id="projects-list" class="row no-gutters">
-            {% for project in paginator.posts %}
-                <div class="col-xl-4 p-0">
-                    <div class="project-box d-flex" style="background-image: url('{{ project.thumbnails.full }}');">
-                        <a class="d-flex flex-column justify-content-center text-center {% cycle 'justify-content-xl-end', '', 'justify-content-xl-start' %}"
-                           href="{{ project.url }}">
-                            <h4>{{ project.title }}</h4>
-                            <p>{{ project.languages | join: ", " }}, {{ project.technologies | join: ", " }}</p>
-                        </a>
-                    </div>
-                </div>
-            {% endfor %}
-        </div>
-    </div>
-</section>
-{% include pagination.html firstPageUrl=site.data.navigation.items.portfolio.url title="Project Pages" %}
+{{- site.data.navigation.items.product.url | absolute_url -}}

@@ -7,12 +7,12 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6, #get-free-quote p {
+h1, h2, h3, h4, h5, h6, #get-free-quote p, #get-free-demo p {
     font-family: 'Fjalla One', sans-serif;
     text-transform: uppercase;
 }
 
-h1, #get-free-quote p {
+h1, #get-free-quote p, #get-free-demo p {
     font-weight: 900;
 }
 
@@ -38,6 +38,10 @@ h6 {
 
 .text-transform-none {
     text-transform: none;
+}
+
+.line-height-1 {
+    line-height: 1;
 }
 
 #navbar .nav-link {
@@ -105,6 +109,7 @@ button:focus {
 .no-underline {
     text-decoration: none !important;
 }
+
 
 #navbar {
     padding: 12px;
@@ -192,7 +197,7 @@ button:focus {
 }
 
 #neon-slogan .first {
-    font-size: 9em;
+    font-size: 7.7em;
     white-space: nowrap;
 }
 
@@ -213,7 +218,7 @@ button:focus {
 
 @media (min-width: 992px) {
     #neon-slogan .first {
-        font-size: 5.4em;
+        font-size: 5.1em;
     }
 
     #neon-slogan .second {
@@ -231,7 +236,7 @@ button:focus {
     }
 }
 
-#get-free-quote p {
+#get-free-quote p, #get-free-demo p {
     font-size: 3.3rem;
 }
 
@@ -268,7 +273,6 @@ button:focus {
     white-space: pre-wrap;
 }
 
-
 @media (min-width: 992px) {
     #typed-code code, #typed-code {
         height: 300px;
@@ -287,6 +291,10 @@ button:focus {
     background-color: #24181f;
 }
 
+#get-free-demo {
+    color: #4b3b45;
+}
+
 #why-us {
     color: #fff;
     background: -moz-linear-gradient(-45deg, #6c184e 0%, #ff6038 100%);
@@ -294,7 +302,7 @@ button:focus {
     background: linear-gradient(135deg, #6c184e 0%, #ff6038 100%);
 }
 
-#testimonials, #technical-side, #who-are-we, #what-you-get {
+#testimonials, #technical-side, #who-are-we, #what-you-get, #get-free-demo {
     background-color: #faf9f8;
 }
 
@@ -433,6 +441,14 @@ nav .pagination .page-link:focus {
     min-height: 350px;
 }
 
+.svg-icon-150 {
+    max-width: 150px;
+}
+
+.button-shadow-black {
+    filter: drop-shadow(2px 4px 6px #000);
+}
+
 @media (min-width: 576px) {
     .project-box {
         min-height: 450px;
@@ -486,6 +502,11 @@ nav .pagination .page-link:focus {
 .blog-box .blog-excerpt h3 a:hover {
     color: #4b1434;
     text-decoration: none;
+}
+
+.product-feature {
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .single-post-header {
@@ -549,7 +570,6 @@ nav .pagination .page-link:focus {
     border-color: #b34327;
 }
 
-
 [class^=icon-], [class*=" icon-"] {
     display: inline-block;
     width: 25px;
@@ -607,3 +627,4 @@ nav .pagination .page-link:focus {
     color: #fff;
     text-decoration: none;
 }
+
