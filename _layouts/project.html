@@ -1,38 +1,51 @@
 ---
 layout: default
 breadcrumb:
-    - url: "projects/"
-      title: Projects
+    - url: "portfolio/"
+      title: Portfolio
 ---
 {% assign breadcrumbs = layout.breadcrumb %}
 {% include ld-json/project-layout.html %}
 {% include ld-json/breadcrumbs-include.html %}
 <section id="single-project-page" class="row navbar-push">
-    <div class="col-12 bg-main-gray-0">
+    <div class="col-12">
         <div class="row single-post-header" style="background-image: url('{{ page.thumbnails.full }}');">
-            <div class="col-12 d-flex flex-column text-center">
-                <h1 class="mt-auto mb-0 mx-auto">{{page.title}}</h1>
-                <div class="mb-auto mx-auto post-subheader text-center">
-                    <p class="d-md-inline-block d-block">
-                        <span class="icon-code"></span>{{page.languages | join: ", "}}, {{page.technologies | join: ", "}}
-                    </p>
-                </div>
-                {% include breadcrumbs.html breadcrumbs=layout.breadcrumb %}
+            <div class="col-12 d-flex flex-column justify-content-end text-center">
+                <h1 class="m-auto">{{page.title}}</h1>
+                {% include breadcrumbs.html %}
             </div>
         </div>
-        <div class="row">
-            <div class="col-12 col-md-8 offset-md-2">
+        <div class="row justify-content-center single-post-content">
+            <div class="col-12 col-md-8 col-xl-7 col-xxxl-5 col-xxxxl-4 font-weight-bolder pt-3 border-bottom">
+                <p class="d-md-inline-block d-block">
+                    <span class="icon-code"></span>{{page.languages | join: ", "}}, {{page.technologies | join: ", "}}
+                </p>
+            </div>
+        </div>
+        <div class="row justify-content-center single-post-content">
+            <div class="col-12 col-md-8 col-xl-7 col-xxxl-5 col-xxxxl-4 mt-3">
                 {{ page.content }}
             </div>
         </div>
-        <div id="project-screenshots" class="row mb-3">
-            {%- for screenshot in page.screenshots %}
-            <div class="col-md-12 col-lg-6 {% cycle "text-right", "text-left" %}">
-                <img class="img-fluid m-1" src="{{screenshot}}" alt="{{page.title}} - Screenshot {{ forloop.index }}."
-                     title="{{page.title}} - Screenshot {{ forloop.index }}.">
+        {%- if page.screenshots -%}
+        <div id="project-screenshots" class="row justify-content-center">
+            <div class="col-12 col-md-8 col-xl-7 col-xxxl-5 col-xxxxl-4 mb-3 pt-3 border-top">
+                <div class="row">
+                    <div class="col-12">
+                        <p>Screenshots of the finished project: </p>
+                    </div>
+                </div>
+                <div class="row">
+                    {%- for screenshot in page.screenshots %}
+                    <div class="col-6 p-3 {% cycle "text-right", "text-left" %}">
+                        <img class="img-fluid m-1" src="{{screenshot}}" alt="{{page.title}} - Screenshot {{ forloop.index }}."
+                             title="{{page.title}} - Screenshot {{ forloop.index }}.">
+                    </div>
+                    {%- endfor -%}
+                </div>
             </div>
-            {%- endfor -%}
         </div>
+        {%- endif -%}
     </div>
 </section>
 <script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.3/dist/medium-zoom.min.js" integrity="sha256-iapDyy24cXFl6JixiAatdXWF+IFfn1FLsK+9PDkN75U=" crossorigin="anonymous"></script>

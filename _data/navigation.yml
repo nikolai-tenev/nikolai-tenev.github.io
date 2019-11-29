@@ -2,18 +2,22 @@ items:
   home:
     name: Home
     url: "/"
-    title: "DigidWorks | Enterprise and Management Web Apps"
-  projects:
-    name: Projects
-    url: "/projects/"
-    title: "Enterprise applications we have done"
+    title: "DigidWorks | Business software"
+#  portfolio:
+#    name: Portfolio
+#    url: "/portfolio/"
+#    title: "Enterprise applications we have done"
+  product:
+    name: Product
+    url: "/product/"
+    title: "Our integrated management platform"
   posts:
     name: Blog
     url: "/blog/"
-    title: "Our latest experience based IT articles, trends and tips"
+    title: "Our latest experience based business optimization articles"
   contacts:
     name: Contacts
     url: "/contacts"
-    title: "Contact us if you need a web app"
+    title: "Contact us if you need the right tools for your business"
 other:
   sitemap: "/sitemap"

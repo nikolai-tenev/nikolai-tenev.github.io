@@ -1,9 +1,9 @@
-<ul class="navbar-nav {{ include.ulClasses }}">
+<ul class="{{ include.ulClasses }}">
     {% assign pageUrlSize = page.url | size -%}
     {%- for item in site.data.navigation.items -%}
         {%- assign itemUrlSize = item[1].url | size -%}
         {%- assign result = page.url | slice: 0, itemUrlSize -%}
-        <li>
+        <li class="{{ include.liClasses }}">
             <a class="nav-link {% if result == item[1].url and itemUrlSize > 1 %}active{% elsif item[1].url == "/" and page.url == item[1].url %}active{% elsif page.collection == item[0] %}active{% endif %}" href="{{ item[1].url | relative_url }}"
                title="{{ item[1].title }}">{{ item[1].name }}</a>
         </li>

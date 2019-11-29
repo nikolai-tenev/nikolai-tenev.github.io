@@ -14,19 +14,19 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 name: DigidWorks
-title: Enterprise and Management Web Apps
-email: your-email@example.com
+title: Business Software
+email: hi@digidworks.com
 description: >- # this means to ignore newlines until "baseurl:"
-  DigidWorks provides web application development services. We specialize in developing enterprise and business management applications.
+  DigidWorks provides application development services. We bring software and tech solutions to your business!
 display_site_title_char_limit: 20
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://digidworks.com" # the base hostname & protocol for your site, e.g. http://example.com
 
-logo: "/assets/img/digid-works-logo.png"
-logo_small: "/assets/img/digid-works-logo-small.png"
+logo_social: "/assets/img/digid-works-logo-2x1.png"
 
 logo_svg: "/assets/img/digid-works-logo.svg"
 logo_small_svg: "/assets/img/digid-works-logo-small.svg"
+logo_small_bw_svg: "/assets/img/digid-works-logo-small-bw.svg"
 twitter_handle: "@th3_mad_hatter"
 timezone: Europe/Sofia
 permalink: /:title
@@ -51,7 +51,7 @@ plugins:
 #   - vendor/ruby/
 
 collections:
-  projects:
+  portfolio:
     output: true
 
 defaults:
@@ -62,12 +62,21 @@ defaults:
   - scope:
       path: "project"
     values:
-      layout: "redirect"
+      layout: "redirect-to-product"
+  - scope:
+      path: "portfolio"
+    values:
+      layout: "redirect-to-product"
+  - scope:
+      path: "portfolio"
+      type: "pages"
+    values:
+      layout: "redirect-to-product"
   - scope:
       path: ""
-      type: "projects"
+      type: "portfolio"
     values:
-      layout: "project"
+      layout: "redirect-to-product"
       permalink: /:title
   - scope:
       path: ""
@@ -79,7 +88,7 @@ defaults:
       path: ""
     values:
       layout: "default"
-      image: "/assets/img/digid-works-logo.png"
 
 pagination:
   enabled: true
+  title: ':title | Page :num'

@@ -14,9 +14,9 @@ items:
   facebook:
     url: 'https://www.facebook.com/digid.works/'
     title: 'Like us on Facebook'
-    img: '/assets/img/facebook-logo-icon.svg'
+    img: '/assets/img/facebook-logo-icon-new.svg'
   linkedin:
-    url: 'https://www.linkedin.com/in/nikolai-tenev-9b32b1a2/'
+    url: 'https://www.linkedin.com/company/digidworks/'
     title: 'Follow us on LinkedIn'
     img: '/assets/img/linkedin-logo-icon.svg'
   twitter:

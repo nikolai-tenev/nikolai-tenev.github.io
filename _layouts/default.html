@@ -4,15 +4,13 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    {% comment %}
-        TODO check generated sources to see if everything's OK, esp. ld-json
-    {% endcomment %}
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="900">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
     {%- assign head_title = "" -%}
     {%- assign meta_description = "" -%}
     {%- assign page_image = "" -%}
+    {%- assign additional_link_tags = "" -%}
     {%- include global-variables.html %}
     <title>{{ head_title }}</title>
 
@@ -25,9 +23,9 @@
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
 
     {% if page.url == "/" %}
-        <link href="https://fonts.googleapis.com/css?family=Iceland|Raleway" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Iceland|Fjalla+One|Montserrat:300,300i,400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet">
     {% else %}
-        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Montserrat:300,300i,400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet">
     {% endif %}
 
     <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
@@ -48,6 +46,7 @@
     {%- endif %}
     <meta name="theme-color" content="#ffffff">
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-38364723-2"></script>
+    <script async src="/assets/js/cp.js" ></script>
     <script>
         window.dataLayer = window.dataLayer || [];
 
@@ -78,54 +77,96 @@
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} | {{ site.title }}" href="{{ "/feed.xml" | absolute_url }}">
     <link rel="sitemap" type="application/xml" title="Sitemap" href="{{ "/sitemap.xml" | absolute_url }}">
 
+    {{ additional_link_tags }}
+
     <meta name="google-site-verification" content="1_irwCWmloJ900cuEDmNr5RSH0tcTpqKNpVi-FDbnlU">
 </head>
 <body>
 {% include ld-json/default-layout.html %}
 <div id="container" class="container-fluid">
-    <nav id="navbar" class="navbar light navbar-expand-lg">
+    <nav id="navbar" class="navbar fixed-top navbar-expand-md">
         <a id="navbar-brand-link" class="navbar-brand" href="{{ site.data.navigation.items.home.url }}"
            title="{{ site.name }} | {{ site.title }}">
             <img class="img-fluid" src="{{ site.logo_svg }}" alt="{{ site.name }} | {{ site.title }}"
                  title="{{ site.name }} | {{ site.title }}">
         </a>
 
-        <button class="border-0 navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar-collapsed-content" aria-controls="main-navbar-collapsed-content" aria-expanded="false"
+        <button class="border-0 navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#main-navbar-collapsed-content" aria-controls="main-navbar-collapsed-content"
+                aria-expanded="false"
                 aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="main-navbar-collapsed-content">
-            {% include navbar.html ulClasses="mx-auto" %}
-            {% comment -%}
-            {% for item in site.data.social_profiles.items %}
-                <a class="navbar-social-link" href="{{ item[1].url }}" target="_blank" title="{{ item[1].title }}">
-                    <img class="w-20 mr-1" src="{{ item[1].img }}" alt="{{ item[1].title }}" title="{{ item[1].title }}">
-                </a>
-            {% endfor %}
-            {%- endcomment -%}
+            {% include navbar.html ulClasses="navbar-nav mx-auto text-center" %}
         </div>
     </nav>
     {{ content }}
-    <footer id="copyright" class="row py-3 text-justify text-md-left mt-auto">
-        <div class="col-md-3 py-2 py-md-0 d-flex align-items-center justify-content-around justify-content-md-start">
-            <a class="no-underline mr-3" href="{{ site.data.navigation.items.home.url | relative_url }}"
-               title="{{ site.name }} | {{ site.title }}">
-                <img class="img-fluid" src="{{ site.logo_small_svg }}" alt="{{ site.name }} | {{ site.title }}"
-                     title="{{ site.name }} | {{ site.title }}">
-            </a>
-            <a class="py-3 color-orange" href="{{ site.data.navigation.other.sitemap | relative_url }}"
-               title="{{ site.name }}' sitemap - check out everything in one place">
-                Sitemap
-            </a>
-        </div>
-        <div class="col-md-4 py-2 py-md-0 d-flex align-items-center justify-content-around justify-content-md-start">
-            <nav class="navbar navbar-expand">
-                {% include navbar.html %}
-            </nav>
-        </div>
-        <div class="col-md-5 py-2 py-md-0 d-flex align-items-center justify-content-around justify-content-md-end">
-            <p class="my-0 pr-2 text-center text-md-left">{{ site.name }} | {{ site.title }}. All rights reserved - {{ site.time | date: '%Y' }}©</p>
+    <footer id="copyright" class="row p-5 mt-auto justify-content-center">
+        <div class="col-12 col-md-10 col-xl-8 col-xxxl-6 col-xxxxl-5">
+            <div class="row mb-4">
+                <div class="col-12 col-md-3 text-md-right">
+                    <strong>Social</strong>
+                    <ul class="social nav mb-3 justify-content-md-end">
+                        <li class="nav-item pr-2 pr-lg-3">
+                            <a class="d-inline-block" href="{{ site.data.social_profiles.items.linkedin.url }}"
+                               aria-label="{{ site.data.social_profiles.items.linkedin.title }}"
+                               title="{{ site.data.social_profiles.items.linkedin.title }}"
+                               rel="noopener" target="_blank">
+                                <img src="{{ site.data.social_profiles.items.linkedin.img }}"
+                                     alt="{{ site.data.social_profiles.items.linkedin.title }}"
+                                     title="{{ site.data.social_profiles.items.linkedin.title }}">
+                            </a>
+                        </li>
+                        <li class="nav-item pr-2 pr-lg-3">
+                            <a class="d-inline-block" href="{{ site.data.social_profiles.items.twitter.url }}"
+                               aria-label="{{ site.data.social_profiles.items.twitter.title }}"
+                               title="{{ site.data.social_profiles.items.twitter.title }}"
+                               rel="noopener" target="_blank">
+                                <img src="{{ site.data.social_profiles.items.twitter.img }}"
+                                     alt="{{ site.data.social_profiles.items.twitter.title }}"
+                                     title="{{ site.data.social_profiles.items.twitter.title }}">
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="d-inline-block" href="{{ site.data.social_profiles.items.facebook.url }}"
+                               aria-label="{{ site.data.social_profiles.items.facebook.title }}"
+                               title="{{ site.data.social_profiles.items.facebook.title }}"
+                               rel="noopener" target="_blank">
+                                <img src="{{ site.data.social_profiles.items.facebook.img }}"
+                                     alt="{{ site.data.social_profiles.items.facebook.title }}"
+                                     title="{{ site.data.social_profiles.items.facebook.title }}">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-3">
+                    <strong>Working hours</strong>
+                    <p class="mb-0">Mon - Fri: 9:30 - 18:30 EET/EEST</p>
+                    <p>Sat - Sun: closed</p>
+                </div>
+                <div class="col-12 col-md-3">
+                    <strong>Address</strong>
+                    <p class="mb-0">106, Gen. Gurko Str.</p>
+                    <p>St. Zagora, Bulgaria, European Union</p>
+                </div>
+                <div class="col-12 col-md-3 text-md-left">
+                    <a class="py-3 color-orange" href="{{ site.data.navigation.other.sitemap | relative_url }}"
+                       title="{{ site.name }}' sitemap - check out everything in one place">
+                        <strong>Sitemap</strong>
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 py-2 py-md-0 d-flex align-items-center justify-content-center">
+                    <a class="no-underline mr-3" href="{{ site.data.navigation.items.home.url | relative_url }}"
+                       title="{{ site.name }} | {{ site.title }}">
+                        <img class="img-fluid" src="{{ site.logo_small_svg }}" alt="{{ site.name }} | {{ site.title }}"
+                             title="{{ site.name }} | {{ site.title }}">
+                    </a>
+                    <p class="my-0 pr-2 text-center text-md-left">{{ site.name }} | {{ site.title }}. All rights reserved - {{ site.time | date: '%Y' }}©</p>
+                </div>
+            </div>
         </div>
     </footer>
 </div>
@@ -196,14 +237,17 @@
 </script>
 <script src="https://instant.page/1.2.2" type="module" integrity="sha384-2xV8M5griQmzyiY3CDqh1dn4z3llDVqZDqzjzcY+jCBCk/a5fXJmuZ/40JJAPeoU"></script>
 <script>
-    (function(h,o,t,j,a,r){
-        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-        h._hjSettings={hjid:1265090,hjsv:6};
-        a=o.getElementsByTagName('head')[0];
-        r=o.createElement('script');r.async=1;
-        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+    (function (h, o, t, j, a, r) {
+        h.hj = h.hj || function () {
+            (h.hj.q = h.hj.q || []).push(arguments)
+        };
+        h._hjSettings = {hjid: 1265090, hjsv: 6};
+        a = o.getElementsByTagName('head')[0];
+        r = o.createElement('script');
+        r.async = 1;
+        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
         a.appendChild(r);
-    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+    })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
 </script>
 </body>
 </html>

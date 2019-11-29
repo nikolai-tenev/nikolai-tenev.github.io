@@ -1,13 +1,14 @@
 ---
 layout: default
 title: Sitemap
-last_modified_at: 2019-04-01
+description: This is a convenient visual map of every page on this web site. Use it to easily find everything you're looking for.
+last_modified_at: 2019-06-07
 ---
-<section id="sitemap" class="row navbar-push">
-    <div class="col-12">
+<section id="sitemap" class="row navbar-push p-5">
+    <div class="col-12 p-5">
         <div class="row">
             <div class="offset-1 col-10 offset-lg-3 col-lg-6 text-right">
-                <h1 class="mb-3">Sitemap</h1>
+                <h1 class=" mb-3">Sitemap</h1>
                 <div class="slogan-underline-delim mb-5 mr-0"></div>
                 <p></p>
             </div>
@@ -42,14 +43,9 @@ last_modified_at: 2019-04-01
                         </ul>
                     </li>
                     <li>
-                        <a href="{{ site.data.navigation.items.projects.url | replace: 'index.html', '' | relative_url }}" title="{{ site.data.navigation.items.projects.title }}">{{ site.data.navigation.items.projects.name }}</a>:
+                        <a href="{{ site.data.navigation.items.portfolio.url | replace: 'index.html', '' | relative_url }}" title="{{ site.data.navigation.items.portfolio.title }}">{{ site.data.navigation.items.portfolio.name }}</a>:
                         <ul>
-                            {%- assign ordered_projects = site.projects | sort:"position" | reverse  -%}
-                            {%- for page in ordered_projects -%}
-                                <li>
-                                    <a href="{{ page.url | replace: 'index.html', '' | relative_url }}" title="{{ page.title }}">{{ page.title }}</a>
-                                </li>
-                            {%- endfor -%}
+
                         </ul>
                     </li>
                 </ul>

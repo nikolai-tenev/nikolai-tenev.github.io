@@ -1,114 +1,177 @@
 ---
 layout: default
 css:
-    - "/assets/css/neon-effect.css"
+- "/assets/css/neon-effect.css"
 position: 1
-last_modified_at: 2019-04-01
+last_modified_at: 2019-07-08
 ---
 <style>
-    .hljs{display:block;overflow-x:auto;padding:.5em;background:#000}.hljs{color:#6c184e}.hljs-emphasis,.hljs-strong{color:#a8a8a2}.hljs-bullet,.hljs-link,.hljs-literal,.hljs-number,.hljs-quote,.hljs-regexp{color:#6896ba}.hljs-code,.hljs-selector-class{color:#a6e22e}.hljs-emphasis{font-style:italic}.hljs-attribute,.hljs-keyword,.hljs-name,.hljs-section,.hljs-selector-tag,.hljs-variable{color:#ff6038}.hljs-params{color:#b9b9b9}.hljs-string{color:#fff}.hljs-addition,.hljs-built_in,.hljs-builtin-name,.hljs-selector-attr,.hljs-selector-id,.hljs-selector-pseudo,.hljs-subst,.hljs-symbol,.hljs-template-tag,.hljs-template-variable,.hljs-type{color:#e0c46c}.hljs-comment,.hljs-deletion,.hljs-meta{color:#7f7f7f}
+    .hljs {
+        display: block;
+        overflow-x: auto;
+        padding: .5em;
+        background: #000
+    }
+
+    .hljs {
+        color: #6c184e
+    }
+
+    .hljs-emphasis, .hljs-strong {
+        color: #a8a8a2
+    }
+
+    .hljs-bullet, .hljs-link, .hljs-literal, .hljs-number, .hljs-quote, .hljs-regexp {
+        color: #6896ba
+    }
+
+    .hljs-code, .hljs-selector-class {
+        color: #a6e22e
+    }
+
+    .hljs-emphasis {
+        font-style: italic
+    }
+
+    .hljs-attribute, .hljs-keyword, .hljs-name, .hljs-section, .hljs-selector-tag, .hljs-variable {
+        color: #ff6038
+    }
+
+    .hljs-params {
+        color: #b9b9b9
+    }
+
+    .hljs-string {
+        color: #fff
+    }
+
+    .hljs-addition, .hljs-built_in, .hljs-builtin-name, .hljs-selector-attr, .hljs-selector-id, .hljs-selector-pseudo, .hljs-subst, .hljs-symbol, .hljs-template-tag, .hljs-template-variable, .hljs-type {
+        color: #e0c46c
+    }
+
+    .hljs-comment, .hljs-deletion, .hljs-meta {
+        color: #7f7f7f
+    }
 </style>
 <section id="home" class="row navbar-push">
-    <div id="neon-slogan" class="offset-lg-1 col-lg-7 p-lg-0 d-flex align-items-center">
-        <main>
-            <h1><span>DIGID</span><span>alize </span><span id="neon-slogan-typed"></span></h1>
-            <h2>...everybody needs a little bit (or a lot) of code in their life</h2>
-        </main>
+    <div id="neon-slogan"
+         class="col-12 col-lg-7 col-xxxxl-6 p-lg-0 d-flex align-items-center text-center text-lg-right">
+        <div>
+            <p class="first"><span>DIGID</span><span>alize </span><span id="neon-slogan-typed"></span></p>
+            <h1 class="second">Let software do the heavy lifting</h1>
+        </div>
     </div>
-    <div id="broken-glass-code-wrapper" class="col-lg-4 p-0">
+    <div id="broken-glass-code-wrapper" class="col-12 col-lg-5 col-xxl-4 p-2">
         <pre id="typed-code"><code class="javascript hljs"></code></pre>
         <div id="typing-code"></div>
     </div>
 </section>
-<section id="who-are-we" class="row bg-main-gray-0">
+<section id="who-are-we" class="row py-6 py-lg-7 py-xxl-8">
     <article class="col-12 text-justify">
-        <div class="row">
-            <div class="col-11">
-                <h3 class="mb-3 text-right">Web apps that do a lot!</h3>
-                <div class="slogan-underline-delim delim-right mb-3 mb-sm-5"></div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12 col-md-6">
-                <h5 id="web-app-benefits" class="mb-3 color-purple">Are things in your company chaotic? Is your business bleeding time and money?</h5>
-                <p>DigidWorks provides business web apps.</p>
-                <p>We can assist you with consulting, so that we will make things easier and more understandable for you and your team.</p>
-                <p>We can also support you with development, so that we will deliver a product that will be best suited for your own needs.</p>
-                <p class="mb-3">Our web applications <strong>will help you to:</strong></p>
-                <ul class="mb-3">
-                    <li><strong>Reduce costs</strong> - through easier and better management.</li>
-                    <li><strong>Save time</strong> - by delegating repetitive tasks to automation.</li>
-                    <li><strong>Optimize processes</strong> - using the new information coming from monitoring and analytics.</li>
-                    <li><strong>Improve organization</strong> - by having a single point of management, monitoring, etc.</li>
-                    <li><strong>Make your customers happy</strong> - with less errors and better service.</li>
-                    <li><strong>Make your employees happy</strong> - through ease of use and convenient feature set</li>
-                    <li><strong>Reduce errors</strong> - by using a single, unified web app</li>
-                </ul>
-            </div>
-            <div class="col-12 col-md-6 d-flex flex-column justify-content-center">
-                <p>Every business management system we deliver will be a valuable asset for you, providing maximum ROI and increasing your revenue.</p>
-
-                <p>Our customized systems will make management in your company easier and more organized.</p>
-                <p>Our primary focus is to take repetitive tasks out of your daily schedule and help you know a lot more about the life of your company.</p>
-
-                <p>We will assist you in finding and removing any hidden bottlenecks from all your business entities.</p>
-                <p>We make our apps mobile, so that you can use them even from your phone.</p>
-
-                <p>We provide excellent performance and scalability for those who need "front facing" apps (as in apps that your clients can access, like issue trackers).</p>
-                <p>After all having happy customers is important for every business!</p>
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-10 col-xl-8 col-xxxl-7 col-xxxxl-6">
+                <h2 class="mb-3 mb-md-5">Real-time data from the field, super efficient management, flawless
+                    planning!</h2>
+                <p>Running a business is easier with the right tools.</p>
+                <p>Be in control of your employees, customers, resources, assets and every other aspect of your
+                    company.</p>
+                <p>With customized controls, you'll be able to optimize your business processes.</p>
+                <p>Get valuable real-time insights of the key performance indicators for your company with tailored
+                    dashboards and reporting tools.</p>
             </div>
         </div>
     </article>
 </section>
-<section id="what-we-can-do" class="row">
-    <div class="col-12 text-center">
-        <div class="row">
-            <div class="offset-1 offset-lg-2 col-lg-10 text-left">
-                <h3 class="mb-3">What we can do</h3>
-                <div class="slogan-underline-delim delim-left mb-5"></div>
+<section id="why-us" class="row py-6 py-lg-7 py-xxl-8">
+    <article class="col-12 text-justify">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-8 col-xl-6 col-xxxl-5 col-xxxxl-4 mb-5 text-center">
+                <img class="img-fluid" src="{{ site.logo_small_bw_svg }}" alt="{{ site.name }} | {{ site.title }}"
+                     title="{{ site.name }} | {{ site.title }}">
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-8 col-xl-6 col-xxxl-5 col-xxxxl-4">
+                <h2 class="mt-3 mb-2 mb-md-4">We are a business software company!</h2>
+                <div class="slogan-underline-delim delim-white mb-3 mb-sm-4"></div>
+                <h3 class="text-transform-none mb-2">Do you feel like you need to increase productivity and efficiency
+                    in your company?</h3>
+                <p>Use our highly customizable management platform to achieve growth and accomplish goals.</p>
+                <p>Our product will help your company implement better supervision.</p>
+                <h3 class="text-transform-none mt-5 mb-2 mb-md-4">Do you want to reduce the amount of chores and
+                    repetitive work?</h3>
+                <p>We can help you get your time back and do the meaningful work.</p>
+                <p>Get real-time data sent your way and carry out effective, metrics based management.</p>
             </div>
         </div>
         <div class="row">
-            <article class="col-12 col-sm-10 offset-sm-1 col-lg-3 offset-lg-0">
-                <img class="img-fluid" src="/assets/img/business-management-applications.svg" alt="Business management applications" title="Business management applications">
-                <h4 class="my-3">Business management applications</h4>
-                <div class="text-justify">
-                    <p><span>Create and manage all the entities of your business from a single convenient place.</span></p>
-                    <p><span>Know more, make less errors, save time and money!</span></p>
-                </div>
-            </article>
-            <article class="col-12 col-sm-10 offset-sm-1 col-lg-3 offset-lg-0">
-                <img class="img-fluid" src="/assets/img/enterprise-analytics-monitoring-automation.svg" alt="Enterprise analytics, monitoring and automation" title="Enterprise analytics, monitoring and automation">
-                <h4 class="my-3">Enterprise analytics, monitoring and automation</h4>
-                <div class="text-justify">
-                    <p><span>Get even more insights for the processes in your business, find and optimize patterns, automate simple tasks.</span></p>
-                    <p><span>Get the ultimate management experience in one web application!</span></p>
-                </div>
-            </article>
-            <article class="col-12 col-sm-10 offset-sm-1 col-lg-3 offset-lg-0">
-                <img class="img-fluid" src="/assets/img/custom-tailored-erps-crms.svg" alt="Custom tailored ERPs and CRMs" title="Custom tailored ERPs and CRMs">
-                <h4 class="my-3">Custom tailored ERPs and CRMs</h4>
-                <div class="text-justify">
-                    <p><span>Get a highly customized application, suitable for your business and goals.</span></p>
-                    <p><span>Every industry has its specifics, use them to your advantage with a custom web based ERP or CRM solution!</span></p>
-                </div>
-            </article>
-            <article class="col-12 col-sm-10 offset-sm-1 col-lg-3 offset-lg-0">
-                <img class="img-fluid" src="/assets/img/complex-web-apps.svg" alt="Complex web applications" title="Complex web applications">
-                <h4 class="my-3">Complex web applications</h4>
-                <div class="text-justify">
-                    <p><span>Get even more done with real-time notifications, custom enterprise search systems, data gathering and ML, tasks and employees management and much more!</span></p>
-                </div>
-            </article>
+            <div class="offset-1 col-10 offset-lg-3 col-lg-6 text-center">
+                <a class="btn btn-link btn-lg highlight-dark button-shadow-black cta-button"
+                   href="{{ site.data.navigation.items.contacts.url | relative_url }}"
+                   title="Drop us a line on our contacts page">Get started!</a>
+            </div>
         </div>
+    </article>
+</section>
+<section id="what-you-get" class="row py-5 py-lg-6 py-xxl-7">
+    <article class="col-12 offset-md-1 col-md-10  offset-lg-2 col-lg-8">
+        <div class="row justify-content-end mb-7">
+            <div class="col-6 text-right">
+                <img class="svg-icon-150" src="/assets/img/bulb.svg" alt="Light Bulb" title="Better insights">
+            </div>
+            <div class="col-6">
+                <h2 class="mb-3">Better insights</h2>
+                <div class="slogan-underline-delim delim-left mb-3 mb-sm-4"></div>
+                <p>Optimize monitoring in your company and remove the guesswork.</p>
+            </div>
+        </div>
+        <div class="row justify-content-start mb-7">
+            <div class="col-6 text-right">
+                <h2 class="mb-3">Smarter strategy</h2>
+                <div class="slogan-underline-delim delim-right mb-3 mb-sm-4"></div>
+                <p>Reinforce your planning with the optimal business reports.</p>
+            </div>
+            <div class="col-6">
+                <img class="svg-icon-150" src="/assets/img/award.svg" alt="Award" title="Smarter strategy">
+            </div>
+        </div>
+        <div class="row justify-content-end mb-7">
+            <div class="col-6 text-right">
+                <img class="svg-icon-150" src="/assets/img/badge.svg" alt="Badge" title="Accountability">
+            </div>
+            <div class="col-6">
+                <h2 class="mb-3">Accountability</h2>
+                <div class="slogan-underline-delim delim-left mb-3 mb-sm-4"></div>
+                <p>Motivate everybody on your staff to be a top performer.</p>
+            </div>
+        </div>
+        <div class="row justify-content-start">
+            <div class="col-6 text-right">
+                <h2 class="mb-3">Efficiency</h2>
+                <div class="slogan-underline-delim delim-right mb-3 mb-sm-4"></div>
+                <p>Leverage software automation to increase productivity.</p>
+            </div>
+            <div class="col-6">
+                <img class="svg-icon-150" src="/assets/img/barchart.svg" alt="Bar chart" title="Efficiency">
+            </div>
+        </div>
+    </article>
+</section>
+<section id="get-free-quote" class="row py-5">
+    <div class="col-12 col-md-9 text-md-right">
+        <p class="line-height-1 m-0">Interested?</p>
+    </div>
+    <div class="col-12 col-md-3">
+        <a class="btn btn-link btn-lg highlight-light cta-button"
+           href="{{ site.data.navigation.items.contacts.url | relative_url }}"
+           title="Drop us a line on our contacts page">Learn more!</a>
     </div>
 </section>
-<section id="testimonials" class="row">
+<section id="testimonials" class="row py-3 py-md-5">
     <div class="col-12">
         <div class="row">
-            <div class="offset-1 offset-lg-2 col-lg-10 text-left">
-                <h3 class="mb-3 mt-5">What our clients think</h3>
-                <div class="slogan-underline-delim delim-left mb-5"></div>
+            <div class="offset-md-1 offset-lg-2 col-lg-10 text-center text-md-left">
+                <h3 class=" mb-3 mt-5 mb-4 mb-sm-5">What our clients think</h3>
             </div>
         </div>
         <div class="row">
@@ -116,11 +179,13 @@ last_modified_at: 2019-04-01
                 <div class="row">
                     <article class="col-12 col-sm-10 offset-sm-1 col-lg-3 offset-lg-0">
                         <blockquote class="blockquote p-3">
-                            <p>"DigidWorks were instrumental in launching our internal ERP system effortlessly and in time.</p>
+                            <p>"DigidWorks were instrumental in launching our internal ERP system effortlessly and in
+                                time.</p>
                             <p>They were experienced in the domain and understood our requirements.</p>
                             <p>They also provided maintenance and support for any new features we wanted.
                             <p class="mb-0">Thanks again!"</p>
-                            <footer class="blockquote-footer">S. Nedelchev, <cite title="Kernel Mode">Kernel Mode</cite></footer>
+                            <footer class="blockquote-footer">S. Nedelchev, <cite title="Kernel Mode">Kernel Mode</cite>
+                            </footer>
                         </blockquote>
                     </article>
                     <article class="col-12 col-sm-10 offset-sm-1 col-lg-3 offset-lg-0">
@@ -128,21 +193,31 @@ last_modified_at: 2019-04-01
                             <p>"They understood the requirements 1st hand and did exactly what I asked for.</p>
                             <p>Didn't give excuses and got on with the project. Will use them again.</p>
                             <p class="mb-0">Thanks for the professionalism."</p>
-                            <footer class="blockquote-footer">D. Patel, <cite title="3rd Eye Solutions">3rd Eye Solutions</cite></footer>
+                            <footer class="blockquote-footer">D. Patel, <cite title="3rd Eye Solutions">3rd Eye
+                                Solutions</cite></footer>
                         </blockquote>
                     </article>
                     <article class="col-12 col-sm-10 offset-sm-1 col-lg-3 offset-lg-0">
                         <blockquote class="blockquote p-3">
                             <p>"Thanks guys!</p>
                             <p class="mb-0">Very prompt and had the patience to work with us even on Sundays."</p>
-                            <footer class="blockquote-footer">Justin F., <cite title="Areto Systems">Areto Systems</cite></footer>
+                            <footer class="blockquote-footer">Justin F., <cite title="Areto Systems">Areto
+                                Systems</cite></footer>
+                        </blockquote>
+                        <blockquote class="blockquote p-3">
+                            <p class="mb-0">"Extremely professional and proficient, the guys at DigidWorks were a
+                                delight to work with and I would strongly recommend them."</p>
+                            <footer class="blockquote-footer">James D., <cite title="House of Insurtech">House of
+                                Insurtech</cite></footer>
                         </blockquote>
                     </article>
                     <article class="col-12 col-sm-10 offset-sm-1 col-lg-3 offset-lg-0">
                         <blockquote class="blockquote p-3">
                             <p>"I am thrilled with their work.</p>
-                            <p class="mb-0">They are reliable, did exactly what I needed, and I will absolutely work with them again next time."</p>
-                            <footer class="blockquote-footer">M. Lee, <cite title="Lee Law LLC">Lee Law LLC</cite></footer>
+                            <p class="mb-0">They are reliable, did exactly what I needed, and I will absolutely work
+                                with them again next time."</p>
+                            <footer class="blockquote-footer">M. Lee, <cite title="Lee Law LLC">Lee Law LLC</cite>
+                            </footer>
                         </blockquote>
                     </article>
                 </div>
@@ -150,25 +225,22 @@ last_modified_at: 2019-04-01
         </div>
     </div>
 </section>
-{% include get-free-quote-section.html %}
-<section id="technical-side" class="row">
-    <div class="col-12 col-md-10 offset-md-1 col-lg-8 offset-lg-2">
-        <div class="text-justify py-2 py-md-5">
-            <h2 class="mb-3">A bit more on the technical side...</h2>
-            <div class="slogan-underline-delim mb-5"></div>
-
-            <p class="mb-4">We develop enterprise and business management web applications - mostly complex admin dashboards and different management and monitoring
-                enterprise systems.</p>
-
-            <p class="mb-4">We use performant technologies, that scale easily, and a "sane" approach, meaning we use the most functional and adequate tools for the project at hand.
-                When needed we use micro services architecture or we even go serverless.</p>
-
-            <p class="mb-4">On the UI/UX side of things, we always try to create very practical and easy to use applications. The interfaces we build are responsive and developed with mobile-first
-                approach in mind. We are not afraid of creating elaborate widgets and screens if that is going to make things easier for the end users of the application.</p>
+<section id="get-free-demo" class="row pb-5">
+    <div class="col-12 offset-sm-1 col-sm-11">
+        <div class="row">
+            <div class="col-auto">
+                <p class="line-height-1 m-0">Still not sure?</p>
+            </div>
+            <div class="col-auto">
+                <a class="btn btn-link btn-lg highlight-light cta-button"
+                   href="{{ site.data.navigation.items.contacts.url | relative_url }}"
+                   title="Request a FREE demo!">Request a FREE demo!</a>
+            </div>
         </div>
     </div>
 </section>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.6/typed.min.js" integrity="sha256-lg08cUS9fRaVhpYQy3GfoNMMXKaS63bhSXqW8MfuABw=" crossorigin="anonymous" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.6/typed.min.js"
+        integrity="sha256-lg08cUS9fRaVhpYQy3GfoNMMXKaS63bhSXqW8MfuABw=" crossorigin="anonymous" defer></script>
 <script>
     window.addEventListener("load", function () {
         var typedCodeContainer = document.getElementById("typed-code").querySelector("code");
@@ -252,7 +324,11 @@ last_modified_at: 2019-04-01
             }
         });
 
-        var stringsForSloganAutotype = ["<span>your home</span>", "<span>your work</span>", "<span>your business</span>", "<span>yourself</span><span>!</span>^3000"];
+        var stringsForSloganAutotype = [
+            "<span>your work</span>",
+            "<span>your management</span>",
+            "<span>your business</span><span>!</span>^3000"
+        ];
 
         new Typed("#neon-slogan-typed", {
             typeSpeed: 150,
