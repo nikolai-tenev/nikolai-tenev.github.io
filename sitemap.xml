@@ -6,6 +6,11 @@
     <changefreq>monthly</changefreq>
 </url>
 <url>
+    <loc>https://digidworks.com/product/</loc>
+    <lastmod>2019-12-02T00:00:00+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+</url>
+<url>
     <loc>https://digidworks.com/</loc>
     <lastmod>2019-07-08T00:00:00+03:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -22,16 +27,6 @@
 </url>
 <url>
     <loc>https://digidworks.com/blog/page2/</loc>
-    <lastmod>2019-04-01T00:00:00+03:00</lastmod>
-    <changefreq>monthly</changefreq>
-</url>
-<url>
-    <loc>https://digidworks.com/portfolio/</loc>
-    <lastmod>2019-04-01T00:00:00+03:00</lastmod>
-    <changefreq>monthly</changefreq>
-</url>
-<url>
-    <loc>https://digidworks.com/portfolio/page2/</loc>
     <lastmod>2019-04-01T00:00:00+03:00</lastmod>
     <changefreq>monthly</changefreq>
 </url>
@@ -69,55 +64,4 @@
     <loc>https://digidworks.com/business-applications-of-iot</loc>
     <lastmod>2019-06-07T00:00:00+03:00</lastmod>
     <changefreq>monthly</changefreq>
-</url>
-<url>
-    <loc>https://digidworks.com/business-management-erp</loc>
-    <lastmod>2019-06-07T00:00:00+03:00</lastmod>
-    <changefreq>monthly</changefreq>
-</url>
-<url>
-    <loc>https://digidworks.com/car-repair-shop-erp</loc>
-    <lastmod>2019-04-01T00:00:00+03:00</lastmod>
-    <changefreq>monthly</changefreq>
-</url>
-<url>
-    <loc>https://digidworks.com/e-commerce-merchant-dashboard</loc>
-    <lastmod>2019-04-01T00:00:00+03:00</lastmod>
-    <changefreq>monthly</changefreq>
-</url>
-<url>
-    <loc>https://digidworks.com/enterprise-search-engine</loc>
-    <lastmod>2019-06-07T00:00:00+03:00</lastmod>
-    <changefreq>monthly</changefreq>
-</url>
-<url>
-    <loc>https://digidworks.com/enterprise-survey-management-system</loc>
-    <lastmod>2019-04-01T00:00:00+03:00</lastmod>
-    <changefreq>monthly</changefreq>
-</url>
-<url>
-    <loc>https://digidworks.com/fleet-monitoring-management-app</loc>
-    <lastmod>2019-04-01T00:00:00+03:00</lastmod>
-    <changefreq>monthly</changefreq>
-</url>
-<url>
-    <loc>https://digidworks.com/patient-management-erp</loc>
-    <lastmod>2019-04-01T00:00:00+03:00</lastmod>
-    <changefreq>monthly</changefreq>
-</url>
-<url>
-    <loc>https://digidworks.com/public-transport-dashboard-app</loc>
-    <lastmod>2019-06-07T00:00:00+03:00</lastmod>
-    <changefreq>monthly</changefreq>
-</url>
-<url>
-    <loc>https://digidworks.com/web-site-with-admin-dashboard</loc>
-    <lastmod>2019-06-07T00:00:00+03:00</lastmod>
-    <changefreq>monthly</changefreq>
-</url>
-<url>
-    <loc>https://digidworks.com/web-site-with-administrative-panel</loc>
-    <lastmod>2019-06-07T00:00:00+03:00</lastmod>
-    <changefreq>monthly</changefreq>
-</url>
-</urlset>
+</url></urlset>
