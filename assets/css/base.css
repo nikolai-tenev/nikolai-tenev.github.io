@@ -288,6 +288,7 @@ button:focus {
 #what-we-can-do, #get-free-quote, #copyright, #projects, #projects-list {
     color: #fff;
     background-color: #24181f;
+    overflow-wrap: break-word;
 }
 
 #why-us {
@@ -295,10 +296,12 @@ button:focus {
     background: -moz-linear-gradient(-45deg, #6c184e 0%, #ff6038 100%);
     background: -webkit-linear-gradient(-45deg, #6c184e 0%, #ff6038 100%);
     background: linear-gradient(135deg, #6c184e 0%, #ff6038 100%);
+    overflow-wrap: break-word;
 }
 
 #testimonials, #technical-side, #who-are-we, #what-you-get, #get-free-demo {
     background-color: #faf9f8;
+    overflow-wrap: break-word;
 }
 
 #testimonials blockquote footer {
