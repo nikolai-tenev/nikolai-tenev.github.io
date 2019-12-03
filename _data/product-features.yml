@@ -1,0 +1,93 @@
+items:
+  easy-data-management:
+    title: Easy data management
+    cover-img: /assets/img/product/data.jpg
+    description: >-
+      <p>This is the core data entry module. You can use it to list all the objects of a given type (e.g. cars) in the platform. You can also add new objects and modify or delete existing ones.</p>
+      <p>When browsing the list, you can do a regular search or use a filter.</p>
+      <p>There are special filters for date and time values.</p>
+  timeline:
+    title: Timeline
+    cover-img: /assets/img/product/timeline.jpg
+    description: >-
+      <p>This module is best suited to visualize time bound data.</p>
+                              <p>The timeline shows a set of events in chronological order.</p>
+                              <p>Different controls can be integrated allowing you to accomplish tasks related to the
+                                  events.</p>
+  dashboard:
+    title: Dashboard
+    cover-img: /assets/img/product/monitoring.jpg
+    description: >-
+      <p>The dashboard is a control panel used to monitor and manage a certain aspect of your
+                                  company. Every dashboard is different and custom tailored to best do its job.</p>
+                              <p>A dashboard improves management by a lot. It has all the information about a certain resource in a single place, combined with the controls needed to
+                                  do every change that you want.</p>
+                              <p>Some examples are active users dashboard, drivers on the road, etc.</p>
+                              <p>A dashboard usually comprises of different controls and data displays.</p>
+  reporting-charts-statistics:
+    title: Reporting, charts, graphs & statistics
+    cover-img: /assets/img/product/graph.jpg
+    description: >-
+      <p>This is the module used to create most of the business intelligence functionality in the
+                                  platform.</p>
+                              <p>Charts and graphs contribute to improved visibility by putting the data in front of you in a convenient manner.</p>
+                              <p>Reporting and statistics are a good tool to aggregate the most important information and put it in front of you.</p>
+                              <p>It has various types of charts, graphs and other data visualization tools. Some examples
+                                  are: area chart, bar chart, pie chart, line chart, etc.</p>
+                              <p>The generated reports can be exported in different files formats - csv, pdf, etc.</p>
+  real-time-maps:
+    title: Real time maps
+    cover-img: /assets/img/product/map.jpg
+    description: >-
+      <p>This is a very business specific module, it can differ vastly from one company to the other or it can be omitted altogether.</p>
+      <p>At its core this is a map showing data in real time. You can also interact with it and control the objects shown.</p>
+      <p>There are no limits as to what objects the map can display.</p>
+      <p>Just a few examples are:</p>
+      <ul>
+        <li>Vehicles - cars, bikes, drones, choppers, planes, etc.</li>
+        <li>Cameras</li>
+        <li>Buildings</li>
+        <li>Trackers - fitness, animal, etc.</li>
+      </ul>
+      <p>Aside from objects the map can display layers of information. Layers are mostly used for visualization purposes.</p>
+  alerts-statuses-messaging:
+    title: Real time alerts, statuses and messaging
+    cover-img: /assets/img/product/alert.jpg
+    description: >-
+      <p>This module is very useful when acting fast is required. Every alert, status and message is
+                                  processed in a near real time fashion.</p>
+                              <p>Alerts can be defined based on different criteria like time, object location, data access,
+                                  etc. After the defined event happens, an alert will be displayed in the platform. Additionally,
+                                  alerts can be configured to send emails.</p>
+                              <p>Statuses are similar to alerts but they are shown in a different manner. Usually they are
+                                  embedded in a status dashboard and serve as a gauge.</p>
+                              <p>With messaging you can send simple text messages to other users of the platform. Email
+                                  notifications can be enabled here as well.</p>
+  time-tracking-task-management:
+    title: Clocking, time-tracking and task management
+    cover-img: /assets/img/product/watches.jpg
+    description: >-
+      <p>This module provides you with an easy way to manage your teams' tasks and to track progress.</p>
+                              <p>Your employees will be able to see an ordered list of their tasks. Also, they'll be able to track the time it took them to complete any given
+                                  assignment.</p>
+                              <p>Using this module will reduce time losses for your employees.</p>
+  enterprise-search-engine:
+    title: Enterprise search engine & archive
+    cover-img: /assets/img/product/search.jpg
+    description: >-
+      <p>This module is a powerful archive and search engine. It allows you to index, organise and search huge amounts of documents.</p>
+      <p>If your company deals with a great amount of documents, this is a tool that will greatly reduce the time it takes you to find certain piece of information.</p>
+  gamification:
+    title: Gamification
+    cover-img: /assets/img/product/gamification.jpg
+    description: >-
+      <p>This is more of a feature than a single module. Gamification elements can be integrated in the other modules of the system.</p>
+      <p>Gamification is a fun way to motivate your employees to be better at what they do and to reward your best performers.</p>
+      <p>It introduces concepts like yearly, monthly and weekly achievements, rewards, trophies and so on.</p>
+  third-parties:
+    title: 3rd party integrations
+    cover-img: /assets/img/product/connect.jpg
+    description: >-
+      <p>Our management platform can be easily connected with any third party APIs via REST.</p>
+      <p>We also offer integrating 3rd party connections in our modules, components, controls, features, etc.</p>
+      <p>This way you can build your system in the most optimal way.</p>

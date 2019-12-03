@@ -1,6 +1,6 @@
 ---
 layout: default
-title: DigidWorks' Blog for business software and optimization
+title: Blog for business software and optimization
 description: Info from software development professionals about ERP, CRM and automation coding, business management, enterprise management and monitoring web apps development, etc. The latest experience based IT articles, trends and tips.
 pagination:
     enabled: true
@@ -13,46 +13,48 @@ pagination:
         after: 2
 last_modified_at: 2019-04-01
 ---
-<section id="blog" class="row navbar-push">
-    <div class="col-12">
-        <div class="row">
-            <div class="offset-lg-3 col-lg-9 text-left pb-4">
-                <h1 class=" mb-3">Blog</h1>
-                <div class="slogan-underline-delim delim-left"></div>
-                <h2 class="my-4">of software development, business and everything else...</h2>
-            </div>
-        </div>
-        <div id="blog-post-list" class="row justify-content-center">
-            {% for post in paginator.posts %}
-                <div class="col-lg-5">
-                    <article class=" blog-box">
-                        <a href="{{ post.url }}" title="Article: {{ post.title }}">
-                            <img class="img-fluid" src="{{ post.thumbnails.full }}" alt="{{ post.title }}" title="{{ post.title }}">
-                        </a>
-                        <div class="blog-excerpt">
-                            <h3>
-                                <a href="{{ post.url }}" title="Article: {{ post.title }}">{{ post.title }}</a>
-                            </h3>
-                            <p class="blog-details">
-                                <span class="icon-calendar"></span><time class="mr-1" datetime="{{ post.date | time_tag }}">{{ post.date | date: "%e %B %Y" }}</time>
-                                <span class="icon-folder"></span><span class="mr-1">
-                                    {%- for cat in post.categories -%}
-                                        {{- site.data.categories[cat] -}}
-                                        {%- unless forloop.last %}, {% endunless -%}
-                                    {%- endfor -%}</span>
-                                <span class="icon-tag"></span><span class="mr-1">{{ post.tags | join: ", " }}</span>
-                            </p>
-                            <p>
-                                {{ post.resume }}
-                            </p>
-                            <p class="text-right">
-                                <a class="btn btn-primary btn-purle text-right" href="{{ post.url }}"
-                                   title="Read full article: {{ post.title }}">Read More</a>
-                            </p>
-                        </div>
-                    </article>
+<section id="blog" class="standard-centered-page navbar-push">
+    <div class="row">
+        <div class="col-12">
+            <div class="row">
+                <div class="offset-lg-3 col-lg-9 text-left pb-4">
+                    <h1 class=" mb-3">Blog</h1>
+                    <div class="slogan-underline-delim delim-left"></div>
+                    <h2 class="my-4">of software development, business and everything else...</h2>
                 </div>
-            {% endfor %}
+            </div>
+            <div id="blog-post-list" class="row justify-content-center">
+                {% for post in paginator.posts %}
+                    <div class="col-lg-5">
+                        <article class=" blog-box">
+                            <a href="{{ post.url }}" title="Article: {{ post.title }}">
+                                <img class="img-fluid" src="{{ post.thumbnails.full }}" alt="{{ post.title }}" title="{{ post.title }}">
+                            </a>
+                            <div class="blog-excerpt">
+                                <h3>
+                                    <a href="{{ post.url }}" title="Article: {{ post.title }}">{{ post.title }}</a>
+                                </h3>
+                                <p class="blog-details">
+                                    <span class="icon-calendar"></span><time class="mr-1" datetime="{{ post.date | time_tag }}">{{ post.date | date: "%e %B %Y" }}</time>
+                                    <span class="icon-folder"></span><span class="mr-1">
+                                        {%- for cat in post.categories -%}
+                                            {{- site.data.categories[cat] -}}
+                                            {%- unless forloop.last %}, {% endunless -%}
+                                        {%- endfor -%}</span>
+                                    <span class="icon-tag"></span><span class="mr-1">{{ post.tags | join: ", " }}</span>
+                                </p>
+                                <p>
+                                    {{ post.resume }}
+                                </p>
+                                <p class="text-right">
+                                    <a class="btn btn-primary btn-purle text-right" href="{{ post.url }}"
+                                       title="Read full article: {{ post.title }}">Read More</a>
+                                </p>
+                            </div>
+                        </article>
+                    </div>
+                {% endfor %}
+            </div>
         </div>
     </div>
 </section>

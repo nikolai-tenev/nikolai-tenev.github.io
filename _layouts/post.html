@@ -42,7 +42,7 @@ breadcrumb:
     }
 </style>
 <section id="single-post-page" class="row navbar-push">
-    <article class="col-12">
+    <article class="col-12 standard-centered-page">
         <div class="row single-post-header" style="background-image: url('{{page.thumbnails.full}}');">
             <div class="col-12 d-flex flex-column justify-content-end text-center">
                 <h1 class="m-auto">{{page.title}}</h1>
@@ -50,12 +50,12 @@ breadcrumb:
             </div>
         </div>
         <div class="row justify-content-center single-post-content">
-            <div class="col-12 col-md-8 col-xl-7 col-xxxl-5 col-xxxxl-4 mt-3">
+            <div class="col-12 col-md-8 col-xl-7 mt-3">
                 {{ page.content }}
             </div>
         </div>
         <div class="row justify-content-center">
-            <div class="col-12 col-md-8 col-xl-7 col-xxxl-5 col-xxxxl-4 font-weight-bolder pt-3 border-top">
+            <div class="col-12 col-md-8 col-xl-7 font-weight-bolder pt-3 border-top">
                 <p class="d-md-inline-block d-block">Author: Nikolai Tenev</p>
                 <p class="d-md-inline-block d-block"><span class="icon-calendar"></span>
                     <time datetime="{{page.date | time_tag}}">{{page.date | date: "%e %B %Y"}}</time>
@@ -70,7 +70,7 @@ breadcrumb:
             </div>
         </div>
         <div class="row justify-content-center">
-            <div class="col-12 col-md-8 col-xl-7 col-xxxl-5 col-xxxxl-4 pt-3 border-top">
+            <div class="col-12 col-md-8 col-xl-7 pt-3 border-top">
                 {% include social-share.html %}
             </div>
         </div>

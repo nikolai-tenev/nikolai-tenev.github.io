@@ -8,7 +8,7 @@ breadcrumb:
 {% include ld-json/project-layout.html %}
 {% include ld-json/breadcrumbs-include.html %}
 <section id="single-project-page" class="row navbar-push">
-    <div class="col-12">
+    <div class="col-12 standard-centered-page">
         <div class="row single-post-header" style="background-image: url('{{ page.thumbnails.full }}');">
             <div class="col-12 d-flex flex-column justify-content-end text-center">
                 <h1 class="m-auto">{{page.title}}</h1>
@@ -16,20 +16,20 @@ breadcrumb:
             </div>
         </div>
         <div class="row justify-content-center single-post-content">
-            <div class="col-12 col-md-8 col-xl-7 col-xxxl-5 col-xxxxl-4 font-weight-bolder pt-3 border-bottom">
+            <div class="col-12 col-md-8 col-xl-7 font-weight-bolder pt-3 border-bottom">
                 <p class="d-md-inline-block d-block">
                     <span class="icon-code"></span>{{page.languages | join: ", "}}, {{page.technologies | join: ", "}}
                 </p>
             </div>
         </div>
         <div class="row justify-content-center single-post-content">
-            <div class="col-12 col-md-8 col-xl-7 col-xxxl-5 col-xxxxl-4 mt-3">
+            <div class="col-12 col-md-8 col-xl-7 mt-3">
                 {{ page.content }}
             </div>
         </div>
         {%- if page.screenshots -%}
         <div id="project-screenshots" class="row justify-content-center">
-            <div class="col-12 col-md-8 col-xl-7 col-xxxl-5 col-xxxxl-4 mb-3 pt-3 border-top">
+            <div class="col-12 col-md-8 col-xl-7 mb-3 pt-3 border-top">
                 <div class="row">
                     <div class="col-12">
                         <p>Screenshots of the finished project: </p>
