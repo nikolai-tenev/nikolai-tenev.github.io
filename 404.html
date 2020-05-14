@@ -1,6 +1,15 @@
 ---
 layout: default
 ---
+<script>
+    (function () {
+        var notFoundLocation = window.location;
+
+        if (notFoundLocation.indexOf("tools/business-budget-calculator") > -1) {
+            window.location.href = "https://digidworks.com/tools/business-budget-calculator/";
+        }
+    })();
+</script>
 <section id="error" class="row navbar-push">
     <div class="col-12">
         <div class="row">
