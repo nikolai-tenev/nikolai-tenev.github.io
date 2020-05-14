@@ -3,9 +3,9 @@ layout: default
 ---
 <script>
     (function () {
-        var notFoundLocation = window.location;
+        var notFoundLocation = window.location.href;
 
-        if (notFoundLocation.indexOf("tools/business-budget-calculator") > -1) {
+        if (notFoundLocation.indexOf("https://digidworks.com/tools/business-budget-calculator") > -1) {
             window.location.href = "https://digidworks.com/tools/business-budget-calculator/";
         }
     })();
