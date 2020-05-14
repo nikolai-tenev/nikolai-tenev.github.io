@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/tools/business-budget-calculator/static/js/main.b829c38a.chunk.js",
+    "main.js.map": "/tools/business-budget-calculator/static/js/main.b829c38a.chunk.js.map",
+    "runtime-main.js": "/tools/business-budget-calculator/static/js/runtime-main.6bc496b8.js",
+    "runtime-main.js.map": "/tools/business-budget-calculator/static/js/runtime-main.6bc496b8.js.map",
+    "static/js/2.b7754b88.chunk.js": "/tools/business-budget-calculator/static/js/2.b7754b88.chunk.js",
+    "static/js/2.b7754b88.chunk.js.map": "/tools/business-budget-calculator/static/js/2.b7754b88.chunk.js.map",
+    "index.html": "/tools/business-budget-calculator/index.html",
+    "precache-manifest.4455ca2edba8197ab8f9f0092465a813.js": "/tools/business-budget-calculator/precache-manifest.4455ca2edba8197ab8f9f0092465a813.js",
+    "service-worker.js": "/tools/business-budget-calculator/service-worker.js",
+    "static/js/2.b7754b88.chunk.js.LICENSE.txt": "/tools/business-budget-calculator/static/js/2.b7754b88.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6bc496b8.js",
+    "static/js/2.b7754b88.chunk.js",
+    "static/js/main.b829c38a.chunk.js"
+  ]
+}
