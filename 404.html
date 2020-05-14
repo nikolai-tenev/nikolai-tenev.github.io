@@ -121,7 +121,16 @@
     </ul>
         </div>
     </nav>
-    <section id="error" class="row navbar-push">
+    <script>
+    (function () {
+        var notFoundLocation = window.location;
+
+        if (notFoundLocation.indexOf("tools/business-budget-calculator") > -1) {
+            window.location.href = "https://digidworks.com/tools/business-budget-calculator/";
+        }
+    })();
+</script>
+<section id="error" class="row navbar-push">
     <div class="col-12">
         <div class="row">
             <div class="offset-1 col-10 offset-lg-3 col-lg-6 text-right">
