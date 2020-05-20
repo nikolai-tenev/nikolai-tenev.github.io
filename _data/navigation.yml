@@ -21,3 +21,5 @@ items:
     title: "Contact us if you need the right tools for your business"
 other:
   sitemap: "/sitemap"
+  tools:
+    bbc: "/tools/bbc"
