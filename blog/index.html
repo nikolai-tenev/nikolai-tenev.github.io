@@ -35,7 +35,7 @@ last_modified_at: 2019-04-01
                                     <a href="{{ post.url }}" title="Article: {{ post.title }}">{{ post.title }}</a>
                                 </h3>
                                 <p class="blog-details">
-                                    <span class="icon-calendar"></span><time class="mr-1" datetime="{{ post.date | time_tag }}">{{ post.date | date: "%e %B %Y" }}</time>
+<!--                                    <span class="icon-calendar"></span><time class="mr-1" datetime="{{ post.date | time_tag }}">{{ post.date | date: "%e %B %Y" }}</time>-->
                                     <span class="icon-folder"></span><span class="mr-1">
                                         {%- for cat in post.categories -%}
                                             {{- site.data.categories[cat] -}}
