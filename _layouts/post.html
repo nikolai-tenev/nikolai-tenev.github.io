@@ -57,9 +57,9 @@ breadcrumb:
         <div class="row justify-content-center">
             <div class="col-12 col-md-8 col-xl-7 font-weight-bolder pt-3 border-top">
                 <p class="d-md-inline-block d-block">Author: Nikolai Tenev</p>
-                <p class="d-md-inline-block d-block"><span class="icon-calendar"></span>
-                    <time datetime="{{page.date | time_tag}}">{{page.date | date: "%e %B %Y"}}</time>
-                </p>
+<!--                <p class="d-md-inline-block d-block"><span class="icon-calendar"></span>-->
+<!--                    <time datetime="{{page.date | time_tag}}">{{page.date | date: "%e %B %Y"}}</time>-->
+<!--                </p>-->
                 <p class="d-md-inline-block d-block"><span class="icon-folder"></span>
                     {%- for cat in page.categories -%}
                         {{- site.data.categories[cat] -}}
