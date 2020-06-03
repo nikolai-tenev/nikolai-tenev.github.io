@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/tools/bbc/precache-manifest.07c21fe24749c1ce5564d04631fc25dc.js"
+  "/tools/bbc/precache-manifest.903d43c1708267a56eca58c0d0e0cf6b.js"
 );
 
 self.addEventListener('message', (event) => {
